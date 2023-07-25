@@ -3,18 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "CasparDP.github.io"
+  title: "Caspar David Peter"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - papers.qmd
+      - teaching.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: slate
     css: styles.css
     toc: true
+    page-layout: full
 
 
 

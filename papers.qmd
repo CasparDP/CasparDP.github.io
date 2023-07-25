@@ -1,0 +1,10 @@
+---
+title: "Publications"
+bibliography: "my_pubs.bib"
+csl: journal-of-financial-economics.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::

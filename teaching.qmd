@@ -1,0 +1,30 @@
+---
+title: "Teaching"
+echo: false
+df-print: kable
+toc: false
+---
+
+## Current and past teaching
+
+```{r}
+library(tibble)
+tribble(
+  ~ Course , ~ Program,  ~ Role, ~ Years, ~ Institution,
+  "**Accounting and Financial Management Research Skills**",
+"MSc", "Coordinator and teacher",
+"2016 - 2023","Rotterdam School of Management",
+  "**Financial Reporting & Analysis**",
+"BSc", "Coordinator and teacher",
+"2021 - 2023","Rotterdam School of  Management",
+"Analytics in Accounting & Financial Management", "MSc", "Teacher",
+"2022","Rotterdam School of Management",
+  "Accounting Skills",
+"BSc", "Coordinator and teacher",
+"2020 - 2022","Rotterdam School of Management",
+  "Mergers & acquisitions and corporate governance",
+"MSc", "Coordinator and teacher",
+"2016 - 2020","Rotterdam School of Management",
+"Financial Statement Analysis", "BSc", "Teacher",
+"2015","WHU - Otto-Beisheim School of Managemen")
+```

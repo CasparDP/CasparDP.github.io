@@ -1,5 +1,55 @@
 ---
-title: "About"
+title: ""
+image: avatar.jpg
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 10em
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://caspardp.github.io/"
+    - text: Email
+      url: "mailto::peter@rsm.nl"
+    - text: Orcid
+      url: "https://orcid.org/0000-0003-0020-1673"
+    - text: SSRN
+      url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558"
+comments: false
+echo: false
+df-print: kable
+toc: false
 ---
 
-About this site
+## Research interest
+**Economic consequences of reporting transparency**
+
+## Employment
+
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Year, ~ Institution, ~ Where,
+  "Associate professor","2020 - ","Rotterdam School of Management", "Netherlands",
+  "Visiting Scholar","2018 (Fall)","Harvard Business School","USA",
+  "Assistant professor", "2015 - 2020", "Rotterdam School of Management", "Netherlands",
+  "Lecturer in Financial Statement Analysis", "2015","WHU – Otto Beisheim School of Management", "Germany",
+  "Visiting Researcher", "2014 (Fall)",
+  "University of Lancaster", "United Kingdom",
+  "Doctoral Assistant at the Chair of Financial Accounting","2010 - 2015", "WHU – Otto Beisheim School of Management", "Germany" )
+```
+
+
+
+## Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Dr. rer. pol.","2010 - 2015",
+"WHU – Otto Beisheim School of Management", "Germany",
+"Diploma Business and Economics", "2005 - 2010","Ruhr-Universität-Bochum", "Germany")
+```
+
+

@@ -1,7 +1,36 @@
 ---
-title: "CasparDP.github.io"
+title: "Caspar David Peter"
+image: avatar.jpg
+about:
+  template: solana
+  image-shape: rectangle
+  image-width: 10em
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://caspardp.github.io/"
+    - text: Email
+      url: "mailto::peter@rsm.nl"
+    - text: Orcid
+      url: "https://orcid.org/0000-0003-0020-1673"
+    - text: SSRN
+      url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558"
+comments: false
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi, I am an associate Professor at Rotterdam School of Management (RSM) Erasmus University Rotterdam in the Netherlands. This is my personal website that I use to gather things that I do in my job, such as my teaching, useful resources, and publications, but also to not loose track of the shinaningans that I do on the side. 
+
+**This website is still under construction!**
+
+
+<!-- On this site I keep a list of [my publications](papers), [presentations](talks), 
+and [my CV](cv.pdf), as well as a [technical blog](blog.html). -->
+
+   <!-- - text: LinkedIn
+      url: "www.linkedin.com/in/caspar-david-peter-033615211"
+          - text: Twitter
+      icon: twitter
+      url: "https://twitter.com/CDPeter84"
+          - text: CV
+      url: "CV_academic.pdf" -->
