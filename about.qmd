@@ -30,9 +30,9 @@ toc: false
 library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where,
-  "Associate professor","2020 - ","Rotterdam School of Management", "Netherlands",
+  "Associate Professor","2020 - ","Rotterdam School of Management", "Netherlands",
   "Visiting Scholar","2018 (Fall)","Harvard Business School","USA",
-  "Assistant professor", "2015 - 2020", "Rotterdam School of Management", "Netherlands",
+  "Assistant Professor", "2015 - 2020", "Rotterdam School of Management", "Netherlands",
   "Lecturer in Financial Statement Analysis", "2015","WHU – Otto Beisheim School of Management", "Germany",
   "Visiting Researcher", "2014 (Fall)",
   "University of Lancaster", "United Kingdom",
