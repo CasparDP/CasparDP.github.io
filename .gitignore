@@ -1,3 +1,6 @@
 /.quarto/
 
 /.luarc.json
+
+# R Environment Variables
+.Renviron
