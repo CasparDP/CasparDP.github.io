@@ -26,5 +26,5 @@ tribble(
 "MSc", "Coordinator and teacher",
 "2016 - 2020","Rotterdam School of Management",
 "Financial Statement Analysis", "BSc", "Teacher",
-"2015","WHU - Otto-Beisheim School of Management")
+"2015","WHU - Otto-Beisheim School of Management ")
 ```
