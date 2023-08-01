@@ -4,19 +4,24 @@ project:
 
 website:
   title: "Caspar David Peter"
+  page-footer: "© 2023, Caspar David Peter" 
   navbar:
-    left:
+    title: "Caspar David Peter"
+    search: true
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
       - papers.qmd
       - teaching.qmd
+    page-footer: 
 
 format:
   html:
-    theme: slate
-    css: styles.css
+    theme: 
+    - custom.scss
+    mainfont: 'Instrument Sans'
     toc: true
     page-layout: full
 
