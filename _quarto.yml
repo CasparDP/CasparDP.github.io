@@ -4,6 +4,15 @@ project:
 
 website:
   title: "Caspar David Peter"
+  description: "Personal website of Caspar David Peter"
+  site-url: https://caspardp.github.io
+  repo-url: https://github.com/CasparDP/CasparDP.github.io
+  open-graph: true
+  twitter-card:
+    creator: "@CasparDP"
+    site: "@CasparDP"
+    description: "This ia description"
+    card-style: "summary"
   page-footer: "© 2023, Caspar David Peter" 
   navbar:
     title: "Caspar David Peter"
@@ -22,6 +31,8 @@ format:
     theme: 
     - custom.scss
     mainfont: 'Instrument Sans'
+    css: 
+    - academicons.css
     toc: true
     page-layout: full
 
