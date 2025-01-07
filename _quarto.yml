@@ -13,7 +13,7 @@ website:
     site: "@CasparDP"
     description: "This ia description"
     card-style: "summary"
-  page-footer: "© 2023, Caspar David Peter" 
+  page-footer: "© 2025, Caspar David Peter"
   navbar:
     title: "Caspar David Peter"
     search: true
@@ -24,17 +24,14 @@ website:
         text: About
       - papers.qmd
       - teaching.qmd
-    page-footer: 
+    page-footer:
 
 format:
   html:
-    theme: 
-    - custom.scss
-    mainfont: 'Instrument Sans'
-    css: 
-    - academicons.css
+    theme:
+      - custom.scss
+    mainfont: "Instrument Sans"
+    css:
+      - academicons.css
     toc: true
     page-layout: full
-
-
-
