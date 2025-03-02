@@ -34,3 +34,7 @@ website:
       right:
         - icon: github
           href: https://github.com/CasparDP
+format:
+  html:
+    css: styles.css
+    # theme: none

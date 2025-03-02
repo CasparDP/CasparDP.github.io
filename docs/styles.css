@@ -1,0 +1,473 @@
+/* Battlestar Galactica inspired theme - Direct CSS approach */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap");
+
+/* Force dark background */
+html,
+body {
+  background-color: #0c1019 !important;
+  background-image: linear-gradient(
+    to bottom,
+    #0c1019 0%,
+    #141824 100%
+  ) !important;
+  background-attachment: fixed !important;
+  color: #e7e6dc !important;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff9e45 !important;
+  font-family: "Space Mono", monospace !important;
+  letter-spacing: 0.05em !important;
+}
+
+h1 {
+  border-bottom: 2px solid rgba(255, 158, 69, 0.4) !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* Links */
+a {
+  color: #ff9e45 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease, text-shadow 0.2s ease !important;
+}
+
+a:hover {
+  color: #ffb878 !important;
+  text-decoration: none !important;
+  text-shadow: 0 0 8px rgba(255, 158, 69, 0.5) !important;
+}
+
+/* Cards */
+.card {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  color: #e7e6dc !important;
+  border: 1px solid rgba(255, 158, 69, 0.4) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 15px rgba(255, 158, 69, 0.2) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  position: relative !important;
+}
+
+.card::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 2px !important;
+  background: #ff9e45 !important;
+  opacity: 0.7 !important;
+}
+
+.card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 0 20px rgba(255, 158, 69, 0.4) !important;
+}
+
+.card .card-body h3,
+.card .card-body h4 {
+  color: #ff9e45 !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0c1019 !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) !important;
+  border-bottom: 1px solid rgba(255, 158, 69, 0.3) !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0.5rem 1rem !important;
+  position: relative !important;
+}
+
+.navbar-brand {
+  display: inline-block !important;
+  padding-top: 0.3125rem !important;
+  padding-bottom: 0.3125rem !important;
+  margin-right: 1rem !important;
+  font-size: 1.25rem !important;
+  line-height: inherit !important;
+  white-space: nowrap !important;
+  color: #e7e6dc !important;
+  font-family: "Space Mono", monospace !important;
+  letter-spacing: 0.1em !important;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 158, 69, 0.3) !important;
+  border-radius: 0.25rem !important;
+  display: inline-block !important;
+}
+
+.navbar-toggler-icon {
+  display: inline-block !important;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  vertical-align: middle !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% !important;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: 100% !important;
+  flex-grow: 1 !important;
+  align-items: center !important;
+}
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  list-style: none !important;
+}
+
+.nav-link {
+  display: block !important;
+  padding: 0.5rem 1rem !important;
+  color: #e7e6dc !important;
+  letter-spacing: 0.05em !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: #ff9e45 !important;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+
+/* Profile links */
+.profile-links a {
+  color: #e7e6dc !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  padding: 0.4rem 0.8rem !important;
+  margin-bottom: 0.5rem !important;
+  background: rgba(44, 51, 71, 0.6) !important;
+  display: block !important;
+  border-left: 3px solid transparent !important;
+}
+
+.profile-links a:hover {
+  color: #ff9e45 !important;
+  border-left: 3px solid #ff9e45 !important;
+  background: rgba(44, 51, 71, 0.8) !important;
+  transform: translateX(5px) !important;
+}
+
+/* Monitor box */
+.monitor-box {
+  background: rgba(12, 16, 25, 0.7) !important;
+  border: 1px solid rgba(255, 158, 69, 0.5) !important;
+  border-left: 4px solid #ff9e45 !important;
+  padding: 1.5rem !important;
+  margin: 1.5rem 0 !important;
+  position: relative !important;
+}
+
+.monitor-box::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 1px !important;
+  background: linear-gradient(to right, #ff9e45, transparent) !important;
+}
+
+/* Teaching cards */
+.teaching-card {
+  border-left: 4px solid #d74c4c !important;
+}
+
+.teaching-card::before {
+  background: #d74c4c !important;
+}
+
+/* Tables */
+table,
+.table {
+  color: #e7e6dc !important;
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+  border-collapse: collapse !important;
+  font-family: "Space Mono", monospace !important;
+  font-size: 0.9rem !important;
+  background-color: transparent !important;
+}
+
+table thead,
+.table thead {
+  border-bottom: 2px solid rgba(255, 158, 69, 0.5) !important;
+  background-color: rgba(12, 16, 25, 0.8) !important;
+}
+
+table th,
+.table th {
+  color: #ff9e45 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+  background-color: transparent !important;
+}
+
+table td,
+.table td {
+  border-top: 1px solid rgba(231, 230, 220, 0.1) !important;
+  background-color: transparent !important;
+}
+
+table tbody tr,
+.table tbody tr {
+  background-color: rgba(44, 51, 71, 0.5) !important;
+}
+
+table tbody tr:hover,
+.table tbody tr:hover {
+  background-color: rgba(255, 158, 69, 0.1) !important;
+}
+
+/* Additional table variants */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(255, 158, 69, 0.1) !important;
+}
+
+/* DataTables specific */
+.dataTables_wrapper {
+  background-color: transparent !important;
+}
+
+.dataTables_wrapper .dataTable {
+  background-color: transparent !important;
+  color: #e7e6dc !important;
+}
+
+/* kable_styling tables */
+.kable_wrapper {
+  background-color: transparent !important;
+}
+
+.kable_wrapper > table {
+  background-color: transparent !important;
+}
+
+.kable_wrapper > table > tbody > tr > td {
+  background-color: transparent !important;
+}
+
+/* Code blocks */
+pre {
+  background: #0c1019 !important;
+  border: 1px solid rgba(255, 158, 69, 0.3) !important;
+  color: #ff9e45 !important;
+  font-family: "Space Mono", monospace !important;
+  border-radius: 0 !important;
+}
+
+code {
+  color: #ff9e45 !important;
+  background-color: rgba(12, 16, 25, 0.5) !important;
+}
+
+/* Footer */
+footer,
+.page-footer,
+.quarto-footer,
+div.quarto-footer,
+#quarto-footer {
+  background: #0c1019 !important;
+  background-color: #0c1019 !important;
+  border-top: 1px solid rgba(255, 158, 69, 0.3) !important;
+  color: rgba(231, 230, 220, 0.8) !important;
+}
+
+.footer-items {
+  background-color: #0c1019 !important;
+}
+
+.nav-footer,
+.nav-footer-center,
+.nav-footer-right,
+.nav-footer-left {
+  background-color: #0c1019 !important;
+  color: rgba(231, 230, 220, 0.8) !important;
+}
+
+/* Images */
+img {
+  border-color: rgba(255, 158, 69, 0.3) !important;
+}
+
+/* Add subtle scanline effect to the entire page */
+body::after {
+  content: "" !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 0, 0, 0.1) 50%
+  ) !important;
+  background-size: 100% 4px !important;
+  z-index: 1000 !important;
+  pointer-events: none !important;
+  opacity: 0.15 !important;
+}
+
+/* Override any Bootstrap or Quarto light theme elements */
+.bg-light,
+.bg-white {
+  background-color: #0c1019 !important;
+}
+
+.text-dark {
+  color: #e7e6dc !important;
+}
+
+/* Special animation for brand */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 158, 69, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 158, 69, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 158, 69, 0.5);
+  }
+}
+
+.navbar-brand {
+  animation: glow 4s infinite !important;
+}
+
+/* Quarto-specific overrides */
+.quarto-title-banner {
+  background-color: #0c1019 !important;
+  border-bottom: 1px solid rgba(255, 158, 69, 0.3) !important;
+}
+
+.quarto-title {
+  color: #ff9e45 !important;
+}
+
+.sidebar {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  border-right: 1px solid rgba(255, 158, 69, 0.3) !important;
+}
+
+.sidebar a {
+  color: #e7e6dc !important;
+}
+
+.sidebar a:hover {
+  color: #ff9e45 !important;
+}
+
+/* Override container backgrounds */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  background-color: transparent !important;
+}
+
+/* Override content backgrounds */
+main,
+article,
+section {
+  background-color: transparent !important;
+}
+
+/* Additional navbar fixes */
+#quarto-header {
+  display: block !important;
+  position: relative !important;
+}
+
+.navbar-container {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.navbar-collapse.collapse {
+  display: flex !important;
+}
+
+.navbar .quarto-navbar-tools {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Fix search button */
+.quarto-search-button {
+  background-color: transparent !important;
+  color: #e7e6dc !important;
+  border: none !important;
+  padding: 0.5rem !important;
+}
+
+.quarto-search-button:hover {
+  color: #ff9e45 !important;
+}
+
+/* Ensure navbar items are visible */
+.navbar-nav.navbar-nav-scroll {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+/* Fix for collapsible navbar on mobile */
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-expand-lg .navbar-collapse.show {
+    display: flex !important;
+    flex-basis: 100% !important;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column !important;
+  }
+}
+
+/* Hide mobile toggle on desktop */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+  }
+}
