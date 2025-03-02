@@ -1,37 +1,33 @@
-project:
-  type: website
-  output-dir: docs
-
 website:
   title: "Caspar David Peter"
-  description: "Personal website of Caspar David Peter"
+  description: "Personal website of Caspar David Peter, Associate Professor at Rotterdam School of Management"
   site-url: https://caspardp.github.io
   repo-url: https://github.com/CasparDP/CasparDP.github.io
   open-graph: true
   twitter-card:
     creator: "@CasparDP"
     site: "@CasparDP"
-    description: "This ia description"
+    description: "Research on economic consequences of reporting transparency"
     card-style: "summary"
   page-footer: "© 2025, Caspar David Peter"
   navbar:
-    title: "Caspar David Peter"
+    background: dark
     search: true
+    left:
+      - text: "Caspar David Peter"
+        href: index.qmd
     right:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - papers.qmd
-      - teaching.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: papers.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      # - text: "Blog"
+      #   href: blog.qmd
     page-footer:
-
-format:
-  html:
-    theme:
-      - custom.scss
-    mainfont: "Instrument Sans"
-    css:
-      - academicons.css
-    toc: true
-    page-layout: full
+      background: dark
+      left: "© 2025, Caspar David Peter"
+      right:
+        - icon: github
+          href: https://github.com/CasparDP

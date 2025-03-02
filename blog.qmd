@@ -1,0 +1,53 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+page-layout: full
+toc: false
+---
+
+## Research & Teaching Insights
+
+Welcome to my blog, where I share thoughts on research methods, teaching experiences, and insights from the field of accounting and finance. Here you'll find a mix of academic reflections, practical tips for researchers, and commentary on emerging trends in financial reporting and transparency.
+
+::: {.monitor-box}
+This blog represents my personal views and reflections. Posts are added periodically as research projects develop or as interesting questions arise in my teaching and research.
+:::
+
+### Recent Highlights
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .research-highlight}
+::: {.card-body}
+#### Starting Your Research Journey
+
+Tips for doctoral students and early career researchers on developing research questions, navigating the publication process, and building productive collaborations.
+
+[Read more →](#)
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100 .research-highlight}
+::: {.card-body}
+#### Teaching Financial Accounting in the Digital Age
+
+Reflections on integrating data analytics tools into traditional accounting curricula and preparing students for an increasingly automated financial landscape.
+
+[Read more →](#)
+:::
+:::
+:::
+
+:::
+
+## All Posts

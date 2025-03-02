@@ -33,11 +33,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7e0b624b7c6f7c056064ca5fd9e8f1ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-afdf05cadf8706d91f45b340ada602cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,13 +70,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="academicons.css">
 <meta property="og:title" content="Caspar David Peter">
-<meta property="og:description" content="Personal website of Caspar David Peter">
 <meta property="og:image" content="https://caspardp.github.io/avatar.jpg">
 <meta property="og:site_name" content="Caspar David Peter">
 <meta name="twitter:title" content="Caspar David Peter">
-<meta name="twitter:description" content="This ia description">
+<meta name="twitter:description" content="Research on economic consequences of reporting transparency">
 <meta name="twitter:image" content="https://caspardp.github.io/avatar.jpg">
 <meta name="twitter:creator" content="@CasparDP">
 <meta name="twitter:site" content="@CasparDP">
@@ -96,18 +99,20 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Caspar David Peter</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -126,52 +131,147 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-page">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Caspar David Peter</h1>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/CasparDP" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto::peter@rsm.nl" class="about-link" rel="" target="">
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="/0000-0003-0020-1673" class="about-link" rel="" target="">
-    <i class="bi bi-orcid"></i>
-     <span class="about-link-text">Orcid</span>
-  </a>
-  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558" class="about-link" rel="" target="">
-     <span class="about-link-text">SSRN</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Hi, I am an associate Professor at Rotterdam School of Management (RSM) Erasmus University Rotterdam in the Netherlands. This is my personal website that I use to gather things that I do in my job, such as my teaching, useful resources, and publications, but also to not loose track of the shenanigans that I do on the side.</p>
-<p><strong>This website is still under construction!</strong></p>
-<!-- On this site I keep a list of [my publications](papers), [presentations](talks), 
-and [my CV](cv.pdf), as well as a [technical blog](blog.html). -->
-<p><!-- - text: LinkedIn
-      url: "www.linkedin.com/in/caspar-david-peter-033615211"
-          - text: Twitter
-      icon: twitter
-      url: "https://twitter.com/CDPeter84"
-          - text: CV
-      url: "CV_academic.pdf" --></p>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-</main></div>
-    </div>
-    <img src="avatar.jpg" class="about-image
-  rectangle " style="width: 10em;">
-  </div>
+
+
+<div class="grid">
+<div class="g-col-12 g-col-md-4 g-col-lg-3">
+<p><img src="avatar.jpg" class="img-fluid mb-3 border"></p>
+<section id="caspar-david-peter" class="level3 text-center mb-4">
+<h3 class="anchored" data-anchor-id="caspar-david-peter">Caspar David Peter</h3>
+<div class="subtitle mb-2">
+<p>Associate Professor of Accounting</p>
 </div>
- <!-- /main -->
+</section>
+<div class="profile-links">
+<p><a href="https://github.com/CasparDP" class="d-block mb-2"><i class="fa-brands fa-github" aria-label="github"></i> GitHub</a><br>
+<a href="mailto:peter@rsm.nl" class="d-block mb-2"><i class="fa-solid fa-envelope" aria-label="envelope"></i> Email</a><br>
+<a href="https://orcid.org/0000-0003-0020-1673" class="d-block mb-2"><i class="fa-brands fa-orcid" aria-label="orcid"></i> ORCID</a><br>
+<a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558" class="d-block mb-2"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> SSRN</a><br>
+<a href="CV_academic.pdf" class="d-block mb-2"><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> CV</a></p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-8 g-col-lg-9 d-flex flex-column justify-content-start">
+<section id="about-me" class="level2">
+<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
+<div class="monitor-box">
+<p>Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam</p>
+<p>Primary research focus: <strong>Economic consequences of reporting transparency</strong><br>
+Specialized in examining how disclosure practices affect market behavior and corporate outcomes.</p>
+</div>
+<p>My research has been published in leading journals including <em>Journal of Financial Economics</em> and <em>The Accounting Review</em>, investigating how information environments impact corporate misconduct, industry coordination, and mergers &amp; acquisitions.</p>
+</section>
+<section id="research-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="research-highlights">Research Highlights</h2>
+<div class="grid">
+<div class="g-col-12 g-col-lg-6">
+<div class="card h-100 research-highlight">
+<section id="local-newspaper-closures-corporate-misconduct" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="local-newspaper-closures-corporate-misconduct">Local Newspaper Closures &amp; Corporate Misconduct</h4>
+<p>Our research reveals that when local newspapers cease operations, corporate environmental violations increase by 1.1% and penalties drop by 15.2%, indicating reduced monitoring leads to increased corporate misconduct.</p>
+<p><a href="https://doi.org/10.1016/j.jfineco.2022.04.006">Read Paper →</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6">
+<div class="card h-100 research-highlight">
+<section id="reporting-transparency-industry-coordination" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="reporting-transparency-industry-coordination">Reporting Transparency &amp; Industry Coordination</h4>
+<p>Data analysis confirms enhanced reporting transparency reduces cartel duration by 38%, demonstrating disclosure requirements can disrupt collusive arrangements and promote competition.</p>
+<p><a href="https://doi.org/10.2308/accr-52226">Read Paper →</a></p>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="row mt-5">
+<section id="news-updates" class="level2 col-12">
+<h2 class="anchored" data-anchor-id="news-updates">News &amp; Updates</h2>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<p><strong>New Publication in Review of Financial Studies</strong><br>
+Research paper “Mandatory Financial Disclosure and M&amp;A Activity” has been accepted for publication.<br>
+<em>February 2023</em></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<p><strong>Media Coverage in Los Angeles Times</strong><br>
+Research on local newspaper closures featured in the Los Angeles Times.<br>
+<em>August 2022</em></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<p><strong>Upcoming Seminar at Harvard Business School</strong><br>
+Presenting latest research on integrity pledges in financial reporting.<br>
+<em>April 2023</em></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="row mt-5">
+<section id="current-teaching" class="level2 col-12">
+<h2 class="anchored" data-anchor-id="current-teaching">Current Teaching</h2>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="card teaching-card h-100">
+<section id="data-coding" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="data-coding">Data &amp; Coding</h4>
+<p>MSc Program, 2025<br>
+Coordinator and content creator</p>
+<p><a href="./teaching.html">Course Details →</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="card teaching-card h-100">
+<section id="financial-reporting-analysis" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="financial-reporting-analysis">Financial Reporting &amp; Analysis</h4>
+<p>BSc Program, 2021-2025<br>
+Coordinator and instructor</p>
+<p><a href="./teaching.html">Course Details →</a></p>
+</section>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="card teaching-card h-100">
+<section id="accounting-analysis-governance" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="accounting-analysis-governance">Accounting Analysis &amp; Governance</h4>
+<p>MSc Program, 2025<br>
+Coordinator and instructor</p>
+<p><a href="./teaching.html">Course Details →</a></p>
+</section>
+</div>
+</div>
+</div>
+</section>
+</div>
+<style>
+/* Additional custom styles specific to this page */
+.subtitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 158, 69, 0.8);
+}
+</style>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -192,6 +292,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

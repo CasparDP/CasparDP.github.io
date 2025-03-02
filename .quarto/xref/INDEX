@@ -10,5 +10,11 @@
   },
   "papers.qmd": {
     "papers.html": "9b4a9f54"
+  },
+  "blog.qmd": {
+    "blog.html": "dae17121"
+  },
+  "posts/2024-02-20-local-journalism/index.qmd": {
+    "index.html": "30e1fb2c"
   }
 }

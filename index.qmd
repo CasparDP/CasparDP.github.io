@@ -1,37 +1,172 @@
 ---
-title: "Caspar David Peter"
-image: avatar.jpg
-about:
-  template: solana
-  image-shape: rectangle
-  image-width: 10em
-  links:
-    - text: GitHub
-      icon: github
-      url: "https://github.com/CasparDP"
-    - text: Email
-      url: "mailto::peter@rsm.nl"
-    - text: Orcid
-      icon: orcid
-      url: "0000-0003-0020-1673"
-    - text: SSRN
-      url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558"
-comments: false
+page-layout: full
+toc: false
 ---
 
+::: {.grid}
 
-Hi, I am an associate Professor at Rotterdam School of Management (RSM) Erasmus University Rotterdam in the Netherlands. This is my personal website that I use to gather things that I do in my job, such as my teaching, useful resources, and publications, but also to not loose track of the shenanigans that I do on the side. 
+::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
+![](avatar.jpg){.img-fluid .mb-3 .border}
 
-**This website is still under construction!**
+::: {.text-center .mb-4}
+### Caspar David Peter
+::: {.subtitle .mb-2}
+Associate Professor of Accounting
+:::
+:::
+
+::: {.profile-links}
+[{{< fa brands github >}} GitHub](https://github.com/CasparDP){.d-block .mb-2}  
+[{{< fa envelope >}} Email](mailto:peter@rsm.nl){.d-block .mb-2}  
+[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673){.d-block .mb-2}  
+[{{< fa file-lines >}} SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558){.d-block .mb-2}  
+[{{< fa file-pdf >}} CV](CV_academic.pdf){.d-block .mb-2}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-8 .g-col-lg-9 .d-flex .flex-column .justify-content-start}
+## About Me
+
+::: {.monitor-box}
+Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam
+
+Primary research focus: **Economic consequences of reporting transparency**  
+Currently, I am interested in how disclosure practices affect individual and/or market behavior and corporate outcomes.
+:::
+
+My research has been published in leading journals including *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions, with a particular focus on the interplay between information asymmetry and regulatory frameworks.
+
+## Research Highlights
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-lg-6}
+::: {.card .h-100 .research-highlight}
+::: {.card-body}
+#### Local Newspaper Closures & Corporate Misconduct
+
+Our research reveals that when local newspapers cease operations, corporate environmental violations increase by 1.1% and penalties drop by 15.2%, indicating reduced monitoring leads to increased corporate misconduct.
+
+[Read Paper →](https://doi.org/10.1016/j.jfineco.2022.04.006)
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-lg-6}
+::: {.card .h-100 .research-highlight}
+::: {.card-body}
+#### Reporting Transparency & Industry Coordination
+
+Data analysis confirms enhanced reporting transparency reduces cartel duration by 38%, demonstrating disclosure requirements can disrupt collusive arrangements and promote competition.
+
+[Read Paper →](https://doi.org/10.2308/accr-52226)
+:::
+:::
+:::
+
+:::
+:::
+
+:::
+
+::: {.row .mt-5}
+::: {.col-12}
+
+## News & Updates
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+**Interactive teaching materials**  
+New interactive teaching materials on financial statement analysis available.
+*February 2025*
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+**Seminar at LMU**  
+Presenting latest research union office closures and corporate misconduct at LMU Munich.
+*February 2025*
+:::
+:::
+:::
 
 
-<!-- On this site I keep a list of [my publications](papers), [presentations](talks), 
-and [my CV](cv.pdf), as well as a [technical blog](blog.html). -->
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+**Economenparade**
+I am honored to be part of the [Economenparade →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf), and among the best published economists in the Netherlands. This would not have been possible without my fantastic co-authors and the support of my colleagues.
+*January 2025*
+:::
+:::
+:::
 
-   <!-- - text: LinkedIn
-      url: "www.linkedin.com/in/caspar-david-peter-033615211"
-          - text: Twitter
-      icon: twitter
-      url: "https://twitter.com/CDPeter84"
-          - text: CV
-      url: "CV_academic.pdf" -->
+
+:::
+:::
+:::
+
+
+::: {.row .mt-5}
+::: {.col-12}
+## Current Teaching
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .teaching-card .h-100}
+::: {.card-body}
+#### Data & Coding
+MSc Program, 2025  
+Coordinator and content creator
+
+[Course Details →](teaching.qmd)
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .teaching-card .h-100}
+::: {.card-body}
+#### Financial Reporting & Analysis
+BSc Program, 2021-2025  
+Coordinator and instructor
+
+[Course Details →](teaching.qmd)
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .teaching-card .h-100}
+::: {.card-body}
+#### Accounting Analysis & Governance
+MSc Program, 2025  
+Coordinator and instructor
+
+[Course Details →](teaching.qmd)
+:::
+:::
+:::
+
+:::
+:::
+:::
+
+```{=html}
+<style>
+/* Additional custom styles specific to this page */
+.subtitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 158, 69, 0.8);
+}
+</style>
+```

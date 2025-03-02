@@ -1,56 +1,141 @@
 ---
-title: ""
-image: avatar.jpg
-about:
-  template: trestles
-  image-shape: rectangle
-  image-width: 10em
-  links:
-    - text: GitHub
-      icon: github
-      url: "https://github.com/CasparDP"
-    - text: Email
-      url: "mailto::peter@rsm.nl"
-    - text: Orcid
-      icon: orcid
-      url: "0000-0003-0020-1673"
-    - text: SSRN
-      url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558"
-comments: false
-echo: false
-df-print: kable
+title: "About"
+page-layout: full
 toc: false
 ---
 
-## Research interest
-**Economic consequences of reporting transparency**
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
+![](avatar.jpg){.img-fluid .mb-4 .border}
 
-## Employment
+::: {.monitor-box .text-center .mb-4}
+**Position**: Associate Professor  
+**Institution**: Rotterdam School of Management  
+**Location**: Netherlands  
+**Since**: 2015
+:::
+
+::: {.profile-links}
+[{{< fa brands github >}} GitHub](https://github.com/CasparDP){.d-block .mb-2}  
+[{{< fa envelope >}} Email](mailto:peter@rsm.nl){.d-block .mb-2}  
+[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673){.d-block .mb-2}  
+[{{< fa file-lines >}} SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558){.d-block .mb-2}  
+[{{< fa file-pdf >}} Full CV](CV_academic.pdf){.d-block .mb-2}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-8 .g-col-lg-9}
+## Research Focus
+
+::: {.monitor-box}
+**Primary Research Focus**: Economic consequences of reporting transparency
+
+*Investigating how disclosure practices affect market behavior and strategic corporate operations across sectors.*
+:::
+
+## Employment History
 
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
 library(tibble)
-tribble(
-  ~ Role, ~ Year, ~ Institution, ~ Where,
-  "Associate Professor","2020 - ","Rotterdam School of Management", "Netherlands",
-  "Visiting Scholar","2018 (Fall)","Harvard Business School","USA",
+library(knitr)
+library(dplyr)
+library(kableExtra)
+
+assignments <- tribble(
+  ~ Position, ~ Period, ~ Institution, ~ Location,
+  "Associate Professor","2020 - Present","Rotterdam School of Management", "Netherlands",
+  "Visiting Scholar","2018 (Fall)","Harvard Business School","United States",
   "Assistant Professor", "2015 - 2020", "Rotterdam School of Management", "Netherlands",
-  "Lecturer in Financial Statement Analysis", "2015","WHU – Otto Beisheim School of Management", "Germany",
+  "Lecturer in Financial Analysis", "2015","WHU – Otto Beisheim School of Management", "Germany",
   "Visiting Researcher", "2014 (Fall)",
   "University of Lancaster", "United Kingdom",
-  "Doctoral Assistant at the Chair of Financial Accounting","2010 - 2015", "WHU – Otto Beisheim School of Management", "Germany" )
+  "Doctoral Assistant", "2010 - 2015", "WHU – Otto Beisheim School of Management", "Germany" 
+)
+
+assignments %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), 
+                full_width = TRUE, 
+                font_size = 14,
+                position = "left") %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE, color = "#ff9e45", background = "#0c1019")
 ```
-
-
 
 ## Education
 
 ```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
+#| echo: false
+#| message: false
+#| warning: false
+
+training <- tribble(
+  ~ Degree, ~ Period, ~ Institution, ~ Location,
   "Dr. rer. pol.","2010 - 2015",
 "WHU – Otto Beisheim School of Management", "Germany",
-"Diploma Business and Economics", "2005 - 2010","Ruhr-Universität-Bochum", "Germany")
+"Diploma Business and Economics", "2005 - 2010","Ruhr-Universität-Bochum", "Germany"
+)
+
+training %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), 
+                full_width = TRUE, 
+                font_size = 14,
+                position = "left") %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE, color = "#ff9e45", background = "#0c1019")
 ```
 
+## Skills & Expertise
 
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+::: {.card-body}
+### Research Methodologies
+
+- Econometric analysis of large datasets
+- Causal inference techniques
+- Data visualization
+- Basic textual analysis
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+::: {.card-body}
+### Technical Skills
+- R 
+- Python 
+- Stata
+- LaTeX
+- Markdown
+- HTML/CSS (beginner)
+- Web scraping
+:::
+:::
+:::
+:::
+
+:::
+:::
+
+```{=html}
+<style>
+/* Add subtle pulsing effect to the monitor box */
+.monitor-box {
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 rgba(255, 158, 69, 0.2); }
+  50% { box-shadow: 0 0 10px rgba(255, 158, 69, 0.5); }
+  100% { box-shadow: 0 0 0 rgba(255, 158, 69, 0.2); }
+}
+</style>
+```

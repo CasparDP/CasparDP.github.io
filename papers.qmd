@@ -11,11 +11,16 @@ papers: "my_working_papers.bib" -->
 
 # Journal articles
 
-::: {#refs}
-:::
+<!-- {}
+
+@pheese2022local, @mortiz2021mandatory @mmuller2023owner
+- @goncharov2019does
+- @heese2023executives -->
 
 
 # Media coverage
+
+[Media Coverage for Economenparade 2024 (in Dutch)](https://esb.nu/economenparade-2024/),*ESB*, December 2024.
 
 [Can Integrity Pledges Improve Financial Reporting?](https://clsbluesky.law.columbia.edu/2023/07/12/can-integrity-pledges-improve-financial-reporting/), *Columbia Law School Blue Sky Blog*, July 12, 2023.
 
