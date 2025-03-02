@@ -43,11 +43,11 @@ My research has been published in leading journals including *Journal of Financi
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.card .h-100 .research-highlight}
 ::: {.card-body}
-#### Local Newspaper Closures & Corporate Misconduct
+#### Owner exposure through firm disclosure
 
-Our research reveals that when local newspapers cease operations, corporate environmental violations increase by 1.1% and penalties drop by 15.2%, indicating reduced monitoring leads to increased corporate misconduct.
+We show that companies named after their owners tend to be more opaque in their financial disclosures, particularly when revealing such information might expose sensitive owner details and attract social stigma. It also finds that when disclosure is forced, these owners are more likely to change their firms' names, and new firms are less frequently named after their founding owners.
 
-[Read Paper →](https://doi.org/10.1016/j.jfineco.2022.04.006)
+[Read Paper →](https://publications.aaahq.org/accounting-review/article-abstract/98/6/381/11037/Owner-Exposure-through-Firm-Disclosure?redirectedFrom=fulltext)
 :::
 :::
 :::
@@ -57,9 +57,9 @@ Our research reveals that when local newspapers cease operations, corporate envi
 ::: {.card-body}
 #### Reporting Transparency & Industry Coordination
 
-Data analysis confirms enhanced reporting transparency reduces cartel duration by 38%, demonstrating disclosure requirements can disrupt collusive arrangements and promote competition.
+The study investigates the impact of mandatory financial disclosure, introduced by the 2003 EC directive, on mergers and acquisitions. It finds that required disclosure boosts M&A activity by reducing information frictions, as evidenced by an increase in both the number and volume of private firms becoming targets.
 
-[Read Paper →](https://doi.org/10.2308/accr-52226)
+[Read Paper →](https://academic.oup.com/rfs/article-abstract/36/12/4788/7202058?login=false)
 :::
 :::
 :::
