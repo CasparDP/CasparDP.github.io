@@ -1,5 +1,7 @@
-website:
+project:
+  type: website
   output-dir: docs
+website:
   title: "Caspar David Peter"
   description: "Personal website of Caspar David Peter, Associate Professor at Rotterdam School of Management"
   site-url: https://caspardp.github.io

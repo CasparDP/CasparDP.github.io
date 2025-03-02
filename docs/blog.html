@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications</title>
+<title>Blog – Caspar David Peter</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,57 +20,185 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="papers_files/libs/clipboard/clipboard.min.js"></script>
-<script src="papers_files/libs/quarto-html/quarto.js"></script>
-<script src="papers_files/libs/quarto-html/popper.min.js"></script>
-<script src="papers_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="papers_files/libs/quarto-html/anchor.min.js"></script>
-<link href="papers_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="papers_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="papers_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="papers_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="papers_files/libs/bootstrap/bootstrap-64a7ce531ae89cc7f0dc00ae3a81aff5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-06d8547008b8703a04e10d11caa4a571.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Caspar David Peter" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Caspar David Peter">
+<meta property="og:description" content="Personal website of Caspar David Peter, Associate Professor at Rotterdam School of Management">
+<meta property="og:image" content="https://caspardp.github.io/posts/2024-02-20-local-journalism/newspaper-stack.jpg">
+<meta property="og:site_name" content="Caspar David Peter">
+<meta name="twitter:title" content="Blog – Caspar David Peter">
+<meta name="twitter:description" content="Research on economic consequences of reporting transparency">
+<meta name="twitter:image" content="https://caspardp.github.io/posts/2024-02-20-local-journalism/newspaper-stack.jpg">
+<meta name="twitter:creator" content="@CasparDP">
+<meta name="twitter:site" content="@CasparDP">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Caspar David Peter</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Caspar David Peter</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./papers.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29ycG9yYXRlJTIwR292ZXJuYW5jZQ==">Corporate Governance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVkaWE=">Media <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2g=">Research <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -82,52 +210,114 @@ div.csl-indent {
 </header>
 
 
-<!-- main: "my_pubs.bib"
-papers: "my_working_papers.bib" -->
-<section id="journal-articles" class="level1">
-<h1>Journal articles</h1>
-<!-- {}
-
-@pheese2022local, @mortiz2021mandatory @mmuller2023owner
-- @goncharov2019does
-- @heese2023executives -->
+<section id="research-teaching-insights" class="level2">
+<h2 class="anchored" data-anchor-id="research-teaching-insights">Research &amp; Teaching Insights</h2>
+<p>Welcome to my blog, where I share thoughts on research methods, teaching experiences, and insights from the field of accounting and finance. Here you’ll find a mix of academic reflections, practical tips for researchers, and commentary on emerging trends in financial reporting and transparency.</p>
+<div class="monitor-box">
+<p>This blog represents my personal views and reflections. Posts are added periodically as research projects develop or as interesting questions arise in my teaching and research.</p>
+</div>
+<section id="recent-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="recent-highlights">Recent Highlights</h3>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<div class="card h-100 research-highlight">
+<section id="starting-your-research-journey" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="starting-your-research-journey">Starting Your Research Journey</h4>
+<p>Tips for doctoral students and early career researchers on developing research questions, navigating the publication process, and building productive collaborations.</p>
+<p><a href="#">Read more →</a></p>
 </section>
-<section id="media-coverage" class="level1">
-<h1>Media coverage</h1>
-<p><a href="https://esb.nu/economenparade-2024/">Media Coverage for Economenparade 2024 (in Dutch)</a>,<em>ESB</em>, December 2024.</p>
-<p><a href="https://clsbluesky.law.columbia.edu/2023/07/12/can-integrity-pledges-improve-financial-reporting/">Can Integrity Pledges Improve Financial Reporting?</a>, <em>Columbia Law School Blue Sky Blog</em>, July 12, 2023.</p>
-<p><a href="https://www.l-iz.de/bildung/medien/2023/04/prognose-nachrichtenwusten-bis-2025-sind-rund-40-prozent-ohne-lokalzeitung-524584">Prognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung</a>, <em>Leipziger Internet Zeitung</em>, April 1, 2023.</p>
-<p><a href="https://www.kleinezeitung.at/kultur/medien/6120796/Ergebnisse-von-USForschern_Studie_Ohne-lokale-Medien-steigt-die">Studie: Ohne lokale Medien steigt die Kriminalität</a>, <em>Kleine Zeitung</em>, April 1, 2023.</p>
-<p><a href="https://www.zeit.de/2022/16/lokaljournalismus-rueckgang-zeitung-schliessung">Sie geben nicht auf</a>, <em>ZeitOnline</em>, April 19, 2022.</p>
-<p><a href="https://www.latimes.com/business/story/2022-08-29/decline-of-local-news?consumer=googlenews">Column: How the decline of local news exposes the public to lies and corruption</a>, <em>Los Angeles Times</em>, August 29, 2022.</p>
-<p><a href="https://www.manager-magazin.de/harvard/management/kriminalitaet-von-managern-die-fehlende-kontrolle-der-presse-a-f22d69e5-0002-0001-0000-000185432237">Die Zeitung geht unter, das Verbrechen kommt</a>, <em>Manager Magazin</em>, January 1, 2022.</p>
-<p><a href="https://niemanreports.org/articles/a-green-light-for-corruption/">A Green Light for Corruption</a>, <em>Nieman Reports</em>, Winter 2021.</p>
-<p><a href="https://www.sandiegouniontribune.com/columnists/story/2021-10-22/column-study-says-corporate-misbehavior-increases-after-local-newspapers-shut-down">Column: Corporate misbehavior increases after local newspapers shut down, study says</a>, <em>San Diego Union Tribune</em>, October 22, 2021.</p>
-<p><a href="https://www.sueddeutsche.de/wirtschaft/lokalzeitungen-umweltkriminalitaet-studie-1.5444839">Warum Lokalzeitungen für gutes Klima sorgen</a>, <em>Süddeutsche Zeitung</em>, October 21, 2021.</p>
-<p><a href="https://hbswk.hbs.edu/item/how-newspaper-closures-open-the-door-to-corporate-crime">How Newspaper Closures Open the Door to Corporate Crime</a>, <em>Harvard Business School Working Knowledge</em>, October 21, 2021.</p>
-<p><a href="https://corpgov.law.harvard.edu/2021/08/25/when-the-local-newspaper-leaves-town-the-effects-of-local-newspaper-closures-on-corporate-misconduct/">When the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct</a>,<em>Harvard Law School Forum on Corporate Governance</em>, August 25, 2021.</p>
-<p><a href="https://clsbluesky.law.columbia.edu/2015/02/04/greater-disclosure-harms-cartels/">Greater Disclosure Harms Cartels</a>, <em>Columbia Law School Blue Sky Blog</em>, February 4, 2015.</p>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div class="card h-100 research-highlight">
+<section id="teaching-financial-accounting-in-the-digital-age" class="level4 card-body">
+<h4 class="anchored" data-anchor-id="teaching-financial-accounting-in-the-digital-age">Teaching Financial Accounting in the Digital Age</h4>
+<p>Reflections on integrating data analytics tools into traditional accounting curricula and preparing students for an increasingly automated financial landscape.</p>
+<p><a href="#">Read more →</a></p>
+</section>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="all-posts" class="level2">
+<h2 class="anchored" data-anchor-id="all-posts">All Posts</h2>
+
+
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-goncharov2019does" class="csl-entry" role="listitem">
-Goncharov, I., Peter, C.D., 2019. Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review 94, 149–175.
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div id="ref-heese2023executives" class="csl-entry" role="listitem">
-Heese, J., Pérez-Cavazos, G., Peter, C.D., 2023. When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review 98, 261–288.
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="UmVzZWFyY2glMkNNZWRpYSUyQ0NvcnBvcmF0ZSUyMEdvdmVybmFuY2U=" data-listing-date-sort="1708383600000" data-listing-file-modified-sort="1740181796758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="575">
+<div class="thumbnail">
+<p><a href="./posts/2024-02-20-local-journalism/index.html" class="no-external"></a></p><a href="./posts/2024-02-20-local-journalism/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/2024-02-20-local-journalism/newspaper-stack.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-02-20-local-journalism/index.html" class="no-external"></a></p>
 </div>
-<div id="ref-heese2022local" class="csl-entry" role="listitem">
-Heese, J., Pérez-Cavazos, G., Peter, C.D., 2022. When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics 145, 445–463.
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-02-20-local-journalism/index.html" class="no-external">The Economic Impact of Local Journalism</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-02-20-local-journalism/index.html" class="no-external"></a>
 </div>
-<div id="ref-muller2023owner" class="csl-entry" role="listitem">
-Müller, M.A., Peter, C.D., Urzúa I, F., 2023. Owner exposure through firm disclosure. The Accounting Review 98, 381–405.
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">
+Research
 </div>
-<div id="ref-ortiz2023mandatory" class="csl-entry" role="listitem">
-Ortiz, M., Peter, C.D., Urzúa I, F., Volpin, P.F., 2023. Mandatory financial disclosure and m&amp;a activity. The Review of Financial Studies 36, 4788–4823.
+<div class="listing-category" onclick="window.quartoListingCategory('TWVkaWE='); return false;">
+Media
 </div>
-</div></section></div></main>
-<!-- /main column -->
+<div class="listing-category" onclick="window.quartoListingCategory('Q29ycG9yYXRlJTIwR292ZXJuYW5jZQ=='); return false;">
+Corporate Governance
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2024-02-20-local-journalism/index.html" class="no-external">Exploring the broader implications of our research on local newspaper closures</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024-02-20-local-journalism/index.html" class="no-external">
+<div class="listing-date">
+Feb 20, 2024
+</div>
+<div class="listing-author">
+Caspar David Peter
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -546,6 +736,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2025, Caspar David Peter</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

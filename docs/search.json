@@ -1,136 +1,52 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Position: Associate Professor\nInstitution: Rotterdam School of Management\nLocation: Netherlands\nSince: 2015\n\n\n GitHub\n Email\n ORCID\n SSRN\n Full CV\n\n\n\n\n\n\nPrimary Research Focus: Economic consequences of reporting transparency\nInvestigating how disclosure practices affect market behavior and strategic corporate operations across sectors.\n\n\n\n\n\n\n\n\n\nPosition\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDegree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconometric analysis of large datasets\nNatural experiment design\nCausal inference techniques\nStatistical modeling and simulation\nField experiments\n\n\n\n\n\n\n\n\n\nR Statistical Programming\nPython Data Analysis\nFinancial Statement Analysis\nCorporate Disclosure Evaluation\nRegulatory Impact Assessment"
+    "text": "Welcome to my blog, where I share thoughts on research methods, teaching experiences, and insights from the field of accounting and finance. Here you’ll find a mix of academic reflections, practical tips for researchers, and commentary on emerging trends in financial reporting and transparency.\n\nThis blog represents my personal views and reflections. Posts are added periodically as research projects develop or as interesting questions arise in my teaching and research.\n\n\n\n\n\n\n\n\nTips for doctoral students and early career researchers on developing research questions, navigating the publication process, and building productive collaborations.\nRead more →\n\n\n\n\n\n\n\nReflections on integrating data analytics tools into traditional accounting curricula and preparing students for an increasingly automated financial landscape.\nRead more →"
+  },
+  {
+    "objectID": "blog.html#research-teaching-insights",
+    "href": "blog.html#research-teaching-insights",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog, where I share thoughts on research methods, teaching experiences, and insights from the field of accounting and finance. Here you’ll find a mix of academic reflections, practical tips for researchers, and commentary on emerging trends in financial reporting and transparency.\n\nThis blog represents my personal views and reflections. Posts are added periodically as research projects develop or as interesting questions arise in my teaching and research.\n\n\n\n\n\n\n\n\nTips for doctoral students and early career researchers on developing research questions, navigating the publication process, and building productive collaborations.\nRead more →\n\n\n\n\n\n\n\nReflections on integrating data analytics tools into traditional accounting curricula and preparing students for an increasingly automated financial landscape.\nRead more →"
+  },
+  {
+    "objectID": "blog.html#all-posts",
+    "href": "blog.html#all-posts",
+    "title": "Blog",
+    "section": "All Posts",
+    "text": "All Posts"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Caspar David Peter",
     "section": "",
-    "text": "Associate Professor of Accounting\n\n\n\n GitHub\n Email\n ORCID\n SSRN\n CV\n\n\n\n\n\n\nAssociate Professor at Rotterdam School of Management, Erasmus University Rotterdam\nPrimary research focus: Economic consequences of reporting transparency\nSpecialized in examining how disclosure practices affect market behavior and corporate outcomes.\n\nMy research has been published in leading journals including Journal of Financial Economics and The Accounting Review, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions.\n\n\n\n\n\n\n\n\nOur research reveals that when local newspapers cease operations, corporate environmental violations increase by 1.1% and penalties drop by 15.2%, indicating reduced monitoring leads to increased corporate misconduct.\nRead Paper →\n\n\n\n\n\n\n\nData analysis confirms enhanced reporting transparency reduces cartel duration by 38%, demonstrating disclosure requirements can disrupt collusive arrangements and promote competition.\nRead Paper →"
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "Hi, I am an associate Professor at Rotterdam School of Management (RSM) Erasmus University Rotterdam in the Netherlands. This is my personal website that I use to gather things that I do in my professional live, such as my teaching, useful resources, and publications, but also to not loose the overview over the shinaningans that I do on teh side."
-  },
-  {
-    "objectID": "index.html#selected-projects",
-    "href": "index.html#selected-projects",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "Filtering ground noise from LiDAR returns produces inferior models of forest aboveground biomass in heterogenous landscapes. Mahoney, MJ, Johnson, LK, Bevilacqua, E, and Beier, CM. 2022. GIScience & Remote Sensing 59(1): 1266-1280. https://doi.org/10.1080/15481603.2022.2103069"
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "When Executives Pledge Integrity: The Effect of the Accountant’s Oath on Firms’ Financial Reporting\nMandatory Financial Disclosure and M&A Activity\nOwner exposure through firm disclosure\nWhen the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct\nDoes reporting transparency affect industry coordination? Evidence from the duration of international cartels\n\n\n\nIn-Network Auditors as Information Intermediaries Within Business Groups\n‘503 Service Unavailable’: When Acquiring Information Goes Wrong\nDoes Shark Tank Enhance Entrepreneurial Activities?\n\n\nGoncharov, Igor, and Caspar David Peter. 2019. “Does Reporting Transparency Affect Industry Coordination? Evidence from the Duration of International Cartels.” The Accounting Review 94 (3): 149–75.\n\n\nHeese, Jonas, Gerardo Perez Cavazos, and Caspar David Peter. 2023. “When Executives Pledge Integrity: The Effect of the Accountant’s Oath on Firms’ Financial Reporting.” Available at SSRN 4456045.\n\n\nHeese, Jonas, Gerardo Pérez-Cavazos, and Caspar David Peter. 2022. “When the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct.” Journal of Financial Economics 145 (2): 445–63.\n\n\nHeilig, Malte, Maximilian A Müller, and Caspar David Peter. 2021. “’503 Service Unavailable’: When Acquiring Information Goes Wrong.” Available at SSRN 3809605.\n\n\nLabro, Eva, Caspar David Peter, Jochen Pierk, and Christophe Van Linden. 2022. “In-Network Auditors as Information Intermediaries Within Business Groups.” Available at SSRN 3370953.\n\n\nMüller, Maximilian A, Caspar David Peter, and Francisco Urzúa I. 2023. “Owner Exposure Through Firm Disclosure.” The Accounting Review, 1–25.\n\n\nOrtiz M, Marcelo, Caspar David Peter, Francisco Urzúa I, and Paolo F Volpin. 2021. “Mandatory Financial Disclosure and m&a Activity.” Marcelo and Peter, Caspar David and Urzua, Francisco and Volpin, Paolo F., Mandatory Financial Disclosure and M&A Activity (January 18, 2021).\n\n\nPeter, Caspar David, and Jochen Pierk. 2021. “Does Shark Tank Enhance Entrepreneurial Activities?” Available at SSRN 3657391."
-  },
-  {
-    "objectID": "index.html#publications-and-working-papers",
-    "href": "index.html#publications-and-working-papers",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "Goncharov, Igor, and Caspar David Peter. 2019. “Does Reporting Transparency Affect Industry Coordination? Evidence from the Duration of International Cartels.” The Accounting Review 94 (3): 149–75.\n\n\nHeese, Jonas, Gerardo Perez Cavazos, and Caspar David Peter. 2023. “When Executives Pledge Integrity: The Effect of the Accountant’s Oath on Firms’ Financial Reporting.” Available at SSRN 4456045.\n\n\nHeese, Jonas, Gerardo Pérez-Cavazos, and Caspar David Peter. 2022. “When the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct.” Journal of Financial Economics 145 (2): 445–63.\n\n\nHeilig, Malte, Maximilian A Müller, and Caspar David Peter. 2021. “’503 Service Unavailable’: When Acquiring Information Goes Wrong.” Available at SSRN 3809605.\n\n\nLabro, Eva, Caspar David Peter, Jochen Pierk, and Christophe Van Linden. 2022. “In-Network Auditors as Information Intermediaries Within Business Groups.” Available at SSRN 3370953.\n\n\nMüller, Maximilian A, Caspar David Peter, and Francisco Urzúa I. 2023. “Owner Exposure Through Firm Disclosure.” The Accounting Review, 1–25.\n\n\nOrtiz M, Marcelo, Caspar David Peter, Francisco Urzúa I, and Paolo F Volpin. 2023. “Mandatory Financial Disclosure and m&a Activity.” The Review of Financial Studies.\n\n\nPeter, Caspar David, and Jochen Pierk. 2021. “Does Shark Tank Enhance Entrepreneurial Activities?” Available at SSRN 3657391."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nData & Coding (online course)\nMSc\nCoordinator and content creator\n2025\nRotterdam School of Management\n\n\nAccounting, Analysis and Governance in Complex Deals\nMSc\nCoordinator and teacher\n2025\nRotterdam School of Management\n\n\nFinancial Reporting & Analysis\nBSc\nCoordinator and teacher\n2021 - 2025\nRotterdam School of Management\n\n\nAdvanced Research Methods\nBSc\nTeacher - One lecture for Accounting tracks\n2021 - 2025\nRotterdam School of Management\n\n\nAccounting and Financial Management Research Skills\nMSc\nCoordinator and teacher\n2016 - 2024\nRotterdam School of Management\n\n\nAnalytics in Accounting & Financial Management\nMSc\nTeacher\n2022\nRotterdam School of Management\n\n\nAccounting Skills\nBSc\nCoordinator and teacher\n2020 - 2022\nRotterdam School of Management\n\n\nMergers & acquisitions and corporate governance\nMSc\nCoordinator and teacher\n2016 - 2020\nRotterdam School of Management\n\n\nFinancial Statement Analysis\nBSc\nTeacher\n2015\nWHU - Otto-Beisheim School of Management"
-  },
-  {
-    "objectID": "papers.html",
-    "href": "papers.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Journal articles\n\n\nGoncharov, I., Peter, C.D., 2019. Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review 94, 149–175.\n\n\nHeese, J., Perez Cavazos, G., Peter, C.D., 2023. When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review, forthcoming.\n\n\nHeese, J., Pérez-Cavazos, G., Peter, C.D., 2022. When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics 145, 445–463.\n\n\nMüller, M.A., Peter, C.D., Urzúa I, F., 2023. Owner exposure through firm disclosure. The Accounting Review, forthcoming.\n\n\nOrtiz M, M., Peter, C.D., Urzúa I, F., Volpin, P.F., 2023. Mandatory financial disclosure and M&A activity. The Review of Financial Studies, forthcoming.\n\n\n\n\nMedia coverage\nCan Integrity Pledges Improve Financial Reporting?, Columbia Law School Blue Sky Blog, July 12, 2023.\nPrognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung, Leipziger Internet Zeitung, April 1, 2023.\nStudie: Ohne lokale Medien steigt die Kriminalität, Kleine Zeitung, April 1, 2023.\nSie geben nicht auf, ZeitOnline, April 19, 2022.\nColumn: How the decline of local news exposes the public to lies and corruption, Los Angeles Times, August 29, 2022.\nDie Zeitung geht unter, das Verbrechen kommt, Manager Magazin, January 1, 2022.\nA Green Light for Corruption, Nieman Reports, Winter 2021.\nColumn: Corporate misbehavior increases after local newspapers shut down, study says, San Diego Union Tribune, October 22, 2021.\nWarum Lokalzeitungen für gutes Klima sorgen, Süddeutsche Zeitung, October 21, 2021.\nHow Newspaper Closures Open the Door to Corporate Crime, Harvard Business School Working Knowledge, October 21, 2021.\nWhen the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct,Harvard Law School Forum on Corporate Governance, August 25, 2021.\nGreater Disclosure Harms Cartels, Columbia Law School Blue Sky Blog, February 4, 2015."
-  },
-  {
-    "objectID": "index.html#working-papers",
-    "href": "index.html#working-papers",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "s"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "",
-    "text": "Degree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany"
-  },
-  {
-    "objectID": "teaching.html#current-and-past-course",
-    "href": "teaching.html#current-and-past-course",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nAccounting and Financial Management Research Skills\nMaster\nCoordinator and teacher\n2016 - 2023\nRotterdam School of Managemebt"
-  },
-  {
-    "objectID": "teaching.html#current-teaching",
-    "href": "teaching.html#current-teaching",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nAccounting and Financial Management Research Skills\nMSc\nCoordinator and teacher\n2016 - 2023\nRotterdam School of Management\n\n\nFinancial Reporting & Analysis\nBSc\nCoordinator and teacher\n2021 - 2023\nRotterdam School of Management"
-  },
-  {
-    "objectID": "teaching.html#past-teaching",
-    "href": "teaching.html#past-teaching",
-    "title": "Teaching",
-    "section": "Past teaching",
-    "text": "Past teaching\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse\nProgram\nRole\nYears\nInstitution\n\n\n\n\nAnalytics in Accounting & Financial Management\nMSc\nTeacher\n2022\nRotterdam School of Management\n\n\nAccounting Skills\nBSc\nCoordinator and teacher\n2020 - 2022\nRotterdam School of Management\n\n\nMergers & acquisitions and corporate governance\nMSc\nCoordinator and teacher\n2016 - 2020\nRotterdam School of Management\n\n\nFinancial Statement Analysis\nBSc\nTeacher\n2015\nWHU - Otto-Beisheim School of Managemen"
-  },
-  {
-    "objectID": "teaching.html#current-and-past-teaching",
-    "href": "teaching.html#current-and-past-teaching",
-    "title": "Teaching",
-    "section": "",
-    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nData & Coding (online course)\nMSc\nCoordinator and content creator\n2025\nRotterdam School of Management\n\n\nAccounting, Analysis and Governance in Complex Deals\nMSc\nCoordinator and teacher\n2025\nRotterdam School of Management\n\n\nFinancial Reporting & Analysis\nBSc\nCoordinator and teacher\n2021 - 2025\nRotterdam School of Management\n\n\nAdvanced Research Methods\nBSc\nTeacher - One lecture for Accounting tracks\n2021 - 2025\nRotterdam School of Management\n\n\nAccounting and Financial Management Research Skills\nMSc\nCoordinator and teacher\n2016 - 2024\nRotterdam School of Management\n\n\nAnalytics in Accounting & Financial Management\nMSc\nTeacher\n2022\nRotterdam School of Management\n\n\nAccounting Skills\nBSc\nCoordinator and teacher\n2020 - 2022\nRotterdam School of Management\n\n\nMergers & acquisitions and corporate governance\nMSc\nCoordinator and teacher\n2016 - 2020\nRotterdam School of Management\n\n\nFinancial Statement Analysis\nBSc\nTeacher\n2015\nWHU - Otto-Beisheim School of Management"
-  },
-  {
-    "objectID": "about.html#research-interest",
-    "href": "about.html#research-interest",
-    "title": "Caspar David Peter",
-    "section": "",
-    "text": "Economic consequences of reporting transparency"
-  },
-  {
-    "objectID": "about.html#employment",
-    "href": "about.html#employment",
-    "title": "Caspar David Peter",
-    "section": "Employment",
-    "text": "Employment\n\n\n\n\n\n\n\n\n\n\n\n\nRole\nYear\nInstitution\nWhere\n\n\n\n\nAssociate Professor\n2020 -\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUSA\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Statement Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant at the Chair of Financial Accounting\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany"
+    "text": "Associate Professor of Accounting\n\n\n\n GitHub\n Email\n ORCID\n SSRN\n CV\n\n\n\n\n\n\nAssociate Professor at Rotterdam School of Management, Erasmus University Rotterdam\nPrimary research focus: Economic consequences of reporting transparency\nCurrently, I am interested in how disclosure practices affect individual and/or market behavior and corporate outcomes.\n\nMy research has been published in leading journals including Journal of Financial Economics, The Accounting Review, and The Review of Financial Studies, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions, with a particular focus on the interplay between information asymmetry and regulatory frameworks.\n\n\n\n\n\n\n\n\nWe show that companies named after their owners tend to be more opaque in their financial disclosures, particularly when revealing such information might expose sensitive owner details and attract social stigma. It also finds that when disclosure is forced, these owners are more likely to change their firms’ names, and new firms are less frequently named after their founding owners.\nRead Paper →\n\n\n\n\n\n\n\nThe study investigates the impact of mandatory financial disclosure, introduced by the 2003 EC directive, on mergers and acquisitions. It finds that required disclosure boosts M&A activity by reducing information frictions, as evidenced by an increase in both the number and volume of private firms becoming targets.\nRead Paper →"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Caspar David Peter",
     "section": "",
-    "text": "Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam\nPrimary research focus: Economic consequences of reporting transparency\nSpecialized in examining how disclosure practices affect market behavior and corporate outcomes.\n\nMy research has been published in leading journals including Journal of Financial Economics and The Accounting Review, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions."
+    "text": "Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam\nPrimary research focus: Economic consequences of reporting transparency\nCurrently, I am interested in how disclosure practices affect individual and/or market behavior and corporate outcomes.\n\nMy research has been published in leading journals including Journal of Financial Economics, The Accounting Review, and The Review of Financial Studies, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions, with a particular focus on the interplay between information asymmetry and regulatory frameworks."
   },
   {
     "objectID": "index.html#research-highlights",
     "href": "index.html#research-highlights",
     "title": "Caspar David Peter",
     "section": "",
-    "text": "Our research reveals that when local newspapers cease operations, corporate environmental violations increase by 1.1% and penalties drop by 15.2%, indicating reduced monitoring leads to increased corporate misconduct.\nRead Paper →\n\n\n\n\n\n\n\nData analysis confirms enhanced reporting transparency reduces cartel duration by 38%, demonstrating disclosure requirements can disrupt collusive arrangements and promote competition.\nRead Paper →"
+    "text": "We show that companies named after their owners tend to be more opaque in their financial disclosures, particularly when revealing such information might expose sensitive owner details and attract social stigma. It also finds that when disclosure is forced, these owners are more likely to change their firms’ names, and new firms are less frequently named after their founding owners.\nRead Paper →\n\n\n\n\n\n\n\nThe study investigates the impact of mandatory financial disclosure, introduced by the 2003 EC directive, on mergers and acquisitions. It finds that required disclosure boosts M&A activity by reducing information frictions, as evidenced by an increase in both the number and volume of private firms becoming targets.\nRead Paper →"
   },
   {
     "objectID": "index.html#news-updates",
     "href": "index.html#news-updates",
     "title": "Caspar David Peter",
     "section": "News & Updates",
-    "text": "News & Updates\n\n\n\n\nNew Publication in Review of Financial Studies\nResearch paper “Mandatory Financial Disclosure and M&A Activity” has been accepted for publication.\nFebruary 2023\n\n\n\n\n\n\nMedia Coverage in Los Angeles Times\nResearch on local newspaper closures featured in the Los Angeles Times.\nAugust 2022\n\n\n\n\n\n\nUpcoming Seminar at Harvard Business School\nPresenting latest research on integrity pledges in financial reporting.\nApril 2023"
+    "text": "News & Updates\n\n\n\n\nInteractive teaching materials\nNew interactive teaching materials on financial statement analysis available. February 2025\n\n\n\n\n\n\nSeminar at LMU\nPresenting latest research union office closures and corporate misconduct at LMU Munich. February 2025\n\n\n\n\n\n\nEconomenparade I am honored to be part of the Economenparade →, and among the best published economists in the Netherlands. This would not have been possible without my fantastic co-authors and the support of my colleagues. January 2025"
   },
   {
     "objectID": "index.html#current-teaching",
@@ -140,25 +56,74 @@
     "text": "Current Teaching\n\n\n\n\nData & Coding\nMSc Program, 2025\nCoordinator and content creator\nCourse Details →\n\n\n\n\n\n\nFinancial Reporting & Analysis\nBSc Program, 2021-2025\nCoordinator and instructor\nCourse Details →\n\n\n\n\n\n\nAccounting Analysis & Governance\nMSc Program, 2025\nCoordinator and instructor\nCourse Details →"
   },
   {
-    "objectID": "index.html#mission-briefing",
-    "href": "index.html#mission-briefing",
-    "title": "Caspar David Peter",
+    "objectID": "posts/2024-02-20-local-journalism/index.html",
+    "href": "posts/2024-02-20-local-journalism/index.html",
+    "title": "The Economic Impact of Local Journalism",
     "section": "",
-    "text": "Associate Professor // Rotterdam School of Management, Erasmus University Rotterdam\nPrimary research focus: Economic consequences of reporting transparency\nSpecialized in examining how disclosure protocols affect market behavior and corporate outcomes across the twelve colonies.\n\nMy research has been published in leading journals including Journal of Financial Economics and The Accounting Review, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions."
+    "text": "When our paper on the effects of local newspaper closures on corporate misconduct was published in the Journal of Financial Economics, I was struck by the broader economic and social questions it raised. In this post, I want to explore some of these implications that extend beyond our formal research findings."
   },
   {
-    "objectID": "index.html#transmission-log-updates",
-    "href": "index.html#transmission-log-updates",
-    "title": "Caspar David Peter",
-    "section": "TRANSMISSION LOG // UPDATES",
-    "text": "TRANSMISSION LOG // UPDATES\n\n\n\n\nRESEARCH ACCEPTED // REVIEW OF FINANCIAL STUDIES\nResearch paper “Mandatory Financial Disclosure and M&A Activity” has been accepted for publication.\nTRANSMISSION DATE: 2023.02\n\n\n\n\n\n\nMEDIA COVERAGE // LOS ANGELES TIMES\nResearch on local newspaper closures featured in Earth media outlet “Los Angeles Times.”\nTRANSMISSION DATE: 2022.08\n\n\n\n\n\n\nUPCOMING MISSION // HARVARD BUSINESS SCHOOL\nPresenting latest research on integrity pledges in financial reporting systems.\nMISSION DATE: 2023.04"
+    "objectID": "posts/2024-02-20-local-journalism/index.html#the-monitoring-function-of-journalism",
+    "href": "posts/2024-02-20-local-journalism/index.html#the-monitoring-function-of-journalism",
+    "title": "The Economic Impact of Local Journalism",
+    "section": "The Monitoring Function of Journalism",
+    "text": "The Monitoring Function of Journalism\nOur research revealed that after local newspapers close, companies headquartered in the affected areas experience a 1.1% increase in environmental violations, while penalties for these violations decrease by 15.2%. This suggests that local journalism serves as an important monitoring mechanism for corporate behavior.\nBut why does this monitoring function matter from an economic perspective? I believe there are at least three key mechanisms at work:\nFirst, local media creates information symmetry in communities. When journalists report on corporate activities, they reduce information asymmetries between companies and their stakeholders, including regulators, customers, and community members. This allows for more informed decision-making by all parties.\nSecond, the presence of local media establishes a reputational incentive system. Companies that know their actions might receive public scrutiny have stronger incentives to comply with regulations and maintain good corporate citizenship. This informal enforcement mechanism complements formal regulatory structures.\nThird, journalism provides amplification of regulatory signals. When violations do occur, media coverage amplifies the impact of regulatory actions, creating stronger deterrent effects than regulatory penalties alone might achieve."
   },
   {
-    "objectID": "index.html#academy-instruction-protocols",
-    "href": "index.html#academy-instruction-protocols",
-    "title": "Caspar David Peter",
-    "section": "ACADEMY INSTRUCTION PROTOCOLS",
-    "text": "ACADEMY INSTRUCTION PROTOCOLS\n\n\n\n\nDATA & CODING\nMSc Program // 2025\nCoordinator and content creator\nACCESS COURSE FILES →\n\n\n\n\n\n\nFINANCIAL REPORTING & ANALYSIS\nBSc Program // 2021-2025\nCoordinator and instructor\nACCESS COURSE FILES →\n\n\n\n\n\n\nACCOUNTING ANALYSIS & GOVERNANCE\nMSc Program // 2025\nCoordinator and instructor\nACCESS COURSE FILES →"
+    "objectID": "posts/2024-02-20-local-journalism/index.html#the-market-failure-in-local-news",
+    "href": "posts/2024-02-20-local-journalism/index.html#the-market-failure-in-local-news",
+    "title": "The Economic Impact of Local Journalism",
+    "section": "The Market Failure in Local News",
+    "text": "The Market Failure in Local News\nFrom an economic standpoint, what we’re witnessing with the decline of local newspapers represents a market failure. Local journalism produces positive externalities—benefits to society that aren’t fully captured in the price consumers pay for news—which leads to underproduction of this public good.\nThese externalities include:\n\nEnhanced corporate accountability\nIncreased civic engagement\nGreater political accountability\nBetter-informed communities\nReduced corruption\n\nWhen newspapers close, communities lose these benefits. Our research quantifies just one dimension of this loss—the impact on corporate environmental compliance—but the total social cost likely extends much further."
+  },
+  {
+    "objectID": "posts/2024-02-20-local-journalism/index.html#policy-implications-and-questions",
+    "href": "posts/2024-02-20-local-journalism/index.html#policy-implications-and-questions",
+    "title": "The Economic Impact of Local Journalism",
+    "section": "Policy Implications and Questions",
+    "text": "Policy Implications and Questions\nIf we accept that local journalism produces important positive externalities, the economic question becomes: how might we address this market failure? Several approaches merit consideration:\nDirect public subsidies could support local journalism, much as we support other public goods. However, this raises important questions about journalistic independence and political influence.\nTax incentives for subscribing to local news could increase consumer demand while maintaining editorial independence. This approach treats journalism similar to other socially beneficial activities that receive tax advantages.\nRequiring digital platforms to compensate news organizations for content could address the way technology companies have captured advertising revenue while leveraging journalistic content. Australia and Canada have pioneered this approach with their respective News Media Bargaining Codes."
+  },
+  {
+    "objectID": "posts/2024-02-20-local-journalism/index.html#research-opportunities",
+    "href": "posts/2024-02-20-local-journalism/index.html#research-opportunities",
+    "title": "The Economic Impact of Local Journalism",
+    "section": "Research Opportunities",
+    "text": "Research Opportunities\nFor researchers in accounting, finance, and economics, the relationship between information environments and corporate behavior offers rich ground for future investigation. Some questions I’m particularly interested in exploring include:\n\nHow do different types of media (print, digital, broadcast) vary in their effectiveness as corporate monitors?\nWhat specific mechanisms translate media coverage into corporate behavioral changes?\nHow do companies strategically respond to changes in local media landscapes?\nWhat is the optimal policy framework to support the production of local journalism while maintaining its independence?"
+  },
+  {
+    "objectID": "posts/2024-02-20-local-journalism/index.html#conclusion",
+    "href": "posts/2024-02-20-local-journalism/index.html#conclusion",
+    "title": "The Economic Impact of Local Journalism",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe decline of local journalism represents not just a cultural loss but an economic one as well. By understanding the economic value of journalism’s monitoring function, we can better evaluate policy proposals aimed at addressing this market failure.\nI welcome your thoughts on this topic. How do you see the relationship between local journalism and corporate accountability? What approaches to supporting local news do you find most promising?"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nData & Coding (online course)\nMSc\nCoordinator and content creator\n2025\nRotterdam School of Management\n\n\nAccounting, Analysis and Governance in Complex Deals\nMSc\nCoordinator and teacher\n2025\nRotterdam School of Management\n\n\nFinancial Reporting & Analysis\nBSc\nCoordinator and teacher\n2021 - 2025\nRotterdam School of Management\n\n\nAdvanced Research Methods\nBSc\nTeacher - One lecture for Accounting tracks\n2021 - 2025\nRotterdam School of Management\n\n\nAccounting and Financial Management Research Skills\nMSc\nCoordinator and teacher\n2016 - 2024\nRotterdam School of Management\n\n\nAnalytics in Accounting & Financial Management\nMSc\nTeacher\n2022\nRotterdam School of Management\n\n\nAccounting Skills\nBSc\nCoordinator and teacher\n2020 - 2022\nRotterdam School of Management\n\n\nMergers & acquisitions and corporate governance\nMSc\nCoordinator and teacher\n2016 - 2020\nRotterdam School of Management\n\n\nFinancial Statement Analysis\nBSc\nTeacher\n2015\nWHU - Otto-Beisheim School of Management"
+  },
+  {
+    "objectID": "teaching.html#current-and-past-teaching",
+    "href": "teaching.html#current-and-past-teaching",
+    "title": "Teaching",
+    "section": "",
+    "text": "Course\nProgram\nRole\nYears\nInstitution\n\n\n\n\nData & Coding (online course)\nMSc\nCoordinator and content creator\n2025\nRotterdam School of Management\n\n\nAccounting, Analysis and Governance in Complex Deals\nMSc\nCoordinator and teacher\n2025\nRotterdam School of Management\n\n\nFinancial Reporting & Analysis\nBSc\nCoordinator and teacher\n2021 - 2025\nRotterdam School of Management\n\n\nAdvanced Research Methods\nBSc\nTeacher - One lecture for Accounting tracks\n2021 - 2025\nRotterdam School of Management\n\n\nAccounting and Financial Management Research Skills\nMSc\nCoordinator and teacher\n2016 - 2024\nRotterdam School of Management\n\n\nAnalytics in Accounting & Financial Management\nMSc\nTeacher\n2022\nRotterdam School of Management\n\n\nAccounting Skills\nBSc\nCoordinator and teacher\n2020 - 2022\nRotterdam School of Management\n\n\nMergers & acquisitions and corporate governance\nMSc\nCoordinator and teacher\n2016 - 2020\nRotterdam School of Management\n\n\nFinancial Statement Analysis\nBSc\nTeacher\n2015\nWHU - Otto-Beisheim School of Management"
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Journal articles\n\n\n\nMedia coverage\nMedia Coverage for Economenparade 2024 (in Dutch),ESB, December 2024.\nCan Integrity Pledges Improve Financial Reporting?, Columbia Law School Blue Sky Blog, July 12, 2023.\nPrognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung, Leipziger Internet Zeitung, April 1, 2023.\nStudie: Ohne lokale Medien steigt die Kriminalität, Kleine Zeitung, April 1, 2023.\nSie geben nicht auf, ZeitOnline, April 19, 2022.\nColumn: How the decline of local news exposes the public to lies and corruption, Los Angeles Times, August 29, 2022.\nDie Zeitung geht unter, das Verbrechen kommt, Manager Magazin, January 1, 2022.\nA Green Light for Corruption, Nieman Reports, Winter 2021.\nColumn: Corporate misbehavior increases after local newspapers shut down, study says, San Diego Union Tribune, October 22, 2021.\nWarum Lokalzeitungen für gutes Klima sorgen, Süddeutsche Zeitung, October 21, 2021.\nHow Newspaper Closures Open the Door to Corporate Crime, Harvard Business School Working Knowledge, October 21, 2021.\nWhen the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct,Harvard Law School Forum on Corporate Governance, August 25, 2021.\nGreater Disclosure Harms Cartels, Columbia Law School Blue Sky Blog, February 4, 2015.\n\n\n\n\n\nReferences\n\nGoncharov, I., Peter, C.D., 2019. Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review 94, 149–175.\n\n\nHeese, J., Pérez-Cavazos, G., Peter, C.D., 2023. When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review 98, 261–288.\n\n\nHeese, J., Pérez-Cavazos, G., Peter, C.D., 2022. When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics 145, 445–463.\n\n\nMüller, M.A., Peter, C.D., Urzúa I, F., 2023. Owner exposure through firm disclosure. The Accounting Review 98, 381–405.\n\n\nOrtiz, M., Peter, C.D., Urzúa I, F., Volpin, P.F., 2023. Mandatory financial disclosure and m&a activity. The Review of Financial Studies 36, 4788–4823."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Position: Associate Professor\nInstitution: Rotterdam School of Management\nLocation: Netherlands\nSince: 2015\n\n\n GitHub\n Email\n ORCID\n SSRN\n Full CV\n\n\n\n\n\n\nPrimary Research Focus: Economic consequences of reporting transparency\nInvestigating how disclosure practices affect market behavior and strategic corporate operations across sectors.\n\n\n\n\n\n\n\n\n\nPosition\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDegree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
   },
   {
     "objectID": "about.html#research-focus",
@@ -175,10 +140,17 @@
     "text": "Position\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany"
   },
   {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Degree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany"
+  },
+  {
     "objectID": "about.html#skills-expertise",
     "href": "about.html#skills-expertise",
     "title": "About",
     "section": "",
-    "text": "Econometric analysis of large datasets\nNatural experiment design\nCausal inference techniques\nStatistical modeling and simulation\nField experiments\n\n\n\n\n\n\n\n\n\nR Statistical Programming\nPython Data Analysis\nFinancial Statement Analysis\nCorporate Disclosure Evaluation\nRegulatory Impact Assessment"
+    "text": "Econometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
   }
 ]

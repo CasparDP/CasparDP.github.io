@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Caspar David Peter</title>
+<link>https://caspardp.github.io/blog.html</link>
+<atom:link href="https://caspardp.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Personal website of Caspar David Peter, Associate Professor at Rotterdam School of Management</description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Mon, 19 Feb 2024 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Economic Impact of Local Journalism</title>
+  <dc:creator>Caspar David Peter</dc:creator>
+  <link>https://caspardp.github.io/posts/2024-02-20-local-journalism/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When our paper on the effects of local newspaper closures on corporate misconduct was published in the <em>Journal of Financial Economics</em>, I was struck by the broader economic and social questions it raised. In this post, I want to explore some of these implications that extend beyond our formal research findings.</p>
+<section id="the-monitoring-function-of-journalism" class="level2">
+<h2 class="anchored" data-anchor-id="the-monitoring-function-of-journalism">The Monitoring Function of Journalism</h2>
+<p>Our research revealed that after local newspapers close, companies headquartered in the affected areas experience a 1.1% increase in environmental violations, while penalties for these violations decrease by 15.2%. This suggests that local journalism serves as an important monitoring mechanism for corporate behavior.</p>
+<p>But why does this monitoring function matter from an economic perspective? I believe there are at least three key mechanisms at work:</p>
+<p>First, local media creates <strong>information symmetry</strong> in communities. When journalists report on corporate activities, they reduce information asymmetries between companies and their stakeholders, including regulators, customers, and community members. This allows for more informed decision-making by all parties.</p>
+<p>Second, the presence of local media establishes a <strong>reputational incentive system</strong>. Companies that know their actions might receive public scrutiny have stronger incentives to comply with regulations and maintain good corporate citizenship. This informal enforcement mechanism complements formal regulatory structures.</p>
+<p>Third, journalism provides <strong>amplification of regulatory signals</strong>. When violations do occur, media coverage amplifies the impact of regulatory actions, creating stronger deterrent effects than regulatory penalties alone might achieve.</p>
+</section>
+<section id="the-market-failure-in-local-news" class="level2">
+<h2 class="anchored" data-anchor-id="the-market-failure-in-local-news">The Market Failure in Local News</h2>
+<p>From an economic standpoint, what we’re witnessing with the decline of local newspapers represents a market failure. Local journalism produces positive externalities—benefits to society that aren’t fully captured in the price consumers pay for news—which leads to underproduction of this public good.</p>
+<p>These externalities include:</p>
+<ul>
+<li>Enhanced corporate accountability</li>
+<li>Increased civic engagement</li>
+<li>Greater political accountability</li>
+<li>Better-informed communities</li>
+<li>Reduced corruption</li>
+</ul>
+<p>When newspapers close, communities lose these benefits. Our research quantifies just one dimension of this loss—the impact on corporate environmental compliance—but the total social cost likely extends much further.</p>
+</section>
+<section id="policy-implications-and-questions" class="level2">
+<h2 class="anchored" data-anchor-id="policy-implications-and-questions">Policy Implications and Questions</h2>
+<p>If we accept that local journalism produces important positive externalities, the economic question becomes: how might we address this market failure? Several approaches merit consideration:</p>
+<p>Direct public subsidies could support local journalism, much as we support other public goods. However, this raises important questions about journalistic independence and political influence.</p>
+<p>Tax incentives for subscribing to local news could increase consumer demand while maintaining editorial independence. This approach treats journalism similar to other socially beneficial activities that receive tax advantages.</p>
+<p>Requiring digital platforms to compensate news organizations for content could address the way technology companies have captured advertising revenue while leveraging journalistic content. Australia and Canada have pioneered this approach with their respective News Media Bargaining Codes.</p>
+</section>
+<section id="research-opportunities" class="level2">
+<h2 class="anchored" data-anchor-id="research-opportunities">Research Opportunities</h2>
+<p>For researchers in accounting, finance, and economics, the relationship between information environments and corporate behavior offers rich ground for future investigation. Some questions I’m particularly interested in exploring include:</p>
+<ul>
+<li>How do different types of media (print, digital, broadcast) vary in their effectiveness as corporate monitors?</li>
+<li>What specific mechanisms translate media coverage into corporate behavioral changes?</li>
+<li>How do companies strategically respond to changes in local media landscapes?</li>
+<li>What is the optimal policy framework to support the production of local journalism while maintaining its independence?</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The decline of local journalism represents not just a cultural loss but an economic one as well. By understanding the economic value of journalism’s monitoring function, we can better evaluate policy proposals aimed at addressing this market failure.</p>
+<p>I welcome your thoughts on this topic. How do you see the relationship between local journalism and corporate accountability? What approaches to supporting local news do you find most promising?</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Research</category>
+  <category>Media</category>
+  <category>Corporate Governance</category>
+  <guid>https://caspardp.github.io/posts/2024-02-20-local-journalism/</guid>
+  <pubDate>Mon, 19 Feb 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://caspardp.github.io/posts/2024-02-20-local-journalism/newspaper-stack.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
