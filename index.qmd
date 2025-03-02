@@ -55,7 +55,7 @@ We show that companies named after their owners tend to be more opaque in their 
 ::: {.g-col-12 .g-col-lg-6}
 ::: {.card .h-100 .research-highlight}
 ::: {.card-body}
-#### Reporting Transparency & Industry Coordination
+#### Mandatory Financial Disclosure and M&A Activity
 
 We investigate the impact of mandatory financial disclosure on mergers and acquisitions. We find that required disclosure boosts M&A activity by reducing information frictions, as evidenced by an increase in both the number and volume of private firms becoming targets.
 

@@ -29,8 +29,6 @@ toc: false
 
 ::: {.monitor-box}
 **Primary Research Focus**: Economic consequences of reporting transparency
-
-*Investigating how disclosure practices affect market behavior and strategic corporate operations across sectors.*
 :::
 
 ## Employment History

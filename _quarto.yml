@@ -26,6 +26,8 @@ website:
         href: papers.qmd
       - text: "Teaching"
         href: teaching.qmd
+      - text: "Presentations"
+        href: presentations.qmd
       # - text: "Blog"
       #   href: blog.qmd
     page-footer:
