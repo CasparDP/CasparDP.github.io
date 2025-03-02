@@ -1,50 +1,216 @@
 ---
-title: "Publications"
-bibliography: my_pubs.bib
-nocite: |
-  @*
-csl: journal-of-financial-economics.csl
-toc: false
+title: "Publications, Research & Media"
+toc: true
 ---
-<!-- main: "my_pubs.bib"
-papers: "my_working_papers.bib" -->
 
-# Journal articles
+<!-- ## Journal Publications -->
 
-<!-- {}
+```{r load-publications, echo=FALSE, message=FALSE, warning=FALSE}
+library(RefManageR)
+library(knitr)
+library(dplyr)
+library(kableExtra)
 
-@pheese2022local, @mortiz2021mandatory @mmuller2023owner
-- @goncharov2019does
-- @heese2023executives -->
+# Load the bibliography files
+publications <- ReadBib("my_pubs.bib", check = FALSE)
+working_papers <- ReadBib("my_working_papers.bib", check = FALSE)
+
+# Function to format citations for display
+format_citation <- function(bib) {
+  # Format each entry
+  formatted <- lapply(bib, function(entry) {
+    authors <- entry$author
+    if (length(authors) > 3) {
+      authors <- paste0(authors[1], " et al.")
+    } else {
+      authors <- paste(authors, collapse = ", ")
+    }
+    
+    title <- entry$title
+    journal <- ifelse(!is.null(entry$journal), entry$journal, "Working Paper")
+    year <- entry$year
+    
+    # Add volume and pages if available
+    vol_pages <- ""
+    if (!is.null(entry$volume)) {
+      vol_pages <- paste0(", ", entry$volume)
+      if (!is.null(entry$number)) {
+        vol_pages <- paste0(vol_pages, "(", entry$number, ")")
+      }
+      if (!is.null(entry$pages)) {
+        vol_pages <- paste0(vol_pages, ", pp. ", entry$pages)
+      }
+    }
+    
+    # Format the full citation
+    citation <- paste0("<p><strong>", authors, " (", year, ")</strong>. ", 
+                      title, ". <em>", journal, "</em>", vol_pages, ".</p>")
+    
+    return(citation)
+  })
+  
+  return(paste(formatted, collapse = "\n"))
+}
+```
+
+## Published Articles
+
+::: {.research-papers}
 
 
-# Media coverage
+```{r published-papers, echo=FALSE, results='asis'}
+cat(format_citation(publications))
+```
 
-[Media Coverage for Economenparade 2024 (in Dutch)](https://esb.nu/economenparade-2024/),*ESB*, December 2024.
+:::
 
-[Can Integrity Pledges Improve Financial Reporting?](https://clsbluesky.law.columbia.edu/2023/07/12/can-integrity-pledges-improve-financial-reporting/), *Columbia Law School Blue Sky Blog*, July 12, 2023.
 
-[Prognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung](https://www.l-iz.de/bildung/medien/2023/04/prognose-nachrichtenwusten-bis-2025-sind-rund-40-prozent-ohne-lokalzeitung-524584), *Leipziger Internet Zeitung*, April 1, 2023.
 
-[Studie: Ohne lokale Medien steigt die Kriminalität](https://www.kleinezeitung.at/kultur/medien/6120796/Ergebnisse-von-USForschern_Studie_Ohne-lokale-Medien-steigt-die), *Kleine Zeitung*, April 1, 2023.
+## Working Papers
 
-[Sie geben nicht auf](https://www.zeit.de/2022/16/lokaljournalismus-rueckgang-zeitung-schliessung), *ZeitOnline*, April 19, 2022.
- 
+::: {.research-papers}
 
-[Column: How the decline of local news exposes the public to lies and corruption](https://www.latimes.com/business/story/2022-08-29/decline-of-local-news?consumer=googlenews), *Los Angeles Times*, August 29, 2022.
- 
+```{r working-papers, echo=FALSE, results='asis'}
+cat(format_citation(working_papers))
+```
 
-[Die Zeitung geht unter, das Verbrechen kommt](https://www.manager-magazin.de/harvard/management/kriminalitaet-von-managern-die-fehlende-kontrolle-der-presse-a-f22d69e5-0002-0001-0000-000185432237), *Manager Magazin*, January 1, 2022.
- 
-[A Green Light for Corruption](https://niemanreports.org/articles/a-green-light-for-corruption/), *Nieman Reports*, Winter 2021.
+:::
 
-[Column: Corporate misbehavior increases after local newspapers shut down, study says](https://www.sandiegouniontribune.com/columnists/story/2021-10-22/column-study-says-corporate-misbehavior-increases-after-local-newspapers-shut-down), *San Diego Union Tribune*, October 22, 2021.
- 
-[Warum Lokalzeitungen für gutes Klima sorgen](https://www.sueddeutsche.de/wirtschaft/lokalzeitungen-umweltkriminalitaet-studie-1.5444839), *Süddeutsche Zeitung*, October 21, 2021.
 
-[How Newspaper Closures Open the Door to Corporate Crime](https://hbswk.hbs.edu/item/how-newspaper-closures-open-the-door-to-corporate-crime), *Harvard Business School Working Knowledge*, October 21, 2021.
- 
-[When the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct](https://corpgov.law.harvard.edu/2021/08/25/when-the-local-newspaper-leaves-town-the-effects-of-local-newspaper-closures-on-corporate-misconduct/),*Harvard Law School Forum on Corporate Governance*, August 25, 2021.
+## Media Coverage
 
-[Greater Disclosure Harms Cartels](https://clsbluesky.law.columbia.edu/2015/02/04/greater-disclosure-harms-cartels/), *Columbia Law School Blue Sky Blog*, February 4, 2015.
- 
+::: {.media-coverage}
+
+<div class="media-item">
+<div class="media-date">December 2024</div>
+<div class="media-title"><a href="https://esb.nu/economenparade-2024/">Media Coverage for Economenparade 2024 (in Dutch)</a></div>
+<div class="media-source"><em>ESB</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">July 2023</div>
+<div class="media-title"><a href="https://clsbluesky.law.columbia.edu/2023/07/12/can-integrity-pledges-improve-financial-reporting/">Can Integrity Pledges Improve Financial Reporting?</a></div>
+<div class="media-source"><em>Columbia Law School Blue Sky Blog</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">April 2023</div>
+<div class="media-title"><a href="https://www.l-iz.de/bildung/medien/2023/04/prognose-nachrichtenwusten-bis-2025-sind-rund-40-prozent-ohne-lokalzeitung-524584">Prognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung</a></div>
+<div class="media-source"><em>Leipziger Internet Zeitung</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">April 2023</div>
+<div class="media-title"><a href="https://www.kleinezeitung.at/kultur/medien/6120796/Ergebnisse-von-USForschern_Studie_Ohne-lokale-Medien-steigt-die">Studie: Ohne lokale Medien steigt die Kriminalität</a></div>
+<div class="media-source"><em>Kleine Zeitung</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">April 2022</div>
+<div class="media-title"><a href="https://www.zeit.de/2022/16/lokaljournalismus-rueckgang-zeitung-schliessung">Sie geben nicht auf</a></div>
+<div class="media-source"><em>ZeitOnline</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">August 2022</div>
+<div class="media-title"><a href="https://www.latimes.com/business/story/2022-08-29/decline-of-local-news?consumer=googlenews">Column: How the decline of local news exposes the public to lies and corruption</a></div>
+<div class="media-source"><em>Los Angeles Times</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">January 2022</div>
+<div class="media-title"><a href="https://www.manager-magazin.de/harvard/management/kriminalitaet-von-managern-die-fehlende-kontrolle-der-presse-a-f22d69e5-0002-0001-0000-000185432237">Die Zeitung geht unter, das Verbrechen kommt</a></div>
+<div class="media-source"><em>Manager Magazin</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">Winter 2021</div>
+<div class="media-title"><a href="https://niemanreports.org/articles/a-green-light-for-corruption/">A Green Light for Corruption</a></div>
+<div class="media-source"><em>Nieman Reports</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">October 2021</div>
+<div class="media-title"><a href="https://www.sandiegouniontribune.com/columnists/story/2021-10-22/column-study-says-corporate-misbehavior-increases-after-local-newspapers-shut-down">Column: Corporate misbehavior increases after local newspapers shut down, study says</a></div>
+<div class="media-source"><em>San Diego Union Tribune</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">October 2021</div>
+<div class="media-title"><a href="https://www.sueddeutsche.de/wirtschaft/lokalzeitungen-umweltkriminalitaet-studie-1.5444839">Warum Lokalzeitungen für gutes Klima sorgen</a></div>
+<div class="media-source"><em>Süddeutsche Zeitung</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">October 2021</div>
+<div class="media-title"><a href="https://hbswk.hbs.edu/item/how-newspaper-closures-open-the-door-to-corporate-crime">How Newspaper Closures Open the Door to Corporate Crime</a></div>
+<div class="media-source"><em>Harvard Business School Working Knowledge</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">August 2021</div>
+<div class="media-title"><a href="https://corpgov.law.harvard.edu/2021/08/25/when-the-local-newspaper-leaves-town-the-effects-of-local-newspaper-closures-on-corporate-misconduct/">When the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct</a></div>
+<div class="media-source"><em>Harvard Law School Forum on Corporate Governance</em></div>
+</div>
+
+<div class="media-item">
+<div class="media-date">February 2015</div>
+<div class="media-title"><a href="https://clsbluesky.law.columbia.edu/2015/02/04/greater-disclosure-harms-cartels/">Greater Disclosure Harms Cartels</a></div>
+<div class="media-source"><em>Columbia Law School Blue Sky Blog</em></div>
+</div>
+:::
+
+```{=html}
+<style>
+/* Publications and media coverage styling */
+.research-papers p {
+  margin-bottom: 1.5rem;
+  border-left: 3px solid rgba(255, 158, 69, 0.7);
+  padding-left: 1rem;
+  background: rgba(44, 51, 71, 0.4);
+  padding: 1rem;
+}
+
+.media-coverage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .media-coverage {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.media-item {
+  border-left: 3px solid rgba(255, 158, 69, 0.7);
+  padding: 1rem;
+  background: rgba(44, 51, 71, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: rgba(44, 51, 71, 0.6);
+}
+
+.media-date {
+  font-family: "Space Mono", monospace;
+  font-size: 0.8rem;
+  color: #ff9e45;
+  margin-bottom: 0.5rem;
+}
+
+.media-title {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.media-source {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+</style>
+```
