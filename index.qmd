@@ -16,6 +16,7 @@ Associate Professor of Accounting
 :::
 
 ::: {.profile-links}
+[{{< fa home >}} RSM](https://www.rsm.nl/people/caspar-david-peter/){.d-block .mb-2}  
 [{{< fa brands github >}} GitHub](https://github.com/CasparDP){.d-block .mb-2}  
 [{{< fa envelope >}} Email](mailto:peter@rsm.nl){.d-block .mb-2}  
 [{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673){.d-block .mb-2}  

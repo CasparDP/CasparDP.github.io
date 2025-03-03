@@ -7,21 +7,22 @@ title: "Presentations"
 ::: {.presentations-grid}
 
 ::: {.presentation-card}
-### Financial Disclosures and Market Behavior
+### TBD
+
 *February 2025 at LMU Munich*
 
-This presentation examines how mandatory disclosure requirements affect strategic behavior among market participants.
+This presentation examines...
 
-[View Presentation](/presentations/disclosure-market-behavior.html)
+[TBD]()
 :::
 
 ::: {.presentation-card}
-### Corporate Transparency Effects on Misconduct
+### TBD
 *December 2024 at RSM Research Seminar*
 
-Analysis of our recent findings on how transparency initiatives impact corporate behavior and misconduct rates.
+Some content 
 
-[View Presentation](/presentations/transparency-misconduct.html)
+[TBD()
 :::
 
 
