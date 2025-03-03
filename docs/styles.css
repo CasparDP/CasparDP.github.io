@@ -471,3 +471,128 @@ section {
     display: flex !important;
   }
 }
+
+/* Footnote styling */
+.footnotes {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  border-top: 1px solid rgba(255, 158, 69, 0.3) !important;
+  padding: 1.5rem !important;
+  margin-top: 2rem !important;
+  color: #e7e6dc !important;
+}
+
+.footnotes hr {
+  display: none !important;
+}
+
+.footnotes ol {
+  padding-left: 1.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.footnotes li {
+  color: #e7e6dc !important;
+  font-size: 0.9rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.footnotes p {
+  color: #e7e6dc !important;
+  margin-bottom: 0 !important;
+}
+
+.footnote-ref {
+  color: #ff9e45 !important;
+  text-decoration: none !important;
+  font-size: 0.75em !important;
+  position: relative !important;
+  top: -0.5em !important;
+}
+
+.footnote-back {
+  color: #ff9e45 !important;
+  margin-left: 0.5rem !important;
+}
+
+/* Additional footnote styles to ensure all parts are styled */
+div.footnotes {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  border-top: 1px solid rgba(255, 158, 69, 0.3) !important;
+}
+
+a.footnote-back,
+a.footnote-ref {
+  background-color: transparent !important;
+}
+
+section.footnotes {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+}
+
+.footnote-back::before {
+  color: #ff9e45 !important;
+}
+
+/* Target Quarto-specific footnote elements */
+div.quarto-footnotes,
+div.quarto-footnotes-footer,
+section.footnotes {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  color: #e7e6dc !important;
+  border-top: 1px solid rgba(255, 158, 69, 0.3) !important;
+}
+
+/* Specific selectors that might be used by Quarto */
+#quarto-footnotes {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  color: #e7e6dc !important;
+}
+
+/* Pop-up footnote styles in Quarto */
+.tippy-box {
+  background-color: rgba(44, 51, 71, 0.9) !important;
+  color: #e7e6dc !important;
+  border: 1px solid rgba(255, 158, 69, 0.3) !important;
+}
+
+.tippy-arrow {
+  color: rgba(44, 51, 71, 0.9) !important;
+}
+
+/* Last-resort selectors to catch any footnote elements */
+[class*="footnote"] {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+[id*="fn"] {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* Fix for the white background over footnotes */
+.footnote-container-content,
+.quarto-footnotes-contents,
+.quarto-appendix,
+.quarto-appendix .default,
+.content > div.footnotes,
+.footnotes-after-body,
+.quarto-appendix + div,
+div[role="doc-endnotes"] {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  color: #e7e6dc !important;
+}
+
+/* Additional aggressive reset for all elements that might wrap footnotes */
+div[id*="footnotes"],
+section[id*="footnotes"],
+div[class*="footnotes"],
+section[class*="footnotes"],
+div:has(> .footnotes),
+section:has(> .footnotes),
+.quarto-appendix .default div,
+.quarto-appendix .quarto-appendix-contents,
+div:has(> [role="doc-endnotes"]) {
+  background-color: rgba(44, 51, 71, 0.7) !important;
+  color: #e7e6dc !important;
+}
