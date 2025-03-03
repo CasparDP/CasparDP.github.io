@@ -17,7 +17,7 @@ website:
     background: dark
     search: true
     left:
-      - text: "Caspar David Peter"
+      - text: "Home"
         href: index.qmd
     right:
       - text: "About"
@@ -26,8 +26,8 @@ website:
         href: papers.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "Presentations"
-        href: presentations.qmd
+      # - text: "Presentations"
+      #   href: presentations.qmd
       # - text: "Blog"
       #   href: blog.qmd
     page-footer:

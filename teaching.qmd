@@ -41,3 +41,21 @@ tribble(
 ) 
 
 ```
+
+## Links to course details and syllabi at RSM
+- [Financial Reporting & Analysis](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en&cursuscode=B3T2101&collegejaar=2024)
+- [Data & Coding (online course)](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
+- [Accounting, Analysis and Governance in Complex Deals](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
+- [Advanced Research Methods](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
+
+
+## MSc thesis supervision
+
+Below is a list of MSc theses I have supervised[^1]: 
+
+
+[^1]: I don't list the MSc thesis I co-supervised - typically a 1:1 match of the number of theses I have supervised.
+
+## PhD supervision
+
+I have not supervised any PhD students yet.

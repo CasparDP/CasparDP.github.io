@@ -11,7 +11,7 @@ toc: false
 ::: {.text-center .mb-4}
 ### Caspar David Peter
 ::: {.subtitle .mb-2}
-Associate Professor of Accounting
+Associate Professor at the Accounting Department
 :::
 :::
 
@@ -84,6 +84,9 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 
 New interactive teaching materials on financial statement analysis available.
 *February 2025*
+
+[Read Paper →](https://caspardp.github.io/interactive_learning_repo/)
+
 :::
 :::
 :::
@@ -105,8 +108,11 @@ Presenting latest research union office closures and corporate misconduct at LMU
 ::: {.card-body}
 **Economenparade**
 
-I am honored to be part of the [Economenparade →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf), and among the best published economists in the Netherlands. This would not have been possible without my fantastic co-authors and the support of my colleagues.
+I am honored to be part of the Economenparade, and among the best published economists in the Netherlands. This would not have been possible without my fantastic co-authors and the support of my colleagues.
 *January 2025*
+
+[Economenparade →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf)
+
 :::
 :::
 :::
