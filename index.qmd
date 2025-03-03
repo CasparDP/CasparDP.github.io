@@ -85,7 +85,7 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 New interactive teaching materials on financial statement analysis available.
 *February 2025*
 
-[Read Paper →](https://caspardp.github.io/interactive_learning_repo/)
+[Check it out →](https://caspardp.github.io/interactive_learning_repo/)
 
 :::
 :::
