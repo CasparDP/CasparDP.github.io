@@ -20,7 +20,7 @@ format_citation <- function(bib) {
   # Format each entry
   formatted <- lapply(bib, function(entry) {
     authors <- entry$author
-    if (length(authors) > 3) {
+    if (length(authors) > 4) {
       authors <- paste0(authors[1], " et al.")
     } else {
       authors <- paste(authors, collapse = ", ")
