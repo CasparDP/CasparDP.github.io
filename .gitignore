@@ -1,0 +1,42 @@
+# Quarto and IDE files
+/.quarto/
+/.luarc.json
+.vscode/
+.idea/
+
+# R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Python-specific (if using Python with Quarto)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.ven
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+
+# Build output
+/_site/
+/_freeze/
+
+# Temporary files
+*.log
+*~
+.#*
+
+# Ignore Quarto-generated site output
+_site/
+
+
