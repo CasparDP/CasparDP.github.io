@@ -7,6 +7,17 @@ title: "Presentations"
 ::: {.presentations-grid}
 
 ::: {.presentation-card}
+### Advanced Research Methods lecture
+*March 2025 at RSM*
+
+This presentation was part of the Advanced Research Methods course. The is the first of two presentations that the Accounting and Finance department sahre with the students. The goal is to provide an overview of research in the field of accounting and finance, and to introduce the students to some of research methods that they could use in their own BSc projects. The goal is to provide a gentle introduction to the research process and to inspire students to think about their own research projects.
+
+[Advanced Research Methods](/presentations/Advance research methods.html)
+:::
+
+
+
+<!-- ::: {.presentation-card}
 ### Education Day 2025
 
 *February 2025 at RSM*
@@ -16,7 +27,7 @@ This presentation showcases how I envision to implement LLMs in the feedback pro
 I plan to include more details about the practical steps and potential challenges in the implementation. Additionally, I aim to outline potential use cases, e.g. different prompts for different stages of the thesis trajectory, and gather feedback from peers to refine this idea further.
 
 [Education Day 2025](/presentations/edu_day_2025_slides.html)
-:::
+::: -->
 
 ::: {.presentation-card}
 ### Data & Coding
