@@ -6,7 +6,7 @@ toc: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
-![](avatar.jpg){.img-fluid .mb-3 .border}
+![](cdp_2025.png){.img-fluid .mb-3 .border}
 
 ::: {.text-center .mb-4}
 ### Caspar David Peter

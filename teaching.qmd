@@ -42,7 +42,7 @@ tribble(
 
 ```
 
-## Links to course details and syllabi at RSM
+## Links to course details and syllabi 
 - [Financial Reporting & Analysis](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en&cursuscode=B3T2101&collegejaar=2024)
 - [Data & Coding (online course)](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
 - [Accounting, Analysis and Governance in Complex Deals](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
