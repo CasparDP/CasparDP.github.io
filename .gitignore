@@ -1,42 +1,55 @@
-# Quarto and IDE files
-/.quarto/
-/.luarc.json
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
 
-# R files
-.Rproj.user/
+# Quarto
+/.quarto/
+/_site/
+# _freeze/ is usually committed to source control to avoid re-executing code
+# /_freeze/
+
+# R
+.Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .Renviron
 
-# Python-specific (if using Python with Quarto)
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+.venv/
+env/
 .env
-.ven
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Web/Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# VS Code settings (optional)
-.vscode/
-
-
-# Build output
-/_site/
-/_freeze/
+# LaTeX (if used)
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
 # Temporary files
-*.log
 *~
 .#*
-
-# Ignore Quarto-generated site output
-_site/
-
-
+*.log
