@@ -18,8 +18,7 @@ Thumbs.db
 # Quarto
 /.quarto/
 /_site/
-# _freeze/ is usually committed to source control to avoid re-executing code
-# /_freeze/
+.luarc.json
 
 # R
 .Rproj.user
