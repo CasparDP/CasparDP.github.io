@@ -35,7 +35,9 @@ Multiple pages use R code chunks (papers.qmd, about.qmd, teaching.qmd). Run `Rsc
 
 ## Key Conventions
 
-- The theme uses Quarto's SCSS layering (`scss:defaults` then `scss:rules`), so custom rules load after Bootstrap and `!important` is not needed.
+- The theme uses Quarto's SCSS layering (`scss:defaults` then `scss:rules`), so custom rules load after Bootstrap and `!important` is not needed, except for table cells where kableExtra injects inline styles.
 - All page-specific styles are centralized in `custom.scss`; individual `.qmd` files have no inline `<style>` blocks.
 - The `.bib` files are the source of truth for publications; edit those, not the rendered HTML.
 - `about.qmd` hardcodes accent colors in R `row_spec()` calls; update those if the palette changes.
+- kableExtra's `kable_styling(font_size=...)` injects inline `style` attributes that override SCSS. The theme uses targeted `!important` overrides on `.table td[style]` / `.table th[style]` selectors to enforce font consistency.
+- `index.qmd` landing page layout: profile sidebar (photo + icon links) | intro text, then full-width sections: Open Projects, Research Highlights, News & Teaching (two-column).

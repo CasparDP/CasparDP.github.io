@@ -8,33 +8,26 @@ toc: false
 ::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
 ![](cdp_2025.png){.img-fluid .mb-3 .border}
 
-::: {.text-center .mb-4}
+::: {.text-center .mb-2}
 ### Caspar David Peter
 ::: {.subtitle .mb-2}
 Associate Professor at the Accounting Department
 :::
 :::
 
-::: {.profile-links}
-[{{< fa home >}} RSM](https://www.rsm.nl/people/caspar-david-peter/){.d-block .mb-2}
-[{{< fa brands github >}} GitHub](https://github.com/CasparDP){.d-block .mb-2}
-[{{< fa envelope >}} Email](mailto:peter@rsm.nl){.d-block .mb-2}
-[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673){.d-block .mb-2}
-[{{< fa file-lines >}} SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558){.d-block .mb-2}
-[{{< fa file-pdf >}} CV](CV_academic.pdf){.d-block .mb-2}
+::: {.profile-icons .text-center}
+[{{< fa home >}}](https://www.rsm.nl/people/caspar-david-peter/ "RSM Profile")
+[{{< fa brands github >}}](https://github.com/CasparDP "GitHub")
+[{{< fa envelope >}}](mailto:peter@rsm.nl "Email")
+[{{< fa brands orcid >}}](https://orcid.org/0000-0003-0020-1673 "ORCID")
+[{{< fa file-lines >}}](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558 "SSRN")
+[{{< fa file-pdf >}}](CV_academic.pdf "CV")
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-8 .g-col-lg-9 .d-flex .flex-column .justify-content-start}
 
-::: {.monitor-box}
-Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam
-
-Primary research focus: **Economic consequences of reporting transparency**
-Currently, I am interested in how disclosure practices affect individual and/or market behavior and corporate outcomes.
-:::
-
-My research has been published in leading journals including *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions, with a particular focus on the interplay between information asymmetry and regulatory frameworks.
+I study the **economic consequences of reporting transparency**: how disclosure practices shape individual and market behavior, and how they affect corporate outcomes. My research has been published in the *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions.
 
 :::
 
