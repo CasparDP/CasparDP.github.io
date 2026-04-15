@@ -69,7 +69,7 @@ Data Analytics for Finance
 :::
 
 ::: {.project-desc}
-Public-facing materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics using R.
+Public-facing materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics using Stata.
 :::
 
 [Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/rsm-data-analytics-for-finance-public/){.project-link}
