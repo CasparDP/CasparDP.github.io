@@ -38,5 +38,4 @@ website:
           href: https://github.com/CasparDP
 format:
   html:
-    css: styles.css
-    # theme: none
+    theme: custom.scss

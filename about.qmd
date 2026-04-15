@@ -61,7 +61,7 @@ assignments %>%
                 font_size = 14,
                 position = "left") %>%
   column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE, color = "#ff9e45", background = "#0c1019")
+  row_spec(0, bold = TRUE, color = "#E8A955", background = "#0c1019")
 ```
 
 ## Education
@@ -85,7 +85,7 @@ training %>%
                 font_size = 14,
                 position = "left") %>%
   column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE, color = "#ff9e45", background = "#0c1019")
+  row_spec(0, bold = TRUE, color = "#E8A955", background = "#0c1019")
 ```
 
 ## Skills & Expertise
@@ -123,17 +123,3 @@ training %>%
 :::
 :::
 
-```{=html}
-<style>
-/* Add subtle pulsing effect to the monitor box */
-.monitor-box {
-  animation: pulse 4s infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 rgba(255, 158, 69, 0.2); }
-  50% { box-shadow: 0 0 10px rgba(255, 158, 69, 0.5); }
-  100% { box-shadow: 0 0 0 rgba(255, 158, 69, 0.2); }
-}
-</style>
-```

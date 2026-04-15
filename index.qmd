@@ -26,7 +26,6 @@ Associate Professor at the Accounting Department
 :::
 
 ::: {.g-col-12 .g-col-md-8 .g-col-lg-9 .d-flex .flex-column .justify-content-start}
-## About Me
 
 ::: {.monitor-box}
 Associate Professor at Rotterdam School of Management, Erasmus University Rotterdam
@@ -36,6 +35,57 @@ Currently, I am interested in how disclosure practices affect individual and/or 
 :::
 
 My research has been published in leading journals including *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions, with a particular focus on the interplay between information asymmetry and regulatory frameworks.
+
+:::
+
+:::
+
+## Open Projects
+
+::: {.section-label}
+Teaching materials and tools, publicly available on GitHub
+:::
+
+::: {.grid .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[PhD Lecture]{.project-tag}
+[Quarto]{.project-tag}
+
+::: {.project-title}
+Earnings Management Then and Now: Revisiting Jones (1991)
+:::
+
+::: {.project-desc}
+An interactive PhD lecture that walks through the seminal Jones (1991) model, its evolution, and modern applications. Designed for doctoral students in accounting and finance.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/phd-lecture-dec/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/phd-lecture-dec){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[MSc Course]{.project-tag}
+[R]{.project-tag}
+
+::: {.project-title}
+Data Analytics for Finance
+:::
+
+::: {.project-desc}
+Public-facing materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics using R.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/rsm-data-analytics-for-finance-public/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/rsm-data-analytics-for-finance-public){.project-link}
+:::
+:::
+
+:::
+
 
 ## Research Highlights
 
@@ -66,93 +116,55 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 :::
 
 :::
-:::
 
-:::
 
-::: {.row .mt-5}
-::: {.col-12}
+::: {.grid .mt-4}
 
+::: {.g-col-12 .g-col-md-6}
 ## News & Updates
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-100}
-::: {.card-body}
-**New PhD lecture**
-
-Newly designed PhD lecture on "Earnings Management Then and Now: Revisiting Jones (1991)" available.
-
-Any feedback—positive or critical—is very welcome.
-
-*November 2025*
-
-[Check it out →](https://caspardp.github.io/phd-lecture-dec/)
-
+::: {.news-item}
+::: {.news-date}
+November 2025
 :::
+::: {.news-title}
+**New PhD lecture** on "Earnings Management Then and Now: Revisiting Jones (1991)" available. Feedback welcome. [Check it out →](https://caspardp.github.io/phd-lecture-dec/)
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-100}
-::: {.card-body}
-**Interactive teaching materials**
-
-New interactive teaching materials on financial statement analysis available.
-
-*February 2025*
-
-[Check it out →](https://caspardp.github.io/interactive_learning_repo/)
-
+::: {.news-item}
+::: {.news-date}
+February 2025
 :::
+::: {.news-title}
+**Interactive teaching materials** on financial statement analysis released. [Check it out →](https://caspardp.github.io/interactive_learning_repo/)
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-100}
-::: {.card-body}
-**Seminar at LMU**
-
-Presenting latest research union office closures and corporate misconduct at LMU Munich.
-
-*February 2025*
-
-[Link to working paper coming soon →]()
-
+::: {.news-item}
+::: {.news-date}
+February 2025
 :::
+::: {.news-title}
+**Seminar at LMU Munich** presenting research on union office closures and corporate misconduct.
 :::
 :::
 
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-100}
-::: {.card-body}
-**Economenparade**
-
-I am honored to be part of the Economenparade, and among the best published economists in the Netherlands. This would not have been possible without my fantastic co-authors and the support of my colleagues.
-*January 2025*
-
-[Economenparade →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf)
-
+::: {.news-item}
+::: {.news-date}
+January 2025
 :::
+::: {.news-title}
+Honored to be part of the **Economenparade**, among the best published economists in the Netherlands. [Read more →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf)
 :::
 :::
 
-
-:::
-:::
 :::
 
-
-::: {.row .mt-5}
-::: {.col-12}
+::: {.g-col-12 .g-col-md-6}
 ## Current Teaching
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .teaching-card .h-100}
+::: {.card .teaching-card .mb-3}
 ::: {.card-body}
 #### Data & Coding
 MSc Program, 2025
@@ -161,10 +173,8 @@ Coordinator and content creator
 [Course Details →](teaching.qmd)
 :::
 :::
-:::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .teaching-card .h-100}
+::: {.card .teaching-card .mb-3}
 ::: {.card-body}
 #### Financial Reporting & Analysis
 BSc Program, 2021-2025
@@ -173,10 +183,8 @@ Coordinator and instructor
 [Course Details →](teaching.qmd)
 :::
 :::
-:::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .teaching-card .h-100}
+::: {.card .teaching-card .mb-3}
 ::: {.card-body}
 #### Accounting Analysis & Governance
 MSc Program, 2025
@@ -185,20 +193,7 @@ Coordinator and instructor
 [Course Details →](teaching.qmd)
 :::
 :::
+
 :::
 
 :::
-:::
-:::
-
-```{=html}
-<style>
-/* Additional custom styles specific to this page */
-.subtitle {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  color: rgba(255, 158, 69, 0.8);
-}
-</style>
-```

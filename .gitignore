@@ -52,3 +52,5 @@ yarn-error.log*
 *~
 .#*
 *.log
+
+**/*.quarto_ipynb

@@ -1,0 +1,532 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;700&display=swap");
+
+// Custom palette
+$accent-gold: #E8A955;
+$accent-red: #d74c4c;
+$bg-dark: #0c1019;
+$bg-secondary: rgba(44, 51, 71, 0.7);
+
+// Bootstrap overrides
+$body-bg: $bg-dark;
+$body-color: #c8c8c0;
+$font-family-base: "Geist", sans-serif;
+$headings-font-family: "Geist", sans-serif;
+$font-family-monospace: "Geist Mono", monospace;
+$headings-font-weight: 600;
+$headings-color: $accent-gold;
+$link-color: $accent-gold;
+$link-hover-color: #f0c078;
+$link-decoration: none;
+$link-hover-decoration: none;
+$code-color: $accent-gold;
+$pre-color: $accent-gold;
+$border-radius: 8px;
+
+// Cards
+$card-bg: $bg-secondary;
+$card-color: #c8c8c0;
+$card-border-color: rgba($accent-gold, 0.4);
+$card-border-radius: 8px;
+$card-cap-bg: transparent;
+
+// Navbar
+$navbar-dark-color: #c8c8c0;
+$navbar-dark-hover-color: $accent-gold;
+$navbar-dark-active-color: $accent-gold;
+$navbar-dark-brand-color: #c8c8c0;
+
+// Tables
+$table-color: #c8c8c0;
+$table-bg: transparent;
+$table-border-color: rgba(231, 230, 220, 0.1);
+$table-striped-bg: rgba(44, 51, 71, 0.7);
+$table-hover-bg: rgba($accent-gold, 0.1);
+
+/*-- scss:rules --*/
+
+// Global
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(to bottom, $bg-dark 0%, #141824 100%);
+  background-attachment: fixed;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  border-bottom: 2px solid rgba($accent-gold, 0.4);
+  padding-bottom: 0.5rem;
+}
+
+// Links
+a {
+  transition: color 0.2s ease;
+}
+
+// Cards
+.card {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: $accent-gold;
+    opacity: 0.7;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    border-color: rgba($accent-gold, 0.7);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .card-body h3,
+  .card-body h4 {
+    color: $accent-gold;
+  }
+}
+
+// Teaching cards
+.teaching-card {
+  border-left: 4px solid $accent-red;
+
+  &::before {
+    background: $accent-red;
+  }
+}
+
+// Navbar
+.navbar {
+  background-color: $bg-dark;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba($accent-gold, 0.2);
+}
+
+.navbar-brand {
+  font-family: $font-family-monospace;
+  letter-spacing: 0.08em;
+}
+
+.nav-link {
+  letter-spacing: 0.03em;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    color: $accent-gold;
+  }
+
+  &.active {
+    color: $accent-gold;
+    border-bottom-color: $accent-gold;
+  }
+}
+
+// Profile links
+.profile-links a {
+  color: #c8c8c0;
+  transition: all 0.3s ease;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 0.5rem;
+  background: rgba(44, 51, 71, 0.6);
+  display: block;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    color: $accent-gold;
+    border-left-color: $accent-gold;
+    background: rgba(44, 51, 71, 0.8);
+    transform: translateX(3px);
+  }
+}
+
+// Monitor box
+.monitor-box {
+  background: rgba($bg-dark, 0.7);
+  border: 1px solid rgba($accent-gold, 0.5);
+  border-left: 4px solid $accent-gold;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+  position: relative;
+  animation: pulse 4s infinite;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, $accent-gold, transparent);
+  }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 rgba($accent-gold, 0.15); }
+  50% { box-shadow: 0 0 10px rgba($accent-gold, 0.35); }
+  100% { box-shadow: 0 0 0 rgba($accent-gold, 0.15); }
+}
+
+// Subtitle (from index page)
+.subtitle {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: rgba($accent-gold, 0.8);
+}
+
+// Tables - force font consistency across all rendering methods (kable, df-print, kableExtra)
+table, .table,
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.dataTable,
+.kable-table table,
+table[style] {
+  font-family: $font-family-base;
+  font-size: 0.9rem;
+}
+
+// Override kableExtra inline font-size
+.table td[style],
+.table th[style] {
+  font-family: $font-family-base !important;
+  font-size: 0.9rem !important;
+}
+
+table thead, .table thead {
+  border-bottom: 2px solid rgba($accent-gold, 0.5);
+  background-color: rgba($bg-dark, 0.8);
+}
+
+table th, .table th {
+  color: $accent-gold;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+table tbody tr, .table tbody tr {
+  background-color: rgba(44, 51, 71, 0.5);
+}
+
+// Code blocks
+pre {
+  background: $bg-dark;
+  border: 1px solid rgba($accent-gold, 0.3);
+  font-family: $font-family-monospace;
+  border-radius: 6px;
+}
+
+code {
+  background-color: rgba($bg-dark, 0.5);
+}
+
+// Research papers (from papers page)
+.research-papers p {
+  margin-bottom: 1.5rem;
+  border-left: 3px solid rgba($accent-gold, 0.7);
+  padding: 1rem;
+  background: rgba(44, 51, 71, 0.4);
+}
+
+// Media coverage (from papers page)
+.media-coverage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.media-item {
+  border-left: 3px solid rgba($accent-gold, 0.7);
+  padding: 1rem;
+  background: rgba(44, 51, 71, 0.4);
+  border-radius: 6px;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: scale(1.01);
+    border-left-color: $accent-gold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: rgba(44, 51, 71, 0.6);
+  }
+}
+
+.media-date {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: $accent-gold;
+  margin-bottom: 0.5rem;
+}
+
+.media-title {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.media-source {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-color: rgba($accent-gold, 0.3);
+  border-radius: 4px;
+}
+
+// Footer
+footer, .page-footer, .quarto-footer,
+div.quarto-footer, #quarto-footer {
+  background: $bg-dark;
+  background-color: $bg-dark;
+  border-top: 1px solid rgba($accent-gold, 0.2);
+  color: rgba(200, 200, 192, 0.8);
+}
+
+.nav-footer, .nav-footer-center,
+.nav-footer-right, .nav-footer-left {
+  background-color: $bg-dark;
+  color: rgba(200, 200, 192, 0.8);
+}
+
+// Footnotes
+.footnotes, section.footnotes,
+div[role="doc-endnotes"] {
+  background-color: $bg-secondary;
+  border-top: 1px solid rgba($accent-gold, 0.3);
+  padding: 1.5rem;
+  margin-top: 2rem;
+  color: #c8c8c0;
+  border-radius: 6px;
+
+  hr { display: none; }
+
+  ol { padding-left: 1.5rem; margin-bottom: 0; }
+
+  li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footnote-ref {
+  color: $accent-gold;
+  font-size: 0.75em;
+  position: relative;
+  top: -0.5em;
+}
+
+.footnote-back {
+  color: $accent-gold;
+  margin-left: 0.5rem;
+}
+
+.tippy-box {
+  background-color: rgba(44, 51, 71, 0.9);
+  color: #c8c8c0;
+  border: 1px solid rgba($accent-gold, 0.3);
+}
+
+.tippy-arrow {
+  color: rgba(44, 51, 71, 0.9);
+}
+
+// Search button
+.quarto-search-button {
+  background-color: transparent;
+  color: #c8c8c0;
+  border: none;
+
+  &:hover {
+    color: $accent-gold;
+  }
+}
+
+// Quarto overrides
+.quarto-title-banner {
+  background-color: $bg-dark;
+  border-bottom: 1px solid rgba($accent-gold, 0.3);
+}
+
+.sidebar {
+  background-color: $bg-secondary;
+  border-right: 1px solid rgba($accent-gold, 0.3);
+
+  a {
+    color: #c8c8c0;
+    &:hover { color: $accent-gold; }
+  }
+}
+
+// Override utility classes
+.bg-light, .bg-white {
+  background-color: $bg-dark;
+}
+
+.text-dark {
+  color: #c8c8c0;
+}
+
+// Project showcase cards
+.project-card {
+  background: linear-gradient(135deg, rgba(44, 51, 71, 0.8) 0%, rgba(30, 36, 52, 0.9) 100%);
+  border: 1px solid rgba($accent-gold, 0.25);
+  border-radius: 10px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+
+  // Gradient accent line on top
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $accent-gold, rgba($accent-gold, 0.2), transparent);
+  }
+
+  // Subtle corner glow
+  &::after {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, rgba($accent-gold, 0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba($accent-gold, 0.3);
+    border-color: rgba($accent-gold, 0.5);
+  }
+}
+
+.project-tag {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $accent-gold;
+  background: rgba($accent-gold, 0.1);
+  border: 1px solid rgba($accent-gold, 0.25);
+  border-radius: 4px;
+  padding: 0.2rem 0.6rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e0ddd4;
+  margin: 0.75rem 0 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+.project-desc {
+  color: rgba(200, 200, 192, 0.85);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: $font-family-monospace;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: $accent-gold;
+  letter-spacing: 0.02em;
+  padding: 0.45rem 1rem;
+  border: 1px solid rgba($accent-gold, 0.35);
+  border-radius: 6px;
+  background: rgba($accent-gold, 0.06);
+  transition: all 0.25s ease;
+  margin-right: 0.5rem;
+
+  &:hover {
+    background: rgba($accent-gold, 0.15);
+    border-color: rgba($accent-gold, 0.6);
+    color: #f0c078;
+    transform: translateX(2px);
+  }
+}
+
+// Section dividers
+.section-label {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba($accent-gold, 0.6);
+  margin-bottom: 0.25rem;
+}
+
+// News compact list
+.news-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(200, 200, 192, 0.08);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  font-family: $font-family-monospace;
+  font-size: 0.75rem;
+  color: rgba($accent-gold, 0.7);
+}
+
+.news-title {
+  font-weight: 500;
+  color: #c8c8c0;
+  margin-top: 0.15rem;
+}
+
+// Responsive navbar
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-collapse.show {
+    display: flex;
+    flex-basis: 100%;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+  }
+}

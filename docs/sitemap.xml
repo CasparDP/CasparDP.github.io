@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://caspardp.github.io/blog.html</loc>
-    <lastmod>2025-02-21T23:52:56.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://caspardp.github.io/about.html</loc>
-    <lastmod>2025-07-08T21:27:02.000Z</lastmod>
+    <lastmod>2026-04-15T21:07:09.737Z</lastmod>
   </url>
   <url>
     <loc>https://caspardp.github.io/index.html</loc>
-    <lastmod>2025-11-25T09:24:30.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://caspardp.github.io/posts/2024-02-20-local-journalism/index.html</loc>
-    <lastmod>2025-03-06T14:03:08.000Z</lastmod>
+    <lastmod>2026-04-15T21:17:33.758Z</lastmod>
   </url>
   <url>
     <loc>https://caspardp.github.io/teaching.html</loc>
@@ -22,14 +14,10 @@
   </url>
   <url>
     <loc>https://caspardp.github.io/papers.html</loc>
-    <lastmod>2025-03-03T20:50:58.000Z</lastmod>
+    <lastmod>2026-04-15T21:07:18.431Z</lastmod>
   </url>
   <url>
     <loc>https://caspardp.github.io/Readme.html</loc>
     <lastmod>2025-03-03T09:21:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://caspardp.github.io/presentations.html</loc>
-    <lastmod>2025-03-12T21:25:24.000Z</lastmod>
   </url>
 </urlset>

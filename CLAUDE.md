@@ -22,7 +22,7 @@ The site output goes to `docs/` (configured in `_quarto.yml`), which is served b
 
 - **`_quarto.yml`**: Site configuration (navbar, metadata, footer, format options)
 - **`*.qmd` files**: Site pages (index, about, papers, teaching)
-- **`styles.css`**: Custom dark theme (Battlestar Galactica inspired). Uses Space Mono (headings) and Work Sans (body) fonts. Primary accent color: `#ff9e45`. All CSS uses `!important` overrides on Bootstrap/Quarto defaults.
+- **`custom.scss`**: Quarto SCSS theme (dark palette, Geist font, gold accent `#E8A955`). Uses `scss:defaults` for Bootstrap variable overrides and `scss:rules` for custom styles; no `!important` needed.
 - **`my_pubs.bib` / `my_working_papers.bib`**: BibTeX files driving the papers page
 - **`journal-of-financial-economics.csl`**: Citation style file for bibliography formatting
 - **`config.R`**: Installs required R packages (`Rscript config.R`)
@@ -35,6 +35,7 @@ Multiple pages use R code chunks (papers.qmd, about.qmd, teaching.qmd). Run `Rsc
 
 ## Key Conventions
 
-- The CSS theme is aggressive with `!important` on nearly everything; new styles must follow the same pattern to take effect.
-- Several `.qmd` files (index, papers, about) contain inline `<style>` blocks for page-specific CSS in addition to `styles.css`.
+- The theme uses Quarto's SCSS layering (`scss:defaults` then `scss:rules`), so custom rules load after Bootstrap and `!important` is not needed.
+- All page-specific styles are centralized in `custom.scss`; individual `.qmd` files have no inline `<style>` blocks.
 - The `.bib` files are the source of truth for publications; edit those, not the rendered HTML.
+- `about.qmd` hardcodes accent colors in R `row_spec()` calls; update those if the palette changes.
