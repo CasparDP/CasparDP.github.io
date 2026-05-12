@@ -1,0 +1,247 @@
+---
+title: "Side Projects"
+toc: false
+---
+
+::: {.section-label}
+Open-source teaching materials, tools, and experiments — all publicly available on GitHub
+:::
+
+## Teaching materials
+
+::: {.grid .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[PhD Lecture]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+Earnings Management Then and Now: Revisiting Jones (1991)
+:::
+
+::: {.project-desc}
+An interactive PhD lecture walking through the seminal Jones (1991) model, its evolution, and modern applications. Designed for doctoral students in accounting and finance.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/phd-lecture-dec/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/phd-lecture-dec){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[MSc Course]{.project-tag}
+[R]{.project-tag}
+
+::: {.project-title}
+Data Analytics for Finance
+:::
+
+::: {.project-desc}
+Public-facing course materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/rsm-data-analytics-for-finance-public/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/rsm-data-analytics-for-finance-public){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[BSc Course]{.project-tag}
+[Quarto]{.project-tag}
+
+::: {.project-title}
+BSc Advanced Research Methods
+:::
+
+::: {.project-desc}
+Course site for the BSc Advanced Research Methods module at RSM. Slides, exercises, and worked examples.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/bsc-arm/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/bsc-arm){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[MSc Course]{.project-tag}
+[Dashboard]{.project-tag}
+
+::: {.project-title}
+MSc AI Dashboard
+:::
+
+::: {.project-desc}
+Interactive dashboard based on a pipeline to download, parse, score, and descriptively explore MSc accounting theses for signs of AI-generated text. The design uses the ChatGPT launch (November 2022) as a soft pre/post cutoff. The idea is to document the diffusion of new technology and student responses to it in a transparent way. Experimental — may contain errors.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/msc-ai-dashboard/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/msc-ai-dashboard){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[BSc / MSc]{.project-tag}
+[Interactive]{.project-tag}
+
+::: {.project-title}
+Interactive Learning: Financial Statement Analysis
+:::
+
+::: {.project-desc}
+Interactive exercises and self-assessment tools for financial statement analysis. Experimental — may contain errors.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/interactive_learning_repo/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/interactive_learning_repo){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Teaching]{.project-tag}
+[Python]{.project-tag}
+[Stata]{.project-tag}
+
+::: {.project-title}
+Jupyter + Stata Teaching Environment
+:::
+
+::: {.project-desc}
+Docker-based setup combining Jupyter Lab, Stata, and NBGrader for interactive assignments and reproducible teaching workflows.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/jupyter-stata-environment){.project-link}
+:::
+:::
+
+:::
+
+## Research tools & data
+
+::: {.grid .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Research]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+SEC Gazette: Structured Data from Historical Filings
+:::
+
+::: {.project-desc}
+Extracts structured data from old SEC gazette-style filings using OCR and parsing pipelines. Useful for historical accounting research.
+:::
+
+[Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/sec-gazette/){.project-link}
+[Source {{< fa brands github >}}](https://github.com/CasparDP/sec-gazette){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Dataset]{.project-tag}
+[R]{.project-tag}
+
+::: {.project-title}
+LCV Congressional Scorecard (1971–2024)
+:::
+
+::: {.project-desc}
+Clean, analysis-ready dataset of the League of Conservation Voters Congressional Scorecard covering over 50 years of environmental voting records.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/lcv){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Research]{.project-tag}
+[R]{.project-tag}
+[Fork]{.project-tag}
+
+::: {.project-title}
+RFirmMatch: Matching Firm Names to Databases
+:::
+
+::: {.project-desc}
+R functions for fuzzy-matching company names across accounting and finance databases (Compustat, CRSP, etc.).
+
+*Forked from [MatthiasUckert/RFirmMatch](https://github.com/MatthiasUckert/RFirmMatch)*
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/RFirmMatch){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Dataset]{.project-tag}
+[R]{.project-tag}
+[Fork]{.project-tag}
+
+::: {.project-title}
+Bundestag Historical Constituency Data
+:::
+
+::: {.project-desc}
+Historical German federal election results at the constituency level, cleaned and structured for panel data analysis.
+
+*Forked from [ZeitOnline/bundestagswahl-historische-wahlkreis-daten](https://github.com/ZeitOnline/bundestagswahl-historische-wahlkreis-daten)*
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/bundestagswahl-historische-wahlkreis-daten){.project-link}
+:::
+:::
+
+:::
+
+## Tools & utilities
+
+::: {.grid .mt-3}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Tool]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+pdfgrabba
+:::
+
+::: {.project-desc}
+Command-line tool that grabs PDFs from URLs or lists and saves them to a local folder. Useful for bulk literature downloads.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/pdfgrabba){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Tool]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+reviewer2
+:::
+
+::: {.project-desc}
+reviewer2 is a fork of the open-source pipeline behind isitcredible.com by The Catalogue of Errors Ltd. The original design and all prompt engineering are their work. This fork replaces the hard Google Gemini dependency with a provider-agnostic backend built on the OpenAI SDK, so the same pipeline can run against Ollama Cloud, OpenAI, or any OpenAI-compatible endpoint.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/reviewer2){.project-link}
+:::
+:::
+
+:::
+
+::: {.section-label .mt-4}
+[Browse all repos on GitHub {{< fa brands github >}}](https://github.com/CasparDP?tab=repositories)
+:::

@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://caspardp.github.io/about.html</loc>
-    <lastmod>2026-04-15T21:07:09.737Z</lastmod>
+    <loc>https://caspardp.github.io/sides.html</loc>
+    <lastmod>2026-05-12T09:49:04.949Z</lastmod>
   </url>
   <url>
-    <loc>https://caspardp.github.io/index.html</loc>
-    <lastmod>2026-04-15T21:45:28.367Z</lastmod>
-  </url>
-  <url>
-    <loc>https://caspardp.github.io/teaching.html</loc>
-    <lastmod>2025-04-29T15:42:20.000Z</lastmod>
+    <loc>https://caspardp.github.io/Readme.html</loc>
+    <lastmod>2025-03-03T09:21:52.000Z</lastmod>
   </url>
   <url>
     <loc>https://caspardp.github.io/papers.html</loc>
     <lastmod>2026-04-15T21:07:18.431Z</lastmod>
   </url>
   <url>
-    <loc>https://caspardp.github.io/Readme.html</loc>
-    <lastmod>2025-03-03T09:21:52.000Z</lastmod>
+    <loc>https://caspardp.github.io/teaching.html</loc>
+    <lastmod>2025-04-29T15:42:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://caspardp.github.io/index.html</loc>
+    <lastmod>2026-05-12T09:28:42.942Z</lastmod>
+  </url>
+  <url>
+    <loc>https://caspardp.github.io/about.html</loc>
+    <lastmod>2026-04-15T21:07:09.737Z</lastmod>
   </url>
 </urlset>

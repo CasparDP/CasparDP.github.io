@@ -21,7 +21,7 @@ The site output goes to `docs/` (configured in `_quarto.yml`), which is served b
 ## Architecture
 
 - **`_quarto.yml`**: Site configuration (navbar, metadata, footer, format options)
-- **`*.qmd` files**: Site pages (index, about, papers, teaching)
+- **`*.qmd` files**: Site pages (index, about, papers, teaching, sides). `sides.qmd` lists public GitHub repos as project cards, organized by Teaching / Research tools / Tools & utilities.
 - **`custom.scss`**: Quarto SCSS theme (dark palette, Geist font, gold accent `#E8A955`). Uses `scss:defaults` for Bootstrap variable overrides and `scss:rules` for custom styles; no `!important` needed.
 - **`my_pubs.bib` / `my_working_papers.bib`**: BibTeX files driving the papers page
 - **`journal-of-financial-economics.csl`**: Citation style file for bibliography formatting

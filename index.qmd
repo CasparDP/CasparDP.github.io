@@ -79,6 +79,9 @@ Public-facing materials for the MSc Data Analytics for Finance course at RSM. Co
 
 :::
 
+::: {.section-label .mt-2}
+[See all side projects {{< fa arrow-right >}}](sides.qmd)
+:::
 
 ## Research Highlights
 
