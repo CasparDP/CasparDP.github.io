@@ -1,53 +1,27 @@
 ---
 title: "Teaching"
-echo: false
-df-print: kable
 toc: false
 ---
 
 ## Current and past teaching
 
-```{r}
-library(tibble)
-library(knitr)
+| Course | Program | Role | Years | Institution |
+|--------|---------|------|-------|-------------|
+| **Data & Coding (online course)** | MSc | Coordinator and content creator | 2025 | Rotterdam School of Management |
+| **Accounting, Analysis and Governance in Complex Deals** | MSc | Coordinator and teacher | 2025 | Rotterdam School of Management |
+| **Financial Reporting & Analysis** | BSc | Coordinator and teacher | 2021 - 2025 | Rotterdam School of Management |
+| **Advanced Research Methods** | BSc | Teacher - One lecture for Accounting tracks | 2021 - 2025 | Rotterdam School of Management |
+| Accounting and Financial Management Research Skills | MSc | Coordinator and teacher | 2016 - 2024 | Rotterdam School of Management |
+| Analytics in Accounting & Financial Management | MSc | Teacher | 2022 | Rotterdam School of Management |
+| Accounting Skills | BSc | Coordinator and teacher | 2020 - 2022 | Rotterdam School of Management |
+| Mergers & acquisitions and corporate governance | MSc | Coordinator and teacher | 2016 - 2020 | Rotterdam School of Management |
+| Financial Statement Analysis | BSc | Teacher | 2015 | WHU - Otto-Beisheim School of Management |
 
-tribble(
-  ~ Course , ~ Program,  ~ Role, ~ Years, ~ Institution,
-  "**Data & Coding (online course)**", 
-  "MSc", "Coordinator and content creator",
-  "2025","Rotterdam School of  Management",
-  "**Accounting, Analysis and Governance in Complex Deals**",
-  "MSc", "Coordinator and teacher",
-  "2025","Rotterdam School of  Management",
-  "**Financial Reporting & Analysis**",
-  "BSc", "Coordinator and teacher",
-  "2021 - 2025","Rotterdam School of  Management",
-   "**Advanced Research Methods**",
-   "BSc", "Teacher - One lecture for Accounting tracks",
-  "2021 - 2025","Rotterdam School of  Management",
-  "Accounting and Financial Management Research Skills",
-  "MSc", "Coordinator and teacher",
-  "2016 - 2024","Rotterdam School of Management",
-  "Analytics in Accounting & Financial Management", "MSc", "Teacher",
-  "2022","Rotterdam School of Management",
-  "Accounting Skills",
-  "BSc", "Coordinator and teacher",
-  "2020 - 2022","Rotterdam School of Management",
-  "Mergers & acquisitions and corporate governance",
-  "MSc", "Coordinator and teacher",
-  "2016 - 2020","Rotterdam School of Management",
-  "Financial Statement Analysis", "BSc", "Teacher",
-  "2015","WHU - Otto-Beisheim School of Management"
-) 
+: {.striped .hover tbl-colwidths="[32,8,24,12,24]"}
 
-```
+## Links to course details and syllabi
 
-## Links to course details and syllabi 
 - [Financial Reporting & Analysis](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en&cursuscode=B3T2101&collegejaar=2024)
-- [Data & Coding (online course)](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
-- [Accounting, Analysis and Governance in Complex Deals](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
-- [Advanced Research Methods](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en)
-
 
 ## MSc thesis supervision
 

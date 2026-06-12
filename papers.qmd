@@ -7,9 +7,6 @@ toc: false
 
 ```{r load-publications, echo=FALSE, message=FALSE, warning=FALSE}
 library(RefManageR)
-library(knitr)
-library(dplyr)
-library(kableExtra)
 
 # Load the bibliography files
 publications <- ReadBib("my_pubs.bib", check = FALSE)
@@ -17,7 +14,8 @@ working_papers <- ReadBib("my_working_papers.bib", check = FALSE)
 
 # Function to format citations for display
 format_citation <- function(bib) {
-  # Format each entry
+  # Format each entry (sorting the BibEntry object itself mangles non-ASCII
+  # characters, so sort the formatted results by year below instead)
   formatted <- lapply(bib, function(entry) {
     authors <- entry$author
     if (length(authors) > 4) {
@@ -25,11 +23,26 @@ format_citation <- function(bib) {
     } else {
       authors <- paste(authors, collapse = ", ")
     }
-    
+
     title <- entry$title
-    journal <- ifelse(!is.null(entry$journal), entry$journal, "Working Paper")
+    # Avoid double punctuation after titles ending in ? or !
+    title_sep <- ifelse(grepl("[?!]$", title), " ", ". ")
+
+    # Link the title to the DOI (or URL) when available
+    link <- if (!is.null(entry$doi)) paste0("https://doi.org/", entry$doi) else entry$url
+    if (!is.null(link)) {
+      title <- paste0('<a href="', link, '" target="_blank" rel="noopener">', title, "</a>")
+    }
+
+    venue <- if (!is.null(entry$journal)) {
+      entry$journal
+    } else if (!is.null(entry$school)) {
+      paste0("PhD Thesis, ", entry$school)
+    } else {
+      "Working Paper"
+    }
     year <- entry$year
-    
+
     # Add volume and pages if available
     vol_pages <- ""
     if (!is.null(entry$volume)) {
@@ -41,15 +54,18 @@ format_citation <- function(bib) {
         vol_pages <- paste0(vol_pages, ", pp. ", entry$pages)
       }
     }
-    
+
     # Format the full citation
-    citation <- paste0("<p><strong>", authors, " (", year, ")</strong>. ", 
-                      title, ". <em>", journal, "</em>", vol_pages, ".</p>")
-    
-    return(citation)
+    citation <- paste0("<p><strong>", authors, " (", year, ")</strong>. ",
+                      title, title_sep, "<em>", venue, "</em>", vol_pages, ".</p>")
+
+    return(list(year = as.integer(year), html = citation))
   })
-  
-  return(paste(formatted, collapse = "\n"))
+
+  # Most recent first
+  formatted <- formatted[order(vapply(formatted, `[[`, integer(1), "year"), decreasing = TRUE)]
+
+  return(paste(vapply(formatted, `[[`, character(1), "html"), collapse = "\n"))
 }
 ```
 

@@ -6,7 +6,7 @@ toc: false
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
-![](cdp_2025.png){.img-fluid .mb-4 .border}
+![](cdp_2025.png){.img-fluid .mb-4 .border fig-alt="Portrait of Caspar David Peter"}
 
 ::: {.monitor-box .text-center .mb-4}
 **Position**: Associate Professor  
@@ -33,60 +33,25 @@ toc: false
 
 ## Employment History
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
+| Position | Period | Institution | Location |
+|----------|--------|-------------|----------|
+| **Associate Professor** | 2020 - Present | Rotterdam School of Management | Netherlands |
+| **Visiting Scholar** | 2018 (Fall) | Harvard Business School | United States |
+| **Assistant Professor** | 2015 - 2020 | Rotterdam School of Management | Netherlands |
+| **Lecturer in Financial Analysis** | 2015 | WHU – Otto Beisheim School of Management | Germany |
+| **Visiting Researcher** | 2014 (Fall) | University of Lancaster | United Kingdom |
+| **Doctoral Assistant** | 2010 - 2015 | WHU – Otto Beisheim School of Management | Germany |
 
-library(tibble)
-library(knitr)
-library(dplyr)
-library(kableExtra)
-
-assignments <- tribble(
-  ~ Position, ~ Period, ~ Institution, ~ Location,
-  "Associate Professor","2020 - Present","Rotterdam School of Management", "Netherlands",
-  "Visiting Scholar","2018 (Fall)","Harvard Business School","United States",
-  "Assistant Professor", "2015 - 2020", "Rotterdam School of Management", "Netherlands",
-  "Lecturer in Financial Analysis", "2015","WHU – Otto Beisheim School of Management", "Germany",
-  "Visiting Researcher", "2014 (Fall)",
-  "University of Lancaster", "United Kingdom",
-  "Doctoral Assistant", "2010 - 2015", "WHU – Otto Beisheim School of Management", "Germany" 
-)
-
-assignments %>%
-  kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover"), 
-                full_width = TRUE, 
-                font_size = 14,
-                position = "left") %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE, color = "#E8A955", background = "#0c1019")
-```
+: {.striped .hover}
 
 ## Education
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
+| Degree | Period | Institution | Location |
+|--------|--------|-------------|----------|
+| **Dr. rer. pol.** | 2010 - 2015 | WHU – Otto Beisheim School of Management | Germany |
+| **Diploma Business and Economics** | 2005 - 2010 | Ruhr-Universität-Bochum | Germany |
 
-training <- tribble(
-  ~ Degree, ~ Period, ~ Institution, ~ Location,
-  "Dr. rer. pol.","2010 - 2015",
-"WHU – Otto Beisheim School of Management", "Germany",
-"Diploma Business and Economics", "2005 - 2010","Ruhr-Universität-Bochum", "Germany"
-)
-
-training %>%
-  kable() %>%
-  kable_styling(bootstrap_options = c("striped", "hover"), 
-                full_width = TRUE, 
-                font_size = 14,
-                position = "left") %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE, color = "#E8A955", background = "#0c1019")
-```
+: {.striped .hover}
 
 ## Skills & Expertise
 

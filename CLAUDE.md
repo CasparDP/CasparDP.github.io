@@ -31,13 +31,14 @@ The site output goes to `docs/` (configured in `_quarto.yml`), which is served b
 
 ## R Dependency
 
-Multiple pages use R code chunks (papers.qmd, about.qmd, teaching.qmd). Run `Rscript config.R` to install required packages. R must be available for every render since `_freeze/` is not committed.
+Only `papers.qmd` uses R code chunks (RefManageR over the `.bib` files). Run `Rscript config.R` to install required packages. R must be available for every render since `_freeze/` is not committed.
 
 ## Key Conventions
 
-- The theme uses Quarto's SCSS layering (`scss:defaults` then `scss:rules`), so custom rules load after Bootstrap and `!important` is not needed, except for table cells where kableExtra injects inline styles.
+- The theme uses Quarto's SCSS layering (`scss:defaults` then `scss:rules`), so custom rules load after Bootstrap and `!important` is not needed.
 - All page-specific styles are centralized in `custom.scss`; individual `.qmd` files have no inline `<style>` blocks.
-- The `.bib` files are the source of truth for publications; edit those, not the rendered HTML.
-- `about.qmd` hardcodes accent colors in R `row_spec()` calls; update those if the palette changes.
-- kableExtra's `kable_styling(font_size=...)` injects inline `style` attributes that override SCSS. The theme uses targeted `!important` overrides on `.table td[style]` / `.table th[style]` selectors to enforce font consistency.
+- Geist and Geist Mono are self-hosted variable fonts in `fonts/` (declared via `@font-face` in `custom.scss`, copied to output via `project.resources`). Do not reintroduce the Google Fonts CDN import; it was removed for GDPR reasons.
+- The `.bib` files are the source of truth for publications; edit those, not the rendered HTML. `doi`/`url` fields drive the citation links on the papers page.
+- `about.qmd` and `teaching.qmd` use plain markdown tables (styled by `custom.scss`), not R chunks.
 - `index.qmd` landing page layout: profile sidebar (photo + icon links) | intro text, then full-width sections: Open Projects, Research Highlights, News & Teaching (two-column).
+- The CV source lives in `~/Github/rub/cv/academic_cv.qmd`; render it there and copy the PDF here as `CV_academic.pdf`.

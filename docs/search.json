@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "sides.html",
-    "href": "sides.html",
-    "title": "Side Projects",
-    "section": "",
-    "text": "Open-source teaching materials, tools, and experiments — all publicly available on GitHub"
-  },
-  {
-    "objectID": "sides.html#teaching-materials",
-    "href": "sides.html#teaching-materials",
-    "title": "Side Projects",
-    "section": "Teaching materials",
-    "text": "Teaching materials\n\n\n\nPhD Lecture Python\n\nEarnings Management Then and Now: Revisiting Jones (1991)\n\n\nAn interactive PhD lecture walking through the seminal Jones (1991) model, its evolution, and modern applications. Designed for doctoral students in accounting and finance.\n\nVisit Site  Source \n\n\n\n\nMSc Course R\n\nData Analytics for Finance\n\n\nPublic-facing course materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics.\n\nVisit Site  Source \n\n\n\n\nBSc Course Quarto\n\nBSc Advanced Research Methods\n\n\nCourse site for the BSc Advanced Research Methods module at RSM. Slides, exercises, and worked examples.\n\nVisit Site  Source \n\n\n\n\nMSc Course Dashboard\n\nMSc AI Dashboard\n\n\nInteractive dashboard based on a pipeline to download, parse, score, and descriptively explore MSc accounting theses for signs of AI-generated text. The design uses the ChatGPT launch (November 2022) as a soft pre/post cutoff. The idea is to document the diffusion of new technology and student responses to it in a transparent way. Experimental — may contain errors.\n\nVisit Site  Source \n\n\n\n\nBSc / MSc Interactive\n\nInteractive Learning: Financial Statement Analysis\n\n\nInteractive exercises and self-assessment tools for financial statement analysis. Experimental — may contain errors.\n\nVisit Site  Source \n\n\n\n\nTeaching Python Stata\n\nJupyter + Stata Teaching Environment\n\n\nDocker-based setup combining Jupyter Lab, Stata, and NBGrader for interactive assignments and reproducible teaching workflows.\n\nSource"
-  },
-  {
-    "objectID": "sides.html#research-tools-data",
-    "href": "sides.html#research-tools-data",
-    "title": "Side Projects",
-    "section": "Research tools & data",
-    "text": "Research tools & data\n\n\n\nResearch Python\n\nSEC Gazette: Structured Data from Historical Filings\n\n\nExtracts structured data from old SEC gazette-style filings using OCR and parsing pipelines. Useful for historical accounting research.\n\nVisit Site  Source \n\n\n\n\nDataset R\n\nLCV Congressional Scorecard (1971–2024)\n\n\nClean, analysis-ready dataset of the League of Conservation Voters Congressional Scorecard covering over 50 years of environmental voting records.\n\nSource \n\n\n\n\nResearch R Fork\n\nRFirmMatch: Matching Firm Names to Databases\n\n\nR functions for fuzzy-matching company names across accounting and finance databases (Compustat, CRSP, etc.).\nForked from MatthiasUckert/RFirmMatch\n\nSource \n\n\n\n\nDataset R Fork\n\nBundestag Historical Constituency Data\n\n\nHistorical German federal election results at the constituency level, cleaned and structured for panel data analysis.\nForked from ZeitOnline/bundestagswahl-historische-wahlkreis-daten\n\nSource"
-  },
-  {
-    "objectID": "sides.html#tools-utilities",
-    "href": "sides.html#tools-utilities",
-    "title": "Side Projects",
-    "section": "Tools & utilities",
-    "text": "Tools & utilities\n\n\n\nTool Python\n\npdfgrabba\n\n\nCommand-line tool that grabs PDFs from URLs or lists and saves them to a local folder. Useful for bulk literature downloads.\n\nSource \n\n\n\n\nTool Python\n\nreviewer2\n\n\nreviewer2 is a fork of the open-source pipeline behind isitcredible.com by The Catalogue of Errors Ltd. The original design and all prompt engineering are their work. This fork replaces the hard Google Gemini dependency with a provider-agnostic backend built on the OpenAI SDK, so the same pipeline can run against Ollama Cloud, OpenAI, or any OpenAI-compatible endpoint.\n\nSource \n\n\n\n\nBrowse all repos on GitHub"
-  },
-  {
-    "objectID": "papers.html",
-    "href": "papers.html",
-    "title": "Publications, Research & Media",
-    "section": "",
-    "text": "Igor Goncharov, Caspar David Peter (2019). Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review, 94(3), pp. 149–175.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2022). When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics, 145(2), pp. 445–463.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2023). When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review, 98(7), pp. 261–288.\n\n\nMaximilian A Müller, Caspar David Peter, Francisco Urzúa I (2023). Owner exposure through firm disclosure. The Accounting Review, 98(6), pp. 381–405.\n\n\nMarcelo Ortiz, Caspar David Peter, Francisco Urzúa I, Paolo F Volpin (2023). Mandatory financial disclosure and M&A activity. The Review of Financial Studies, 36(12), pp. 4788–4823.\n\n\nCaspar David Peter (2015). Economic consequences of reporting transparency. Working Paper."
-  },
-  {
-    "objectID": "papers.html#published-articles",
-    "href": "papers.html#published-articles",
-    "title": "Publications, Research & Media",
-    "section": "",
-    "text": "Igor Goncharov, Caspar David Peter (2019). Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review, 94(3), pp. 149–175.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2022). When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics, 145(2), pp. 445–463.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2023). When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review, 98(7), pp. 261–288.\n\n\nMaximilian A Müller, Caspar David Peter, Francisco Urzúa I (2023). Owner exposure through firm disclosure. The Accounting Review, 98(6), pp. 381–405.\n\n\nMarcelo Ortiz, Caspar David Peter, Francisco Urzúa I, Paolo F Volpin (2023). Mandatory financial disclosure and M&A activity. The Review of Financial Studies, 36(12), pp. 4788–4823.\n\n\nCaspar David Peter (2015). Economic consequences of reporting transparency. Working Paper."
-  },
-  {
-    "objectID": "papers.html#working-papers",
-    "href": "papers.html#working-papers",
-    "title": "Publications, Research & Media",
-    "section": "Working Papers",
-    "text": "Working Papers\n\n\nCaspar David Peter, Jochen Pierk (2021). Does Shark Tank Enhance Entrepreneurial Activities?. Available at SSRN 3657391.\n\n\nMalte Heilig, Maximilian A Müller, Caspar David Peter (2021). ‘503 Service Unavailable’: When Acquiring Information Goes Wrong. Available at SSRN 3809605."
-  },
-  {
-    "objectID": "papers.html#media-coverage",
-    "href": "papers.html#media-coverage",
-    "title": "Publications, Research & Media",
-    "section": "Media Coverage",
-    "text": "Media Coverage\n\n\n\nDecember 2024\n\n\nMedia Coverage for Economenparade 2024 (in Dutch)\n\n\nESB\n\n\n\n\nJuly 2023\n\n\nCan Integrity Pledges Improve Financial Reporting?\n\n\nColumbia Law School Blue Sky Blog\n\n\n\n\nApril 2023\n\n\nPrognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung\n\n\nLeipziger Internet Zeitung\n\n\n\n\nApril 2023\n\n\nStudie: Ohne lokale Medien steigt die Kriminalität\n\n\nKleine Zeitung\n\n\n\n\nApril 2022\n\n\nSie geben nicht auf\n\n\nZeitOnline\n\n\n\n\nAugust 2022\n\n\nColumn: How the decline of local news exposes the public to lies and corruption\n\n\nLos Angeles Times\n\n\n\n\nJanuary 2022\n\n\nDie Zeitung geht unter, das Verbrechen kommt\n\n\nManager Magazin\n\n\n\n\nWinter 2021\n\n\nA Green Light for Corruption\n\n\nNieman Reports\n\n\n\n\nOctober 2021\n\n\nColumn: Corporate misbehavior increases after local newspapers shut down, study says\n\n\nSan Diego Union Tribune\n\n\n\n\nOctober 2021\n\n\nWarum Lokalzeitungen für gutes Klima sorgen\n\n\nSüddeutsche Zeitung\n\n\n\n\nOctober 2021\n\n\nHow Newspaper Closures Open the Door to Corporate Crime\n\n\nHarvard Business School Working Knowledge\n\n\n\n\nAugust 2021\n\n\nWhen the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct\n\n\nHarvard Law School Forum on Corporate Governance\n\n\n\n\nFebruary 2015\n\n\nGreater Disclosure Harms Cartels\n\n\nColumbia Law School Blue Sky Blog"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -74,7 +18,7 @@
     "href": "teaching.html#links-to-course-details-and-syllabi",
     "title": "Teaching",
     "section": "Links to course details and syllabi",
-    "text": "Links to course details and syllabi\n\nFinancial Reporting & Analysis\nData & Coding (online course)\nAccounting, Analysis and Governance in Complex Deals\nAdvanced Research Methods"
+    "text": "Links to course details and syllabi\n\nFinancial Reporting & Analysis"
   },
   {
     "objectID": "teaching.html#msc-thesis-supervision",
@@ -82,6 +26,69 @@
     "title": "Teaching",
     "section": "MSc thesis supervision",
     "text": "MSc thesis supervision\nTypically, I supervise about 12 MSc thesis each academic year."
+  },
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Publications, Research & Media",
+    "section": "",
+    "text": "Jonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2023). When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review, 98(7), pp. 261–288.\n\n\nMaximilian A Müller, Caspar David Peter, Francisco Urzúa I (2023). Owner exposure through firm disclosure. The Accounting Review, 98(6), pp. 381–405.\n\n\nMarcelo Ortiz, Caspar David Peter, Francisco Urzúa I, Paolo F Volpin (2023). Mandatory financial disclosure and M&A activity. The Review of Financial Studies, 36(12), pp. 4788–4823.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2022). When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics, 145(2), pp. 445–463.\n\n\nIgor Goncharov, Caspar David Peter (2019). Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review, 94(3), pp. 149–175.\n\n\nCaspar David Peter (2015). Economic consequences of reporting transparency. PhD Thesis, WHU-Otto Beisheim School of Management."
+  },
+  {
+    "objectID": "papers.html#published-articles",
+    "href": "papers.html#published-articles",
+    "title": "Publications, Research & Media",
+    "section": "",
+    "text": "Jonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2023). When executives pledge integrity: The effect of the accountant’s oath on firms’ financial reporting. The Accounting Review, 98(7), pp. 261–288.\n\n\nMaximilian A Müller, Caspar David Peter, Francisco Urzúa I (2023). Owner exposure through firm disclosure. The Accounting Review, 98(6), pp. 381–405.\n\n\nMarcelo Ortiz, Caspar David Peter, Francisco Urzúa I, Paolo F Volpin (2023). Mandatory financial disclosure and M&A activity. The Review of Financial Studies, 36(12), pp. 4788–4823.\n\n\nJonas Heese, Gerardo Pérez-Cavazos, Caspar David Peter (2022). When the local newspaper leaves town: The effects of local newspaper closures on corporate misconduct. Journal of Financial Economics, 145(2), pp. 445–463.\n\n\nIgor Goncharov, Caspar David Peter (2019). Does reporting transparency affect industry coordination? Evidence from the duration of international cartels. The Accounting Review, 94(3), pp. 149–175.\n\n\nCaspar David Peter (2015). Economic consequences of reporting transparency. PhD Thesis, WHU-Otto Beisheim School of Management."
+  },
+  {
+    "objectID": "papers.html#working-papers",
+    "href": "papers.html#working-papers",
+    "title": "Publications, Research & Media",
+    "section": "Working Papers",
+    "text": "Working Papers\n\n\nCaspar David Peter, Jochen Pierk (2021). Does Shark Tank Enhance Entrepreneurial Activities? Working Paper.\n\n\nMalte Heilig, Maximilian A Müller, Caspar David Peter (2021). ‘503 Service Unavailable’: When Acquiring Information Goes Wrong. Working Paper."
+  },
+  {
+    "objectID": "papers.html#media-coverage",
+    "href": "papers.html#media-coverage",
+    "title": "Publications, Research & Media",
+    "section": "Media Coverage",
+    "text": "Media Coverage\n\n\n\nDecember 2024\n\n\nMedia Coverage for Economenparade 2024 (in Dutch)\n\n\nESB\n\n\n\n\nJuly 2023\n\n\nCan Integrity Pledges Improve Financial Reporting?\n\n\nColumbia Law School Blue Sky Blog\n\n\n\n\nApril 2023\n\n\nPrognose: Nachrichtenwüsten – bis 2025 sind rund 40 Prozent der deutschen Gemeinden ohne Lokalzeitung\n\n\nLeipziger Internet Zeitung\n\n\n\n\nApril 2023\n\n\nStudie: Ohne lokale Medien steigt die Kriminalität\n\n\nKleine Zeitung\n\n\n\n\nApril 2022\n\n\nSie geben nicht auf\n\n\nZeitOnline\n\n\n\n\nAugust 2022\n\n\nColumn: How the decline of local news exposes the public to lies and corruption\n\n\nLos Angeles Times\n\n\n\n\nJanuary 2022\n\n\nDie Zeitung geht unter, das Verbrechen kommt\n\n\nManager Magazin\n\n\n\n\nWinter 2021\n\n\nA Green Light for Corruption\n\n\nNieman Reports\n\n\n\n\nOctober 2021\n\n\nColumn: Corporate misbehavior increases after local newspapers shut down, study says\n\n\nSan Diego Union Tribune\n\n\n\n\nOctober 2021\n\n\nWarum Lokalzeitungen für gutes Klima sorgen\n\n\nSüddeutsche Zeitung\n\n\n\n\nOctober 2021\n\n\nHow Newspaper Closures Open the Door to Corporate Crime\n\n\nHarvard Business School Working Knowledge\n\n\n\n\nAugust 2021\n\n\nWhen the Local Newspaper Leaves Town: The Effects of Local Newspaper Closures on Corporate Misconduct\n\n\nHarvard Law School Forum on Corporate Governance\n\n\n\n\nFebruary 2015\n\n\nGreater Disclosure Harms Cartels\n\n\nColumbia Law School Blue Sky Blog"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Position: Associate Professor\nInstitution: Rotterdam School of Management\nLocation: Netherlands\nSince: 2015\n\n\n GitHub\n Email\n ORCID\n SSRN\n Full CV\n\n\n\n\n\n\nPrimary Research Focus: Economic consequences of reporting transparency\n\n\n\n\n\n\n\n\n\n\n\n\n\nPosition\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDegree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\nEconometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
+  },
+  {
+    "objectID": "about.html#research-focus",
+    "href": "about.html#research-focus",
+    "title": "About",
+    "section": "",
+    "text": "Primary Research Focus: Economic consequences of reporting transparency"
+  },
+  {
+    "objectID": "about.html#employment-history",
+    "href": "about.html#employment-history",
+    "title": "About",
+    "section": "",
+    "text": "Position\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Degree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany"
+  },
+  {
+    "objectID": "about.html#skills-expertise",
+    "href": "about.html#skills-expertise",
+    "title": "About",
+    "section": "",
+    "text": "Econometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
   },
   {
     "objectID": "index.html",
@@ -119,38 +126,31 @@
     "text": "Current Teaching\n\n\nData & Coding\nMSc Program, 2025 Coordinator and content creator\nCourse Details →\n\n\n\n\nFinancial Reporting & Analysis\nBSc Program, 2021-2025 Coordinator and instructor\nCourse Details →\n\n\n\n\nAccounting Analysis & Governance\nMSc Program, 2025 Coordinator and instructor\nCourse Details →"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "sides.html",
+    "href": "sides.html",
+    "title": "Side Projects",
     "section": "",
-    "text": "Position: Associate Professor\nInstitution: Rotterdam School of Management\nLocation: Netherlands\nSince: 2015\n\n\n GitHub\n Email\n ORCID\n SSRN\n Full CV\n\n\n\n\n\n\nPrimary Research Focus: Economic consequences of reporting transparency\n\n\n\n\n\n\n\n\n\nPosition\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\nDegree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEconometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
+    "text": "Open-source teaching materials, tools, and experiments — all publicly available on GitHub"
   },
   {
-    "objectID": "about.html#research-focus",
-    "href": "about.html#research-focus",
-    "title": "About",
-    "section": "",
-    "text": "Primary Research Focus: Economic consequences of reporting transparency"
+    "objectID": "sides.html#teaching-materials",
+    "href": "sides.html#teaching-materials",
+    "title": "Side Projects",
+    "section": "Teaching materials",
+    "text": "Teaching materials\n\n\n\nPhD Lecture Python\n\nEarnings Management Then and Now: Revisiting Jones (1991)\n\n\nAn interactive PhD lecture walking through the seminal Jones (1991) model, its evolution, and modern applications. Designed for doctoral students in accounting and finance.\n\nVisit Site  Source \n\n\n\n\nMSc Course R\n\nData Analytics for Finance\n\n\nPublic-facing course materials for the MSc Data Analytics for Finance course at RSM. Covers data wrangling, visualization, and applied econometrics.\n\nVisit Site  Source \n\n\n\n\nBSc Course Quarto\n\nBSc Advanced Research Methods\n\n\nCourse site for the BSc Advanced Research Methods module at RSM. Slides, exercises, and worked examples.\n\nVisit Site  Source \n\n\n\n\nMSc Course Dashboard\n\nMSc AI Dashboard\n\n\nInteractive dashboard based on a pipeline to download, parse, score, and descriptively explore MSc accounting theses for signs of AI-generated text. The design uses the ChatGPT launch (November 2022) as a soft pre/post cutoff. The idea is to document the diffusion of new technology and student responses to it in a transparent way. Experimental — may contain errors.\n\nVisit Site  Source \n\n\n\n\nBSc / MSc Interactive\n\nInteractive Learning: Financial Statement Analysis\n\n\nInteractive exercises and self-assessment tools for financial statement analysis. Experimental — may contain errors.\n\nVisit Site  Source \n\n\n\n\nTeaching Python Stata\n\nJupyter + Stata Teaching Environment\n\n\nDocker-based setup combining Jupyter Lab, Stata, and NBGrader for interactive assignments and reproducible teaching workflows.\n\nSource"
   },
   {
-    "objectID": "about.html#employment-history",
-    "href": "about.html#employment-history",
-    "title": "About",
-    "section": "",
-    "text": "Position\nPeriod\nInstitution\nLocation\n\n\n\n\nAssociate Professor\n2020 - Present\nRotterdam School of Management\nNetherlands\n\n\nVisiting Scholar\n2018 (Fall)\nHarvard Business School\nUnited States\n\n\nAssistant Professor\n2015 - 2020\nRotterdam School of Management\nNetherlands\n\n\nLecturer in Financial Analysis\n2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nVisiting Researcher\n2014 (Fall)\nUniversity of Lancaster\nUnited Kingdom\n\n\nDoctoral Assistant\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany"
+    "objectID": "sides.html#research-tools-data",
+    "href": "sides.html#research-tools-data",
+    "title": "Side Projects",
+    "section": "Research tools & data",
+    "text": "Research tools & data\n\n\n\nResearch Python\n\nSEC Gazette: Structured Data from Historical Filings\n\n\nExtracts structured data from old SEC gazette-style filings using OCR and parsing pipelines. Useful for historical accounting research.\n\nVisit Site  Source \n\n\n\n\nDataset R\n\nLCV Congressional Scorecard (1971–2024)\n\n\nClean, analysis-ready dataset of the League of Conservation Voters Congressional Scorecard covering over 50 years of environmental voting records.\n\nSource \n\n\n\n\nResearch R Fork\n\nRFirmMatch: Matching Firm Names to Databases\n\n\nR functions for fuzzy-matching company names across accounting and finance databases (Compustat, CRSP, etc.).\nForked from MatthiasUckert/RFirmMatch\n\nSource \n\n\n\n\nDataset R Fork\n\nBundestag Historical Constituency Data\n\n\nHistorical German federal election results at the constituency level, cleaned and structured for panel data analysis.\nForked from ZeitOnline/bundestagswahl-historische-wahlkreis-daten\n\nSource"
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "",
-    "text": "Degree\nPeriod\nInstitution\nLocation\n\n\n\n\nDr. rer. pol.\n2010 - 2015\nWHU – Otto Beisheim School of Management\nGermany\n\n\nDiploma Business and Economics\n2005 - 2010\nRuhr-Universität-Bochum\nGermany"
-  },
-  {
-    "objectID": "about.html#skills-expertise",
-    "href": "about.html#skills-expertise",
-    "title": "About",
-    "section": "",
-    "text": "Econometric analysis of large datasets\nCausal inference techniques\nData visualization\nBasic textual analysis\n\n\n\n\n\n\n\n\n\nR\nPython\nStata\nLaTeX\nMarkdown\nHTML/CSS (beginner)\nWeb scraping"
+    "objectID": "sides.html#tools-utilities",
+    "href": "sides.html#tools-utilities",
+    "title": "Side Projects",
+    "section": "Tools & utilities",
+    "text": "Tools & utilities\n\n\n\nTool Python\n\npdfgrabba\n\n\nCommand-line tool that grabs PDFs from URLs or lists and saves them to a local folder. Useful for bulk literature downloads.\n\nSource \n\n\n\n\nTool Python\n\nreviewer2\n\n\nreviewer2 is a fork of the open-source pipeline behind isitcredible.com by The Catalogue of Errors Ltd. The original design and all prompt engineering are their work. This fork replaces the hard Google Gemini dependency with a provider-agnostic backend built on the OpenAI SDK, so the same pipeline can run against Ollama Cloud, OpenAI, or any OpenAI-compatible endpoint.\n\nSource \n\n\n\n\nBrowse all repos on GitHub"
   }
 ]
