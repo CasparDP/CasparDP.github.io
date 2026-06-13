@@ -2,10 +2,7 @@
 
 required_packages <- c(
   "RefManageR",
-  "knitr",
-  "dplyr",
-  "tibble",
-  "kableExtra"
+  "knitr"
 )
 
 missing <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
