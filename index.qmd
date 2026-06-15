@@ -121,6 +121,15 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 
 ::: {.news-item}
 ::: {.news-date}
+May 2026
+:::
+::: {.news-title}
+**MSc AI Dashboard** released: an interactive pipeline that tracks signs of AI-generated text in master's theses, using the ChatGPT launch as a soft pre/post cutoff. [Explore it →](https://caspardp.github.io/msc-ai-dashboard/)
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
 November 2025
 :::
 ::: {.news-title}
