@@ -163,6 +163,23 @@ Clean, analysis-ready dataset of the League of Conservation Voters Congressional
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
 [Research]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+cite-hustle: literature collection pipeline
+:::
+
+::: {.project-desc}
+A research-automation tool that collects paper metadata across top accounting, finance, and economics journals, enriches abstracts from SSRN and OpenAlex, and stores them in a searchable DuckDB database. Experimental — may contain errors.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/cite-hustle){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Research]{.project-tag}
 [R]{.project-tag}
 [Fork]{.project-tag}
 
@@ -237,6 +254,23 @@ reviewer2 is a fork of the open-source pipeline behind isitcredible.com by The C
 :::
 
 [Source {{< fa brands github >}}](https://github.com/CasparDP/reviewer2){.project-link}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.project-card}
+[Tool]{.project-tag}
+[Python]{.project-tag}
+
+::: {.project-title}
+Text to Respondus
+:::
+
+::: {.project-desc}
+Command-line tool that converts plain-text quiz files into Respondus-compatible CSV for import into learning management systems such as ANS. Detects correct answers, preserves feedback, and supports batch conversion.
+:::
+
+[Source {{< fa brands github >}}](https://github.com/CasparDP/text-to-respondus){.project-link}
 :::
 :::
 
