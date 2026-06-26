@@ -43,6 +43,16 @@ $accent-red: #d74c4c;
 $bg-dark: #0c1019;
 $bg-secondary: rgba(44, 51, 71, 0.7);
 
+// Mermaid diagrams (themed to match the dark palette)
+$mermaid-bg-color: transparent;
+$mermaid-fg-color: #e0ddd4;
+$mermaid-fg-color--lighter: #c8c8c0;
+$mermaid-fg-color--lightest: #a8a89f;
+$mermaid-node-fg-color: #e0ddd4;
+$mermaid-edge-color: $accent-gold;
+$mermaid-label-fg-color: #e0ddd4;
+$mermaid-font-family: "Geist", sans-serif;
+
 // Bootstrap overrides
 $body-bg: $bg-dark;
 $body-color: #c8c8c0;
