@@ -8,6 +8,12 @@ Personal academic website for Caspar David Peter (Associate Professor, Rotterdam
 
 ## Build & Preview
 
+**Locale prerequisite:** Export a UTF-8 locale before rendering, or author names on `papers.qmd` get mangled (no error is raised). `LANG` is unset by default on this machine.
+
+```bash
+export LANG=en_US.UTF-8
+```
+
 ```bash
 quarto preview          # Local dev server with hot reload
 quarto render           # Full site build (output to docs/)
