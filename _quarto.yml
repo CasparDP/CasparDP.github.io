@@ -17,7 +17,7 @@ website:
     creator: "@CasparDP"
     site: "@CasparDP"
     description: "Research on economic consequences of reporting transparency"
-    card-style: "summary"
+    card-style: "summary_large_image"
   page-footer:
     background: dark
     left: "© 2026, Caspar David Peter"

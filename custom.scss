@@ -37,34 +37,6 @@
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-// Newsreader: self-hosted variable serif for headings (no third-party requests)
-@font-face {
-  font-family: "Newsreader";
-  font-style: normal;
-  font-weight: 200 800;
-  font-display: swap;
-  src: url("/fonts/newsreader-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "Newsreader";
-  font-style: normal;
-  font-weight: 200 800;
-  font-display: swap;
-  src: url("/fonts/newsreader-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-@font-face {
-  font-family: "Newsreader";
-  font-style: italic;
-  font-weight: 200 800;
-  font-display: swap;
-  src: url("/fonts/newsreader-latin-italic.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 // Custom palette
 $accent-gold: #E8A955;
 $accent-red: #d74c4c;
@@ -85,7 +57,7 @@ $mermaid-font-family: "Geist", sans-serif;
 $body-bg: $bg-dark;
 $body-color: #c8c8c0;
 $font-family-base: "Geist", sans-serif;
-$headings-font-family: "Newsreader", Georgia, serif;
+$headings-font-family: "Geist", sans-serif;
 $font-family-monospace: "Geist Mono", monospace;
 $headings-font-weight: 600;
 $headings-color: #e0ddd4;
@@ -131,8 +103,13 @@ body {
 
 // Typography
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 0;
-  font-optical-sizing: auto;
+  letter-spacing: 0.03em;
+}
+
+// Hero name matches the monospaced navbar brand
+.hero-name {
+  font-family: $font-family-monospace;
+  letter-spacing: 0.04em;
 }
 
 h1 {
@@ -516,12 +493,11 @@ div[role="doc-endnotes"] {
 }
 
 .project-title {
-  font-family: "Newsreader", Georgia, serif;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #e0ddd4;
   margin: 0.75rem 0 0.5rem;
-  letter-spacing: 0;
+  letter-spacing: 0.01em;
 }
 
 .project-desc {

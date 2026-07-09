@@ -9,7 +9,7 @@ toc: false
 ![](cdp_2025.png){.img-fluid .mb-3 .border fig-alt="Portrait of Caspar David Peter"}
 
 ::: {.text-center .mb-2}
-### Caspar David Peter
+### Caspar David Peter {.hero-name}
 ::: {.subtitle .mb-2}
 Associate Professor at the Accounting Department
 :::
