@@ -27,7 +27,7 @@ Associate Professor at the Accounting Department
 
 ::: {.g-col-12 .g-col-md-8 .g-col-lg-9 .d-flex .flex-column .justify-content-start}
 
-I study the **economic consequences of reporting transparency**: how disclosure practices shape individual and market behavior, and how they affect corporate outcomes. My research has been published in the *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*, investigating how information environments impact corporate misconduct, industry coordination, and mergers & acquisitions.
+Most of my research starts from one question: does **reporting transparency** actually change how firms and investors behave? I study how disclosure feeds into corporate misconduct, industry coordination, and mergers and acquisitions, with work published in the *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*. More recently I have taken up a second question that feels just as pressing: how AI is reshaping the economy and the way we learn. As a Senior Fellow at Microsoft Research's AI Economy Institute I study historical analogues to technological disruption, and I build tools that put AI to work in teaching, including **Mattie**, which supports students through their master's thesis.
 
 :::
 
@@ -118,6 +118,33 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 
 ::: {.g-col-12 .g-col-md-6}
 ## News & Updates
+
+::: {.news-item}
+::: {.news-date}
+July 2026
+:::
+::: {.news-title}
+Named a **Senior Fellow** in the third cohort of Microsoft Research's **AI Economy Institute**, working on historical analogues to technological disruption. [Read the announcement →](https://www.microsoft.com/en-us/research/articles/announcing-the-ai-economy-institutes-third-cohort-of-senior-fellows/)
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
+June 2026
+:::
+::: {.news-title}
+Served as a **jury member** at **Falling Walls Lab Amsterdam**, where early-career researchers pitch groundbreaking ideas in three minutes. [Read more →](https://www.spui25.nl/programma/falling-walls-lab-amsterdam)
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
+May 2026
+:::
+::: {.news-title}
+Awarded a **CLI Innovation Projects grant** for the **AI-Powered Personalized Learning Assistant ("Mattie")**, which gives feedback and provides a dashboard for students to track their MSc thesis progress. In active development, more updates soon.
+:::
+:::
 
 ::: {.news-item}
 ::: {.news-date}
