@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,14 +39,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-db6815c8c34a5c863ecbbfc081fa9ceb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-27f16d061db219f892160398acc35b98.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4a9e76fb08c41a920ab28a69647352c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-89fabbdb7b00ebda934abcb1a9d944bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,23 +89,20 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:creator" content="@CasparDP">
 <meta name="twitter:site" content="@CasparDP">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="2080">
-<meta name="twitter:image-width" content="1460">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Caspar David Peter</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -132,6 +133,7 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -141,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -162,101 +164,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="current-and-past-teaching" class="level2">
-<h2 class="anchored" data-anchor-id="current-and-past-teaching">Current and past teaching</h2>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 8%">
-<col style="width: 24%">
-<col style="width: 12%">
-<col style="width: 24%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Course</th>
-<th>Program</th>
-<th>Role</th>
-<th>Years</th>
-<th>Institution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Data &amp; Coding (online course)</strong></td>
-<td>MSc</td>
-<td>Coordinator and content creator</td>
-<td>2025</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="even">
-<td><strong>Accounting, Analysis and Governance in Complex Deals</strong></td>
-<td>MSc</td>
-<td>Coordinator and teacher</td>
-<td>2025</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="odd">
-<td><strong>Financial Reporting &amp; Analysis</strong></td>
-<td>BSc</td>
-<td>Coordinator and teacher</td>
-<td>2021 - 2025</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="even">
-<td><strong>Advanced Research Methods</strong></td>
-<td>BSc</td>
-<td>Teacher - One lecture for Accounting tracks</td>
-<td>2021 - 2025</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="odd">
-<td>Accounting and Financial Management Research Skills</td>
-<td>MSc</td>
-<td>Coordinator and teacher</td>
-<td>2016 - 2024</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="even">
-<td>Analytics in Accounting &amp; Financial Management</td>
-<td>MSc</td>
-<td>Teacher</td>
-<td>2022</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="odd">
-<td>Accounting Skills</td>
-<td>BSc</td>
-<td>Coordinator and teacher</td>
-<td>2020 - 2022</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="even">
-<td>Mergers &amp; acquisitions and corporate governance</td>
-<td>MSc</td>
-<td>Coordinator and teacher</td>
-<td>2016 - 2020</td>
-<td>Rotterdam School of Management</td>
-</tr>
-<tr class="odd">
-<td>Financial Statement Analysis</td>
-<td>BSc</td>
-<td>Teacher</td>
-<td>2015</td>
-<td>WHU - Otto-Beisheim School of Management</td>
-</tr>
-</tbody>
-</table>
+<p>Courses are at Rotterdam School of Management unless noted.</p>
+<section id="current-courses" class="level2">
+<h2 class="anchored" data-anchor-id="current-courses">Current courses</h2>
+<div class="course-list">
+<div class="course">
+<p><span class="course-years">2026</span> <span class="course-level">MSc</span></p>
+<section id="data-analytics-for-finance" class="level3">
+<h3 class="anchored" data-anchor-id="data-analytics-for-finance">Data Analytics for Finance</h3>
+<p>Coordinator, teacher, and content creator.</p>
+<p><a href="https://caspardp.github.io/rsm-data-analytics-for-finance-public/">Course materials</a></p>
 </section>
-<section id="links-to-course-details-and-syllabi" class="level2">
-<h2 class="anchored" data-anchor-id="links-to-course-details-and-syllabi">Links to course details and syllabi</h2>
+</div>
+<div class="course">
+<p><span class="course-years">2025</span> <span class="course-level">PhD</span></p>
+<section id="advanced-topics-in-accounting-2" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-topics-in-accounting-2">Advanced Topics in Accounting 2</h3>
+<p>Teacher and content creator, one lecture. Tilburg University and Rotterdam School of Management.</p>
+<p><a href="https://caspardp.github.io/phd-lecture-dec/">Lecture site</a></p>
+</section>
+</div>
+<div class="course">
+<p><span class="course-years">2025</span> <span class="course-level">MSc</span></p>
+<section id="data-coding-online-course" class="level3">
+<h3 class="anchored" data-anchor-id="data-coding-online-course">Data &amp; Coding (online course)</h3>
+<p>Coordinator and content creator.</p>
+</section>
+</div>
+<div class="course">
+<p><span class="course-years">2021–2025</span> <span class="course-level">BSc</span></p>
+<section id="advanced-research-methods" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-research-methods">Advanced Research Methods</h3>
+<p>One lecture for the Accounting tracks.</p>
+</section>
+</div>
+</div>
+</section>
+<section id="earlier-courses" class="level2">
+<h2 class="anchored" data-anchor-id="earlier-courses">Earlier courses</h2>
+<div class="ruled-list">
 <ul>
-<li><a href="https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en&amp;cursuscode=B3T2101&amp;collegejaar=2024">Financial Reporting &amp; Analysis</a></li>
+<li><span class="rl-date">2025</span> <span class="rl-name">Accounting, Analysis and Governance in Complex Deals</span> <span class="rl-meta">MSc</span></li>
+<li><span class="rl-date">2021–2025</span> <span class="rl-name">Financial Reporting &amp; Analysis</span> <span class="rl-meta">BSc</span></li>
+<li><span class="rl-date">2016–2024</span> <span class="rl-name">Accounting and Financial Management Research Skills</span> <span class="rl-meta">MSc</span></li>
+<li><span class="rl-date">2022</span> <span class="rl-name">Analytics in Accounting &amp; Financial Management</span> <span class="rl-meta">MSc</span></li>
+<li><span class="rl-date">2020–2022</span> <span class="rl-name">Accounting Skills</span> <span class="rl-meta">BSc</span></li>
+<li><span class="rl-date">2016–2020</span> <span class="rl-name">Mergers &amp; Acquisitions and Corporate Governance</span> <span class="rl-meta">MSc</span></li>
+<li><span class="rl-date">2015</span> <span class="rl-name">Financial Statement Analysis (WHU)</span> <span class="rl-meta">BSc</span></li>
 </ul>
-</section>
-<section id="msc-thesis-supervision" class="level2">
-<h2 class="anchored" data-anchor-id="msc-thesis-supervision">MSc thesis supervision</h2>
-<p>Typically, I supervise about 12 MSc thesis each academic year.</p>
+</div>
 
 
 </section>
@@ -340,7 +296,8 @@ ul.task-list li input[type="checkbox"] {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -349,8 +306,69 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -364,6 +382,7 @@ ul.task-list li input[type="checkbox"] {
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -526,44 +545,54 @@ ul.task-list li input[type="checkbox"] {
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -661,6 +690,9 @@ ul.task-list li input[type="checkbox"] {
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

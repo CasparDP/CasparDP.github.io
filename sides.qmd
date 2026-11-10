@@ -4,7 +4,7 @@ toc: false
 ---
 
 ::: {.section-label}
-Open-source teaching materials, tools, and experiments — all publicly available on GitHub
+Open-source teaching materials, tools, and experiments, all publicly available on GitHub
 :::
 
 ## Teaching materials
@@ -14,6 +14,8 @@ Open-source teaching materials, tools, and experiments — all publicly availabl
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
 [PhD Lecture]{.project-tag}
+[Quarto]{.project-tag}
+[R]{.project-tag}
 [Python]{.project-tag}
 
 ::: {.project-title}
@@ -32,7 +34,7 @@ An interactive PhD lecture walking through the seminal Jones (1991) model, its e
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
 [MSc Course]{.project-tag}
-[R]{.project-tag}
+[Stata]{.project-tag}
 
 ::: {.project-title}
 Data Analytics for Finance
@@ -75,7 +77,7 @@ MSc AI Dashboard
 :::
 
 ::: {.project-desc}
-Interactive dashboard based on a pipeline to download, parse, score, and descriptively explore MSc accounting theses for signs of AI-generated text. The design uses the ChatGPT launch (November 2022) as a soft pre/post cutoff. The idea is to document the diffusion of new technology and student responses to it in a transparent way. Experimental — may contain errors.
+Interactive dashboard based on a pipeline to download, parse, score, and descriptively explore MSc accounting theses for signs of AI-generated text. The design uses the ChatGPT launch (November 2022) as a soft pre/post cutoff. The idea is to document the diffusion of new technology and student responses to it in a transparent way. Experimental: may contain errors.
 :::
 
 [Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/msc-ai-dashboard/){.project-link}
@@ -93,7 +95,7 @@ Interactive Learning: Financial Statement Analysis
 :::
 
 ::: {.project-desc}
-Interactive exercises and self-assessment tools for financial statement analysis. Experimental — may contain errors.
+Interactive exercises and self-assessment tools for financial statement analysis. Experimental: may contain errors.
 :::
 
 [Visit Site {{< fa arrow-right >}}](https://caspardp.github.io/interactive_learning_repo/){.project-link}
@@ -170,7 +172,7 @@ cite-hustle: literature collection pipeline
 :::
 
 ::: {.project-desc}
-A research-automation tool that collects paper metadata across top accounting, finance, and economics journals, enriches abstracts from SSRN and OpenAlex, and stores them in a searchable DuckDB database. Experimental — may contain errors.
+A research-automation tool that collects paper metadata across top accounting, finance, and economics journals, enriches abstracts from SSRN and OpenAlex, and stores them in a searchable DuckDB database. Experimental: may contain errors.
 :::
 
 [Source {{< fa brands github >}}](https://github.com/CasparDP/cite-hustle){.project-link}

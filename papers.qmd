@@ -98,6 +98,12 @@ cat(format_citation(working_papers))
 ::: {.media-coverage}
 
 <div class="media-item">
+<div class="media-date">December 2025</div>
+<div class="media-title"><a href="https://esb.nu/economenparade-2025/">Media Coverage for Economenparade 2025 (in Dutch)</a></div>
+<div class="media-source"><em>ESB</em></div>
+</div>
+
+<div class="media-item">
 <div class="media-date">December 2024</div>
 <div class="media-title"><a href="https://esb.nu/economenparade-2024/">Media Coverage for Economenparade 2024 (in Dutch)</a></div>
 <div class="media-source"><em>ESB</em></div>

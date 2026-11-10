@@ -6,9 +6,9 @@ toc: false
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
-![](cdp_2025.png){.img-fluid .mb-4 .border fig-alt="Portrait of Caspar David Peter"}
+![](cdp_2025.png){.img-fluid .mb-4 .portrait fig-alt="Portrait of Caspar David Peter"}
 
-::: {.monitor-box .text-center .mb-4}
+::: {.monitor-box .mb-4}
 **Position**: Associate Professor  
 **Institution**: Rotterdam School of Management  
 **Location**: Netherlands  
@@ -16,11 +16,11 @@ toc: false
 :::
 
 ::: {.profile-links}
-[{{< fa brands github >}} GitHub](https://github.com/CasparDP){.d-block .mb-2}  
-[{{< fa envelope >}} Email](mailto:peter@rsm.nl){.d-block .mb-2}  
-[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673){.d-block .mb-2}  
-[{{< fa file-lines >}} SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558){.d-block .mb-2}  
-[{{< fa file-pdf >}} Full CV](CV_academic.pdf){.d-block .mb-2}
+[{{< fa brands github >}} GitHub](https://github.com/CasparDP)
+[{{< fa envelope >}} Email](mailto:peter@rsm.nl)
+[{{< fa brands orcid >}} ORCID](https://orcid.org/0000-0003-0020-1673)
+[{{< fa file-lines >}} SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1589558)
+[{{< fa file-pdf >}} Full CV](CV_academic.pdf)
 :::
 :::
 
@@ -33,32 +33,26 @@ toc: false
 
 ## Employment History
 
-| Position | Period | Institution | Location |
-|----------|--------|-------------|----------|
-| **Associate Professor** | 2020 - Present | Rotterdam School of Management | Netherlands |
-| **Visiting Scholar** | 2018 (Fall) | Harvard Business School | United States |
-| **Assistant Professor** | 2015 - 2020 | Rotterdam School of Management | Netherlands |
-| **Lecturer in Financial Analysis** | 2015 | WHU – Otto Beisheim School of Management | Germany |
-| **Visiting Researcher** | 2014 (Fall) | University of Lancaster | United Kingdom |
-| **Doctoral Assistant** | 2010 - 2015 | WHU – Otto Beisheim School of Management | Germany |
-
-: {.striped .hover}
+::: {.ruled-list}
+- [2020–present]{.rl-date} [**Associate Professor**, Rotterdam School of Management]{.rl-name} [Netherlands]{.rl-meta}
+- [Fall 2018]{.rl-date} [**Visiting Scholar**, Harvard Business School]{.rl-name} [United States]{.rl-meta}
+- [2015–2020]{.rl-date} [**Assistant Professor**, Rotterdam School of Management]{.rl-name} [Netherlands]{.rl-meta}
+- [2015]{.rl-date} [**Lecturer in Financial Analysis**, WHU – Otto Beisheim School of Management]{.rl-name} [Germany]{.rl-meta}
+- [Fall 2014]{.rl-date} [**Visiting Researcher**, University of Lancaster]{.rl-name} [United Kingdom]{.rl-meta}
+- [2010–2015]{.rl-date} [**Doctoral Assistant**, WHU – Otto Beisheim School of Management]{.rl-name} [Germany]{.rl-meta}
+:::
 
 ## Education
 
-| Degree | Period | Institution | Location |
-|--------|--------|-------------|----------|
-| **Dr. rer. pol.** | 2010 - 2015 | WHU – Otto Beisheim School of Management | Germany |
-| **Diploma Business and Economics** | 2005 - 2010 | Ruhr-Universität-Bochum | Germany |
-
-: {.striped .hover}
+::: {.ruled-list}
+- [2010–2015]{.rl-date} [**Dr. rer. pol.**, WHU – Otto Beisheim School of Management]{.rl-name} [Germany]{.rl-meta}
+- [2005–2010]{.rl-date} [**Diploma Business and Economics**, Ruhr-Universität Bochum]{.rl-name} [Germany]{.rl-meta}
+:::
 
 ## Skills & Expertise
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-6}
-::: {.card .h-100}
-::: {.card-body}
 ### Research Methodologies
 
 - Econometric analysis of large datasets
@@ -66,12 +60,8 @@ toc: false
 - Data visualization
 - Basic textual analysis
 :::
-:::
-:::
 
 ::: {.g-col-12 .g-col-md-6}
-::: {.card .h-100}
-::: {.card-body}
 ### Technical Skills
 - R 
 - Python 
@@ -80,8 +70,6 @@ toc: false
 - Markdown
 - HTML/CSS (beginner)
 - Web scraping
-:::
-:::
 :::
 :::
 

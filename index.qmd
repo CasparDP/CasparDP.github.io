@@ -6,7 +6,7 @@ toc: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4 .g-col-lg-3}
-![](cdp_2025.png){.img-fluid .mb-3 .border fig-alt="Portrait of Caspar David Peter"}
+![](cdp_2025.png){.img-fluid .mb-3 .portrait fig-alt="Portrait of Caspar David Peter"}
 
 ::: {.text-center .mb-2}
 ### Caspar David Peter {.hero-name}
@@ -27,7 +27,7 @@ Associate Professor at the Accounting Department
 
 ::: {.g-col-12 .g-col-md-8 .g-col-lg-9 .d-flex .flex-column .justify-content-start}
 
-Most of my research starts from one question: does **reporting transparency** actually change how firms and investors behave? I study how disclosure feeds into corporate misconduct, industry coordination, and mergers and acquisitions, with work published in the *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*. More recently I have taken up a second question that feels just as pressing: how AI is reshaping the economy and the way we learn. As a Senior Fellow at Microsoft Research's AI Economy Institute I study historical analogues to technological disruption, and I build tools that put AI to work in teaching, including **Mattie**, which supports students through their master's thesis.
+Most of my research starts from one question: does **reporting transparency** actually change how firms and investors behave? I study how disclosure feeds into corporate misconduct, industry coordination, and mergers and acquisitions, with work published in the *Journal of Financial Economics*, *The Accounting Review*, and *The Review of Financial Studies*. More recently I have taken up a second question that feels just as pressing: how AI is reshaping the economy and the way we learn. As a Senior Fellow at Microsoft Research's AI Economy Institute I study historical analogues to technological disruption, and I build tools that put AI to work in teaching, including Mattie, which supports students through their master's thesis.
 
 :::
 
@@ -45,6 +45,8 @@ Teaching materials and tools, publicly available on GitHub
 ::: {.project-card}
 [PhD Lecture]{.project-tag}
 [Quarto]{.project-tag}
+[R]{.project-tag}
+[Python]{.project-tag}
 
 ::: {.project-title}
 Earnings Management Then and Now: Revisiting Jones (1991)
@@ -62,7 +64,7 @@ An interactive PhD lecture that walks through the seminal Jones (1991) model, it
 ::: {.g-col-12 .g-col-md-6}
 ::: {.project-card}
 [MSc Course]{.project-tag}
-[R]{.project-tag}
+[Stata]{.project-tag}
 
 ::: {.project-title}
 Data Analytics for Finance
@@ -88,26 +90,22 @@ Public-facing materials for the MSc Data Analytics for Finance course at RSM. Co
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-lg-6}
-::: {.card .h-100 .research-highlight}
-::: {.card-body}
+::: {.research-highlight}
 #### Owner exposure through firm disclosure
 
 We show that companies named after their owners tend to be more opaque in their financial disclosures, particularly when revealing such information might expose sensitive owner details and attract social stigma. We also show that when disclosure is forced, these owners are more likely to change their firms' names, and new firms are less frequently named after their founding owners.
 
-[Read Paper →](https://publications.aaahq.org/accounting-review/article-abstract/98/6/381/11037/Owner-Exposure-through-Firm-Disclosure?redirectedFrom=fulltext)
-:::
+[Read Paper](https://publications.aaahq.org/accounting-review/article-abstract/98/6/381/11037/Owner-Exposure-through-Firm-Disclosure?redirectedFrom=fulltext)
 :::
 :::
 
 ::: {.g-col-12 .g-col-lg-6}
-::: {.card .h-100 .research-highlight}
-::: {.card-body}
+::: {.research-highlight}
 #### Mandatory Financial Disclosure and M&A Activity
 
 We investigate the impact of mandatory financial disclosure on mergers and acquisitions. We find that required disclosure boosts M&A activity by reducing information frictions, as evidenced by an increase in both the number and volume of private firms becoming targets.
 
-[Read Paper →](https://academic.oup.com/rfs/article-abstract/36/12/4788/7202058?login=false)
-:::
+[Read Paper](https://academic.oup.com/rfs/article-abstract/36/12/4788/7202058?login=false)
 :::
 :::
 
@@ -121,10 +119,28 @@ We investigate the impact of mandatory financial disclosure on mergers and acqui
 
 ::: {.news-item}
 ::: {.news-date}
+November 2026
+:::
+::: {.news-title}
+**Seminar at the University of Mannheim** presenting research on spreadsheets and accountants' relative wages.
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
+October 2026
+:::
+::: {.news-title}
+**Seminar at KU Leuven** presenting research on spreadsheets and accountants' relative wages.
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
 July 2026
 :::
 ::: {.news-title}
-Named a **Senior Fellow** in the third cohort of Microsoft Research's **AI Economy Institute**, working on historical analogues to technological disruption. [Read the announcement →](https://www.microsoft.com/en-us/research/articles/announcing-the-ai-economy-institutes-third-cohort-of-senior-fellows/)
+Named a **Senior Fellow** in the third cohort of Microsoft Research's **AI Economy Institute**, working on historical analogues to technological disruption. [Read the announcement](https://www.microsoft.com/en-us/research/articles/announcing-the-ai-economy-institutes-third-cohort-of-senior-fellows/)
 :::
 :::
 
@@ -133,7 +149,7 @@ Named a **Senior Fellow** in the third cohort of Microsoft Research's **AI Econo
 June 2026
 :::
 ::: {.news-title}
-Served as a **jury member** at **Falling Walls Lab Amsterdam**, where early-career researchers pitch groundbreaking ideas in three minutes. [Read more →](https://www.spui25.nl/programma/falling-walls-lab-amsterdam)
+Served as a **jury member** at **Falling Walls Lab Amsterdam**, where early-career researchers pitch groundbreaking ideas in three minutes. [Read more](https://www.spui25.nl/programma/falling-walls-lab-amsterdam)
 :::
 :::
 
@@ -151,7 +167,16 @@ Awarded a **CLI Innovation Projects grant** for the **AI-Powered Personalized Le
 May 2026
 :::
 ::: {.news-title}
-**MSc AI Dashboard** released: an interactive pipeline that tracks signs of AI-generated text in master's theses, using the ChatGPT launch as a soft pre/post cutoff. [Explore it →](https://caspardp.github.io/msc-ai-dashboard/)
+**MSc AI Dashboard** released: an interactive pipeline that tracks signs of AI-generated text in master's theses, using the ChatGPT launch as a soft pre/post cutoff. [Explore it](https://caspardp.github.io/msc-ai-dashboard/)
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
+February 2026
+:::
+::: {.news-title}
+**Seminar at INSEAD** presenting research on gender and sentiment in parliamentary discourse.
 :::
 :::
 
@@ -160,7 +185,7 @@ May 2026
 November 2025
 :::
 ::: {.news-title}
-**New PhD lecture** on "Earnings Management Then and Now: Revisiting Jones (1991)" available. Feedback welcome. [Check it out →](https://caspardp.github.io/phd-lecture-dec/)
+**New PhD lecture** on "Earnings Management Then and Now: Revisiting Jones (1991)" available. Feedback welcome. [Check it out](https://caspardp.github.io/phd-lecture-dec/)
 :::
 :::
 
@@ -169,7 +194,7 @@ November 2025
 February 2025
 :::
 ::: {.news-title}
-**Interactive teaching materials** on financial statement analysis released. [Check it out →](https://caspardp.github.io/interactive_learning_repo/)
+**Interactive teaching materials** on financial statement analysis released. [Check it out](https://caspardp.github.io/interactive_learning_repo/)
 :::
 :::
 
@@ -187,7 +212,7 @@ February 2025
 January 2025
 :::
 ::: {.news-title}
-Honored to be part of the **Economenparade**, among the best published economists in the Netherlands. [Read more →](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf)
+Honored to be part of the **Economenparade**, among the best published economists in the Netherlands. [Read more](https://esb.nu/wp-content/uploads/2024/12/552-555_Parade-2024-2.pdf)
 :::
 :::
 
@@ -196,35 +221,43 @@ Honored to be part of the **Economenparade**, among the best published economist
 ::: {.g-col-12 .g-col-md-6}
 ## Current Teaching
 
-::: {.card .teaching-card .mb-3}
-::: {.card-body}
-#### Data & Coding
-MSc Program, 2025
+::: {.news-item}
+::: {.news-date}
+MSc, 2026
+:::
+::: {.news-title}
+[Data Analytics for Finance](https://caspardp.github.io/rsm-data-analytics-for-finance-public/)
+:::
+::: {.news-role}
+Coordinator, teacher, and content creator
+:::
+:::
+
+::: {.news-item}
+::: {.news-date}
+MSc, 2025
+:::
+::: {.news-title}
+Data & Coding (online course)
+:::
+::: {.news-role}
 Coordinator and content creator
-
-[Course Details →](teaching.qmd)
 :::
 :::
 
-::: {.card .teaching-card .mb-3}
-::: {.card-body}
-#### Financial Reporting & Analysis
-BSc Program, 2021-2025
-Coordinator and instructor
-
-[Course Details →](teaching.qmd)
+::: {.news-item}
+::: {.news-date}
+PhD, 2025
+:::
+::: {.news-title}
+[Advanced Topics in Accounting 2](https://caspardp.github.io/phd-lecture-dec/)
+:::
+::: {.news-role}
+Teacher and content creator, one lecture
 :::
 :::
 
-::: {.card .teaching-card .mb-3}
-::: {.card-body}
-#### Accounting Analysis & Governance
-MSc Program, 2025
-Coordinator and instructor
-
-[Course Details →](teaching.qmd)
-:::
-:::
+[All courses](teaching.qmd)
 
 :::
 

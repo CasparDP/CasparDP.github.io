@@ -39,8 +39,9 @@
 
 // Custom palette
 $accent-gold: #E8A955;
-$accent-red: #d74c4c;
 $bg-dark: #0c1019;
+$rule-color: rgba(200, 200, 192, 0.12);
+$muted-color: #a8a89f;
 $bg-secondary: rgba(44, 51, 71, 0.7);
 
 // Mermaid diagrams (themed to match the dark palette)
@@ -102,8 +103,8 @@ body {
 }
 
 // Typography
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 0.03em;
+h1, h2 {
+  letter-spacing: -0.01em;
 }
 
 // Hero name matches the monospaced navbar brand
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  border-bottom: 2px solid rgba($accent-gold, 0.4);
+  border-bottom: 1px solid rgba($accent-gold, 0.3);
   padding-bottom: 0.5rem;
 }
 
@@ -122,37 +123,27 @@ a {
   transition: color 0.2s ease;
 }
 
-// Cards
-.card {
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-  position: relative;
-  overflow: hidden;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: $accent-gold;
-    opacity: 0.7;
-  }
+// Links in running text are underlined so they don't rely on colour alone
+main p a, main li a, .news-title a {
+  text-decoration: underline;
+  text-decoration-color: rgba($accent-gold, 0.45);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
 
   &:hover {
-    border-color: rgba($accent-gold, 0.7);
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    text-decoration-color: currentColor;
   }
 }
 
-// Teaching cards
-.teaching-card {
-  border-left: 4px solid $accent-red;
+.project-link, .profile-icons a, .profile-links a {
+  text-decoration: none;
+}
 
-  &::before {
-    background: $accent-red;
-  }
+// Visible keyboard focus (Bootstrap removes it on .nav-link)
+a:focus-visible, button:focus-visible, .nav-link:focus-visible {
+  outline: 2px solid $accent-gold;
+  outline-offset: 3px;
+  border-radius: 3px;
 }
 
 // Navbar
@@ -183,21 +174,20 @@ a {
   }
 }
 
-// Profile links
-.profile-links a {
-  color: #c8c8c0;
-  transition: all 0.3s ease;
-  padding: 0.4rem 0.8rem;
-  margin-bottom: 0.5rem;
-  background: rgba(44, 51, 71, 0.6);
-  display: block;
-  border-left: 3px solid transparent;
+// Profile links (About sidebar): a ruled list like the rest of the site
+.profile-links {
+  border-top: 1px solid $rule-color;
 
-  &:hover {
-    color: $accent-gold;
-    border-left-color: $accent-gold;
-    background: rgba(44, 51, 71, 0.8);
-    transform: translateX(3px);
+  a {
+    display: block;
+    color: #c8c8c0;
+    padding: 0.5rem 0;
+    margin: 0;
+    border-bottom: 1px solid $rule-color;
+
+    &:hover {
+      color: $accent-gold;
+    }
   }
 }
 
@@ -229,39 +219,16 @@ a {
   }
 }
 
-// Monitor box
+// Monitor box: a single gold rule on the left, no box
 .monitor-box {
-  background: rgba($bg-dark, 0.7);
-  border: 1px solid rgba($accent-gold, 0.5);
-  border-left: 4px solid $accent-gold;
-  padding: 1.5rem;
+  border-left: 2px solid rgba($accent-gold, 0.6);
+  padding: 0.25rem 0 0.25rem 1rem;
   margin: 1.5rem 0;
-  border-radius: 6px;
-  position: relative;
-  animation: pulse 4s infinite;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: linear-gradient(to right, $accent-gold, transparent);
-  }
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 rgba($accent-gold, 0.15); }
-  50% { box-shadow: 0 0 10px rgba($accent-gold, 0.35); }
-  100% { box-shadow: 0 0 0 rgba($accent-gold, 0.15); }
 }
 
 // Subtitle (from index page)
 .subtitle {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  font-size: 0.85rem;
   color: rgba($accent-gold, 0.8);
 }
 
@@ -298,62 +265,80 @@ code {
   background-color: rgba($bg-dark, 0.5);
 }
 
-// Research papers (from papers page)
-.research-papers p {
-  margin-bottom: 1.5rem;
-  border-left: 3px solid rgba($accent-gold, 0.7);
-  padding: 1rem;
-  background: rgba(44, 51, 71, 0.4);
+// Research papers (from papers page): ruled rows
+.research-papers {
+  border-top: 1px solid $rule-color;
+  margin-bottom: 2.5rem;
+
+  p {
+    margin: 0;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid $rule-color;
+  }
 }
 
-// Media coverage (from papers page)
+// Media coverage (from papers page): ruled rows, date in a left column
 .media-coverage {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  border-top: 1px solid $rule-color;
 }
 
 .media-item {
-  border-left: 3px solid rgba($accent-gold, 0.7);
-  padding: 1rem;
-  background: rgba(44, 51, 71, 0.4);
-  border-radius: 6px;
-  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-
-  &:hover {
-    border-left-color: $accent-gold;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    background: rgba(44, 51, 71, 0.6);
-  }
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  column-gap: 1.5rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid $rule-color;
 }
 
 .media-date {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  color: $accent-gold;
-  margin-bottom: 0.5rem;
+  grid-row: 1 / span 2;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  color: $muted-color;
+  padding-top: 0.1rem;
 }
 
 .media-title {
+  grid-column: 2;
   font-weight: 500;
-  margin-bottom: 0.3rem;
 }
 
 .media-source {
+  grid-column: 2;
   font-size: 0.9rem;
-  color: #a8a89f;
+  color: $muted-color;
+}
+
+@media (max-width: 575.98px) {
+  .media-item {
+    grid-template-columns: 1fr;
+  }
+
+  .media-date {
+    grid-row: auto;
+  }
+
+  .media-title, .media-source {
+    grid-column: 1;
+  }
+}
+
+// Research highlights (home page): two plain columns under a hairline
+.research-highlight {
+  border-top: 1px solid $rule-color;
+  padding-top: 1rem;
+  height: 100%;
 }
 
 // Images
 img {
   max-width: 100%;
   height: auto;
-  border-color: rgba($accent-gold, 0.3);
   border-radius: 4px;
+}
+
+.portrait {
+  border: 1px solid rgba($accent-gold, 0.3);
 }
 
 // Footer
@@ -451,38 +436,17 @@ div[role="doc-endnotes"] {
 
 // Project showcase cards
 .project-card {
-  background: linear-gradient(135deg, rgba(44, 51, 71, 0.8) 0%, rgba(30, 36, 52, 0.9) 100%);
+  background: rgba(44, 51, 71, 0.55);
   border: 1px solid rgba($accent-gold, 0.25);
   border-radius: 10px;
   padding: 2rem;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-
-  // Gradient accent line on top
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, $accent-gold, rgba($accent-gold, 0.2), transparent);
-  }
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
-    border-color: rgba($accent-gold, 0.5);
-  }
 }
 
 .project-tag {
   display: inline-block;
-  font-family: $font-family-monospace;
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-size: 0.75rem;
   color: $accent-gold;
   background: rgba($accent-gold, 0.1);
   border: 1px solid rgba($accent-gold, 0.25);
@@ -511,11 +475,9 @@ div[role="doc-endnotes"] {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-family: $font-family-monospace;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: $accent-gold;
-  letter-spacing: 0.02em;
   padding: 0.45rem 1rem;
   border: 1px solid rgba($accent-gold, 0.35);
   border-radius: 6px;
@@ -538,11 +500,8 @@ div[role="doc-endnotes"] {
 
 // Section dividers
 .section-label {
-  font-family: $font-family-monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba($accent-gold, 0.6);
+  font-size: 0.95rem;
+  color: #a8a89f;
   margin-bottom: 0.25rem;
 }
 
@@ -557,8 +516,8 @@ div[role="doc-endnotes"] {
 }
 
 .news-date {
-  font-family: $font-family-monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
   color: rgba($accent-gold, 0.7);
 }
 
@@ -566,6 +525,111 @@ div[role="doc-endnotes"] {
   font-weight: 500;
   color: #c8c8c0;
   margin-top: 0.15rem;
+}
+
+.news-role {
+  font-size: 0.9rem;
+  color: $muted-color;
+}
+
+// Course list (teaching page): ruled rows, years in a left column
+.course-list {
+  border-top: 1px solid $rule-color;
+  margin-bottom: 2.5rem;
+}
+
+.course {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  column-gap: 1.5rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid $rule-color;
+
+  > * {
+    grid-column: 2;
+    margin: 0;
+  }
+
+  // Quarto wraps each h3 and its paragraphs in a <section>
+  > section > * {
+    margin: 0;
+  }
+
+  > section > p + p {
+    margin-top: 0.35rem;
+  }
+
+  // Years and level sit in the left column, spanning the entry
+  > p:first-child {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    display: flex;
+    flex-direction: column;
+    color: $muted-color;
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+    padding-top: 0.2rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0;
+    margin: 0 0 0.25rem;
+  }
+}
+
+// Compact ruled list (earlier courses, employment, education):
+// date | name | meta
+.ruled-list {
+  border-top: 1px solid $rule-color;
+  margin-bottom: 2.5rem;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: 7.5rem 1fr auto;
+    column-gap: 1.5rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid $rule-color;
+    font-size: 0.95rem;
+  }
+
+  .rl-date,
+  .rl-meta {
+    color: $muted-color;
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .course {
+    grid-template-columns: 1fr;
+
+    > * {
+      grid-column: 1;
+    }
+
+    > p:first-child {
+      grid-row: auto;
+      flex-direction: row;
+      gap: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+  }
+
+  .ruled-list li {
+    grid-template-columns: 1fr auto;
+  }
+
+  .ruled-list .rl-date {
+    grid-column: 1 / -1;
+  }
 }
 
 // Accessibility: honor reduced-motion preference.

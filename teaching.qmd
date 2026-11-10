@@ -3,26 +3,58 @@ title: "Teaching"
 toc: false
 ---
 
-## Current and past teaching
+Courses are at Rotterdam School of Management unless noted.
 
-| Course | Program | Role | Years | Institution |
-|--------|---------|------|-------|-------------|
-| **Data & Coding (online course)** | MSc | Coordinator and content creator | 2025 | Rotterdam School of Management |
-| **Accounting, Analysis and Governance in Complex Deals** | MSc | Coordinator and teacher | 2025 | Rotterdam School of Management |
-| **Financial Reporting & Analysis** | BSc | Coordinator and teacher | 2021 - 2025 | Rotterdam School of Management |
-| **Advanced Research Methods** | BSc | Teacher - One lecture for Accounting tracks | 2021 - 2025 | Rotterdam School of Management |
-| Accounting and Financial Management Research Skills | MSc | Coordinator and teacher | 2016 - 2024 | Rotterdam School of Management |
-| Analytics in Accounting & Financial Management | MSc | Teacher | 2022 | Rotterdam School of Management |
-| Accounting Skills | BSc | Coordinator and teacher | 2020 - 2022 | Rotterdam School of Management |
-| Mergers & acquisitions and corporate governance | MSc | Coordinator and teacher | 2016 - 2020 | Rotterdam School of Management |
-| Financial Statement Analysis | BSc | Teacher | 2015 | WHU - Otto-Beisheim School of Management |
+## Current courses
 
-: {.striped .hover tbl-colwidths="[32,8,24,12,24]"}
+::: {.course-list}
 
-## Links to course details and syllabi
+::: {.course}
+[2026]{.course-years} [MSc]{.course-level}
 
-- [Financial Reporting & Analysis](https://eur.osiris-student.nl/onderwijscatalogus/extern/cursus?taal=en&cursuscode=B3T2101&collegejaar=2024)
+### Data Analytics for Finance
 
-## MSc thesis supervision
+Coordinator, teacher, and content creator.
 
-Typically, I supervise about 12 MSc thesis each academic year.
+[Course materials](https://caspardp.github.io/rsm-data-analytics-for-finance-public/)
+:::
+
+::: {.course}
+[2025]{.course-years} [PhD]{.course-level}
+
+### Advanced Topics in Accounting 2
+
+Teacher and content creator, one lecture. Tilburg University and Rotterdam School of Management.
+
+[Lecture site](https://caspardp.github.io/phd-lecture-dec/)
+:::
+
+::: {.course}
+[2025]{.course-years} [MSc]{.course-level}
+
+### Data & Coding (online course)
+
+Coordinator and content creator.
+:::
+
+::: {.course}
+[2021–2025]{.course-years} [BSc]{.course-level}
+
+### Advanced Research Methods
+
+One lecture for the Accounting tracks.
+:::
+
+:::
+
+## Earlier courses
+
+::: {.ruled-list}
+- [2025]{.rl-date} [Accounting, Analysis and Governance in Complex Deals]{.rl-name} [MSc]{.rl-meta}
+- [2021–2025]{.rl-date} [Financial Reporting & Analysis]{.rl-name} [BSc]{.rl-meta}
+- [2016–2024]{.rl-date} [Accounting and Financial Management Research Skills]{.rl-name} [MSc]{.rl-meta}
+- [2022]{.rl-date} [Analytics in Accounting & Financial Management]{.rl-name} [MSc]{.rl-meta}
+- [2020–2022]{.rl-date} [Accounting Skills]{.rl-name} [BSc]{.rl-meta}
+- [2016–2020]{.rl-date} [Mergers & Acquisitions and Corporate Governance]{.rl-name} [MSc]{.rl-meta}
+- [2015]{.rl-date} [Financial Statement Analysis (WHU)]{.rl-name} [BSc]{.rl-meta}
+:::
